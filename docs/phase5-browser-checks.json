@@ -1,0 +1,46 @@
+{
+  "verified_at": "2026-10-24T10:29:01.736Z",
+  "application": "http://127.0.0.1:4173/#optimization",
+  "checks": {
+    "real_gis_warehouse_selection": true,
+    "fleet_capacity_and_explicit_cost_editing": true,
+    "csv_import_two_public_osm_candidates": true,
+    "map_point_pick_and_remove": true,
+    "save_and_real_road_solve": true,
+    "scenario_reload_after_browser_reload": true,
+    "matrix_and_final_road_metrics_separate": true,
+    "final_road_timing_limits_verified": true,
+    "geojson_download": true,
+    "csv_assignments_download": true,
+    "csv_schedules_download": true,
+    "csv_summary_download": true,
+    "vehicle_layer_visibility": true,
+    "fit_to_real_route_geometry": true,
+    "numbered_stops_and_directional_chevrons": true,
+    "map_route_selection_updates_vehicle_schedule": true,
+    "comparison_2_3_4_vehicles": true,
+    "duplicate_preserves_original": true,
+    "archive_confirmation_and_recovery": true,
+    "restore_confirmation": true,
+    "dark_light_theme_and_basemap_overlay_restore": true
+  },
+  "browser_scenario": {
+    "assigned_stops": 2,
+    "total_demand": 4,
+    "demand_context": "hypothetical",
+    "matrix_distance_m": 11495.5,
+    "final_road_distance_m": 11901.1
+  },
+  "screenshots": [
+    "phase5-optimization-map.png",
+    "phase5-optimization-dark.png",
+    "phase5-comparison.png",
+    "phase5-route-popup.png"
+  ],
+  "warnings": [
+    "One cosmetic upstream dark-basemap missing wood-pattern sprite warning; overlays remained functional."
+  ],
+  "not_exercised": [
+    "Physical printer dialog; print stylesheet/report prepared."
+  ]
+}

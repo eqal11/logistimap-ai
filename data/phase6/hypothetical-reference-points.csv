@@ -1,0 +1,3 @@
+id,name,longitude,latitude,kind
+manual-1,Hypothetical reference 1 (OSM mapped anchor; not available land),101.5159103,3.0634516,hypothetical_site
+manual-2,Hypothetical reference 2 (OSM mapped anchor; not available land),101.523170522,3.0635551,hypothetical_site

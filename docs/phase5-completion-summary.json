@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-24T11:39:55.005581+00:00",
+  "backend": {
+    "passed": 198,
+    "failed": 0,
+    "skipped": 0,
+    "live_db": 12
+  },
+  "frontend": {
+    "passed": 70,
+    "failed": 0,
+    "pending": 0,
+    "files": 14
+  },
+  "typecheck": "passed",
+  "production_build": "passed",
+  "smoke": {
+    "api_statuses": {
+      "/health": 200,
+      "/ready": 200,
+      "/api/optimization/comparisons": 200,
+      "/api/history/routes": 200,
+      "/api/history/analyses": 200,
+      "/api/industrial/features?categories=industrial&categories=warehouse&limit=1": 200
+    },
+    "preview_status": 200,
+    "latest_build_served": true
+  },
+  "browser": {
+    "status": "unavailable",
+    "reason": "Local browser use is disabled in Work settings",
+    "fresh_browser_checks_passed": 0,
+    "manual_checklist": "docs/PHASE5_BROWSER_ACCEPTANCE.md",
+    "old_screenshots_reused": false
+  },
+  "saved_comparison_history_implemented": true,
+  "simultaneous_solution_map_implemented": true,
+  "all_historical_rows_preserved": true,
+  "env_unchanged": true,
+  "migration_applied": false,
+  "new_upstream_routing_calls": 0,
+  "implementation_scope_complete": true,
+  "phase5_full_acceptance": "pending manual browser sign-off",
+  "phase6_started": false
+}

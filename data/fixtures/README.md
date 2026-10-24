@@ -1,0 +1,1 @@
+Artificial test geometries only. Coordinates do not identify actual facilities. Polygons are not industrial boundaries; the line is not a road route. CC0-1.0. Never automatically ingest into a live database.

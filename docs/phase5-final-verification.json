@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-24T10:26:40.084140+00:00",
+  "legacy_digests_unchanged": true,
+  "legacy_counts": {
+    "spatial_features": 5234,
+    "routing_references": 8,
+    "analysis_jobs": 14,
+    "analysis_results": 14
+  },
+  "schema": {
+    "connected": true,
+    "ssl": true,
+    "postgis_version": "3.3.7",
+    "postgis_schema": "extensions",
+    "spatial_function_checks": 4,
+    "migration": "0002_logistics",
+    "database_verified": true,
+    "table_count": 20,
+    "geometry_columns": [
+      {
+        "table": "logistics_depots",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "logistics_stops",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "vehicle_route_assignments",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTILINESTRING"
+      },
+      {
+        "table": "spatial_features",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "study_areas",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTIPOLYGON"
+      },
+      {
+        "table": "analysis_results",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "routing_references",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "LINESTRING"
+      }
+    ],
+    "spatial_indexes": 7,
+    "rls_tables": 20,
+    "category_count": 9
+  },
+  "features": {
+    "total": 5234,
+    "synthetic": 0,
+    "invalid": 0
+  },
+  "logistics_counts": {
+    "optimization_scenarios": 10,
+    "logistics_depots": 10,
+    "logistics_vehicles": 23,
+    "logistics_stops": 78,
+    "logistics_demands": 78,
+    "optimization_jobs": 9,
+    "optimization_solutions": 9,
+    "vehicle_route_assignments": 20,
+    "logistics_comparisons": 2
+  },
+  "assignments": {
+    "total": 20,
+    "with_geometry": 20,
+    "invalid": 0
+  },
+  "browser_scenario": {
+    "id": "fbed4ed9-a30a-4787-88bb-3c2d98249a02",
+    "parameters_match": true,
+    "status": "best_found",
+    "summary": {
+      "distance_m": 11495.5,
+      "cost_per_km": 2.37,
+      "total_demand": 4,
+      "vehicles_used": 1,
+      "assigned_stops": 2,
+      "estimated_cost": 27.24,
+      "assigned_demand": 4,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 13.62,
+      "travel_duration_s": 953.9000000000001,
+      "unassigned_demand": 0,
+      "available_capacity": 8,
+      "vehicles_available": 1,
+      "working_duration_s": 1196,
+      "fleet_peak_capacity_utilization_pct": 50.0
+    },
+    "routed_summary": {
+      "distance_m": 11901.1,
+      "estimated_cost": 27.85,
+      "travel_duration_s": 1105.9,
+      "working_duration_s": 1348
+    },
+    "matrix_pairs": 9,
+    "geometry_complete": true,
+    "road_constraints_verified": true,
+    "demand_context": "hypothetical"
+  },
+  "runtime_checks": {
+    "http://127.0.0.1:8000/health": true,
+    "http://127.0.0.1:8000/ready": true,
+    "http://127.0.0.1:8000/api/history/routes": true,
+    "http://127.0.0.1:8000/api/history/analyses": true,
+    "http://127.0.0.1:8000/api/optimization/scenarios": true,
+    "http://127.0.0.1:8000/api/network/capabilities": true,
+    "http://127.0.0.1:4173/health": true,
+    "http://127.0.0.1:4173/ready": true,
+    "http://127.0.0.1:4173/api/history/routes": true,
+    "http://127.0.0.1:4173/api/history/analyses": true,
+    "http://127.0.0.1:4173/api/optimization/scenarios": true,
+    "http://127.0.0.1:4173/api/network/capabilities": true,
+    "foreign_origin_rejected": true
+  },
+  "browser_exports": {
+    "road_features": 1,
+    "points": 4,
+    "valid": true,
+    "exact_saved_provider_geometry": true,
+    "vertices": 241,
+    "crs": "EPSG:4326",
+    "hypothetical_demand": true,
+    "assignments": {
+      "rows": 1,
+      "attribution": true,
+      "demand_context": true
+    },
+    "schedules": {
+      "rows": 4,
+      "attribution": true,
+      "demand_context": true
+    },
+    "summary": {
+      "rows": 1,
+      "attribution": true,
+      "demand_context": true
+    }
+  },
+  "secret_scan": {
+    "checked_at": "2026-10-24T10:30:13.957023+00:00",
+    "files_checked": 241,
+    "secret_match_files": [],
+    "backend_env_ignored": true,
+    "backend_env_untracked": true
+  }
+}

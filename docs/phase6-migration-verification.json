@@ -1,0 +1,64 @@
+{
+  "connected": true,
+  "ssl": true,
+  "postgis_version": "3.3.7",
+  "postgis_schema": "extensions",
+  "spatial_function_checks": 4,
+  "migration": "0003_site_selection",
+  "database_verified": true,
+  "table_count": 24,
+  "geometry_columns": [
+    {
+      "table": "site_candidates",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "logistics_depots",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "POINT"
+    },
+    {
+      "table": "logistics_stops",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "POINT"
+    },
+    {
+      "table": "vehicle_route_assignments",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTILINESTRING"
+    },
+    {
+      "table": "spatial_features",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "study_areas",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTIPOLYGON"
+    },
+    {
+      "table": "analysis_results",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "routing_references",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "LINESTRING"
+    }
+  ],
+  "spatial_indexes": 8,
+  "rls_tables": 24,
+  "category_count": 9,
+  "migration_action": "applied"
+}

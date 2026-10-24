@@ -1,0 +1,197 @@
+{
+  "verified_at": "2026-10-24T12:52:57.283328+00:00",
+  "database": {
+    "connected": true,
+    "ssl": true,
+    "postgis_version": "3.3.7",
+    "postgis_schema": "extensions",
+    "spatial_function_checks": 4,
+    "migration": "0003_site_selection",
+    "database_verified": true,
+    "table_count": 24,
+    "geometry_columns": [
+      {
+        "table": "site_candidates",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "logistics_depots",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "logistics_stops",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "vehicle_route_assignments",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTILINESTRING"
+      },
+      {
+        "table": "spatial_features",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "study_areas",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTIPOLYGON"
+      },
+      {
+        "table": "analysis_results",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "routing_references",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "LINESTRING"
+      }
+    ],
+    "spatial_indexes": 8,
+    "rls_tables": 24,
+    "category_count": 9
+  },
+  "integrity": {
+    "analysis_jobs": {
+      "before": 14,
+      "now": 14,
+      "original_missing_or_changed": 0
+    },
+    "analysis_results": {
+      "before": 14,
+      "now": 14,
+      "original_missing_or_changed": 0
+    },
+    "candidate_sites": {
+      "before": 0,
+      "now": 0,
+      "original_missing_or_changed": 0
+    },
+    "categories": {
+      "before": 9,
+      "now": 9,
+      "original_missing_or_changed": 0
+    },
+    "datasets": {
+      "before": 1,
+      "now": 1,
+      "original_missing_or_changed": 0
+    },
+    "feature_categories": {
+      "before": 5300,
+      "now": 5300,
+      "original_missing_or_changed": 0
+    },
+    "logistics_comparisons": {
+      "before": 4,
+      "now": 4,
+      "original_missing_or_changed": 0
+    },
+    "logistics_demands": {
+      "before": 241,
+      "now": 241,
+      "original_missing_or_changed": 0
+    },
+    "logistics_depots": {
+      "before": 28,
+      "now": 28,
+      "original_missing_or_changed": 0
+    },
+    "logistics_stops": {
+      "before": 241,
+      "now": 241,
+      "original_missing_or_changed": 0
+    },
+    "logistics_vehicles": {
+      "before": 67,
+      "now": 67,
+      "original_missing_or_changed": 0
+    },
+    "optimization_jobs": {
+      "before": 25,
+      "now": 25,
+      "original_missing_or_changed": 0
+    },
+    "optimization_scenarios": {
+      "before": 27,
+      "now": 27,
+      "original_missing_or_changed": 0
+    },
+    "optimization_solutions": {
+      "before": 25,
+      "now": 25,
+      "original_missing_or_changed": 0
+    },
+    "routing_references": {
+      "before": 8,
+      "now": 8,
+      "original_missing_or_changed": 0
+    },
+    "shipments": {
+      "before": 0,
+      "now": 0,
+      "original_missing_or_changed": 0
+    },
+    "spatial_features": {
+      "before": 5234,
+      "now": 5234,
+      "original_missing_or_changed": 0
+    },
+    "study_areas": {
+      "before": 0,
+      "now": 0,
+      "original_missing_or_changed": 0
+    },
+    "vehicle_route_assignments": {
+      "before": 57,
+      "now": 57,
+      "original_missing_or_changed": 0
+    },
+    "vehicles": {
+      "before": 0,
+      "now": 0,
+      "original_missing_or_changed": 0
+    }
+  },
+  "new_site_rows": {
+    "site_scenarios": 3,
+    "site_candidates": 36,
+    "site_evaluations": 3,
+    "site_criterion_values": 192
+  },
+  "site_geometry": {
+    "invalid": 0,
+    "wrong_srid": 0
+  },
+  "runtime": {
+    "api": {
+      "/health": 200,
+      "/ready": 200,
+      "/api/sites/catalog": 200,
+      "/api/sites/saved": 200,
+      "/api/optimization/comparisons": 200,
+      "/api/history/routes": 200,
+      "/api/history/analyses": 200,
+      "/api/industrial/features?categories=warehouse&categories=industrial&limit=1": 200
+    },
+    "preview": 200,
+    "latest_build_served": true
+  },
+  "env_unchanged": true,
+  "phase5_browser_acceptance": "pending",
+  "phase6_browser": "unavailable; manual checklist provided",
+  "phase7_started": false,
+  "status": "passed"
+}

@@ -1,0 +1,46 @@
+{
+  "session": {
+    "id": "4f8cd548-d939-4a92-a0f9-b37a2bb4ae82",
+    "created_at": "2026-10-24T13:38:16.310098+00:00",
+    "messages": [
+      {
+        "id": "ed3fbfea-be84-4ebd-a2f8-74ee91e7537f",
+        "role": "user",
+        "text": "Find warehouses near Atlantis.",
+        "created_at": "2026-10-24T13:38:16.310098+00:00"
+      },
+      {
+        "id": "41183908-797a-41ba-9753-844a4549f884",
+        "role": "assistant",
+        "text": "Specify an unambiguous supported place. This command grammar does not guess unknown locations.",
+        "created_at": "2026-10-24T13:38:16.311108+00:00",
+        "mode": "deterministic",
+        "clarification": true
+      }
+    ],
+    "results": [],
+    "context": {
+      "selected_feature_ids": []
+    },
+    "pending": null
+  },
+  "results": [],
+  "text": "Specify an unambiguous supported place. This command grammar does not guess unknown locations.",
+  "language": "en",
+  "mode": "deterministic",
+  "partial": false,
+  "clarification": true,
+  "provider": {
+    "provider": "disabled",
+    "configured": false,
+    "live_verified": false,
+    "fallback": "deterministic command grammar; not LLM intelligence",
+    "model": null,
+    "limits": {
+      "requests_per_turn": 1,
+      "max_completion_tokens": 1200,
+      "tool_calls": 6,
+      "timeout_s": 25
+    }
+  }
+}

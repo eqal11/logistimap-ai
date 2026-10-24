@@ -1,0 +1,8 @@
+{
+  "status": "unavailable",
+  "reason": "Local browser use is disabled in Work settings",
+  "fresh_browser_checks_passed": 0,
+  "manual_checklist": "docs/PHASE6_BROWSER_ACCEPTANCE.md",
+  "phase5_browser_acceptance": "pending",
+  "old_screenshots_reused": false
+}

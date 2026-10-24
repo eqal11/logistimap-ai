@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "geojson_original_geometries": 3,
+  "csv_rows": 3,
+  "verification": "actual frontend functions headless; not browser downloads"
+}

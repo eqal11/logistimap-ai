@@ -1,0 +1,1262 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              101.543976,
+              3.069299
+            ],
+            [
+              101.543958,
+              3.069291
+            ],
+            [
+              101.543995,
+              3.069219
+            ],
+            [
+              101.544047,
+              3.069117
+            ],
+            [
+              101.544599,
+              3.069361
+            ],
+            [
+              101.545159,
+              3.069581
+            ],
+            [
+              101.545409,
+              3.06967
+            ],
+            [
+              101.545648,
+              3.069678
+            ],
+            [
+              101.545847,
+              3.069643
+            ],
+            [
+              101.54596,
+              3.069625
+            ],
+            [
+              101.546078,
+              3.069644
+            ],
+            [
+              101.546184,
+              3.069703
+            ],
+            [
+              101.546274,
+              3.069805
+            ],
+            [
+              101.54655,
+              3.070273
+            ],
+            [
+              101.546711,
+              3.070547
+            ],
+            [
+              101.546817,
+              3.070719
+            ],
+            [
+              101.546899,
+              3.070787
+            ],
+            [
+              101.546977,
+              3.07092
+            ],
+            [
+              101.54699,
+              3.070933
+            ],
+            [
+              101.547026,
+              3.070941
+            ],
+            [
+              101.547055,
+              3.070925
+            ],
+            [
+              101.547066,
+              3.070897
+            ],
+            [
+              101.547011,
+              3.070802
+            ],
+            [
+              101.546112,
+              3.069266
+            ],
+            [
+              101.545651,
+              3.068519
+            ],
+            [
+              101.545343,
+              3.068108
+            ],
+            [
+              101.54504,
+              3.06773
+            ],
+            [
+              101.544755,
+              3.067397
+            ],
+            [
+              101.544599,
+              3.067254
+            ],
+            [
+              101.544373,
+              3.067093
+            ],
+            [
+              101.543889,
+              3.066747
+            ],
+            [
+              101.543164,
+              3.06623
+            ],
+            [
+              101.542393,
+              3.065744
+            ],
+            [
+              101.541936,
+              3.065518
+            ],
+            [
+              101.541045,
+              3.06519
+            ],
+            [
+              101.540878,
+              3.065063
+            ],
+            [
+              101.5408,
+              3.064988
+            ],
+            [
+              101.540783,
+              3.064902
+            ],
+            [
+              101.540749,
+              3.064822
+            ],
+            [
+              101.540688,
+              3.064734
+            ],
+            [
+              101.540608,
+              3.064662
+            ],
+            [
+              101.540513,
+              3.064612
+            ],
+            [
+              101.540409,
+              3.064585
+            ],
+            [
+              101.540301,
+              3.064582
+            ],
+            [
+              101.540243,
+              3.064592
+            ],
+            [
+              101.540186,
+              3.064609
+            ],
+            [
+              101.539885,
+              3.064673
+            ],
+            [
+              101.539626,
+              3.06471
+            ],
+            [
+              101.539396,
+              3.064714
+            ],
+            [
+              101.538767,
+              3.064666
+            ],
+            [
+              101.538575,
+              3.064653
+            ],
+            [
+              101.537732,
+              3.06459
+            ],
+            [
+              101.533663,
+              3.064287
+            ],
+            [
+              101.533017,
+              3.064261
+            ],
+            [
+              101.531826,
+              3.064238
+            ],
+            [
+              101.531725,
+              3.064227
+            ],
+            [
+              101.531625,
+              3.064203
+            ],
+            [
+              101.530638,
+              3.063891
+            ],
+            [
+              101.530525,
+              3.063853
+            ],
+            [
+              101.529707,
+              3.063566
+            ],
+            [
+              101.529215,
+              3.063393
+            ],
+            [
+              101.529155,
+              3.063372
+            ],
+            [
+              101.528397,
+              3.063249
+            ],
+            [
+              101.528214,
+              3.063235
+            ],
+            [
+              101.526952,
+              3.063137
+            ],
+            [
+              101.52587,
+              3.063057
+            ],
+            [
+              101.525581,
+              3.06302
+            ],
+            [
+              101.525639,
+              3.062833
+            ],
+            [
+              101.526007,
+              3.061666
+            ],
+            [
+              101.525514,
+              3.061511
+            ],
+            [
+              101.525488,
+              3.061517
+            ],
+            [
+              101.525468,
+              3.061534
+            ],
+            [
+              101.525224,
+              3.062273
+            ],
+            [
+              101.525,
+              3.062201
+            ],
+            [
+              101.525224,
+              3.062273
+            ],
+            [
+              101.5253,
+              3.062042
+            ],
+            [
+              101.525468,
+              3.061534
+            ],
+            [
+              101.525488,
+              3.061517
+            ],
+            [
+              101.525514,
+              3.061511
+            ],
+            [
+              101.526007,
+              3.061666
+            ],
+            [
+              101.525639,
+              3.062833
+            ],
+            [
+              101.525581,
+              3.06302
+            ],
+            [
+              101.524916,
+              3.062935
+            ],
+            [
+              101.524124,
+              3.062833
+            ],
+            [
+              101.523586,
+              3.06275
+            ],
+            [
+              101.523295,
+              3.062726
+            ],
+            [
+              101.522815,
+              3.062709
+            ],
+            [
+              101.522508,
+              3.062698
+            ],
+            [
+              101.522002,
+              3.062671
+            ],
+            [
+              101.521916,
+              3.062651
+            ],
+            [
+              101.521849,
+              3.062607
+            ],
+            [
+              101.521767,
+              3.062537
+            ],
+            [
+              101.521664,
+              3.062416
+            ],
+            [
+              101.521604,
+              3.062311
+            ],
+            [
+              101.521532,
+              3.062239
+            ],
+            [
+              101.52141,
+              3.062168
+            ],
+            [
+              101.521319,
+              3.062128
+            ],
+            [
+              101.521183,
+              3.0621
+            ],
+            [
+              101.521065,
+              3.062096
+            ],
+            [
+              101.520981,
+              3.062114
+            ],
+            [
+              101.520891,
+              3.062145
+            ],
+            [
+              101.520763,
+              3.062218
+            ],
+            [
+              101.520701,
+              3.062276
+            ],
+            [
+              101.520454,
+              3.062363
+            ],
+            [
+              101.520341,
+              3.062375
+            ],
+            [
+              101.520188,
+              3.062355
+            ],
+            [
+              101.519277,
+              3.062068
+            ],
+            [
+              101.516071,
+              3.061072
+            ],
+            [
+              101.515315,
+              3.060841
+            ],
+            [
+              101.513311,
+              3.060228
+            ],
+            [
+              101.511733,
+              3.059745
+            ],
+            [
+              101.511671,
+              3.059726
+            ],
+            [
+              101.511165,
+              3.059571
+            ],
+            [
+              101.511067,
+              3.059542
+            ],
+            [
+              101.510929,
+              3.05941
+            ],
+            [
+              101.51083,
+              3.059272
+            ],
+            [
+              101.510683,
+              3.059025
+            ],
+            [
+              101.510561,
+              3.058967
+            ],
+            [
+              101.51045,
+              3.058926
+            ],
+            [
+              101.51032,
+              3.058888
+            ],
+            [
+              101.509798,
+              3.059131
+            ],
+            [
+              101.509533,
+              3.059275
+            ],
+            [
+              101.509446,
+              3.059395
+            ],
+            [
+              101.509408,
+              3.059484
+            ],
+            [
+              101.509415,
+              3.059641
+            ],
+            [
+              101.509452,
+              3.059767
+            ],
+            [
+              101.509497,
+              3.059862
+            ],
+            [
+              101.509562,
+              3.059947
+            ],
+            [
+              101.509616,
+              3.06
+            ],
+            [
+              101.509728,
+              3.060065
+            ],
+            [
+              101.509827,
+              3.060086
+            ],
+            [
+              101.509947,
+              3.060062
+            ],
+            [
+              101.510304,
+              3.059916
+            ],
+            [
+              101.510701,
+              3.059695
+            ],
+            [
+              101.511033,
+              3.059677
+            ],
+            [
+              101.511811,
+              3.059914
+            ],
+            [
+              101.5145,
+              3.060733
+            ],
+            [
+              101.514346,
+              3.061238
+            ],
+            [
+              101.514165,
+              3.061827
+            ],
+            [
+              101.514028,
+              3.062273
+            ],
+            [
+              101.513766,
+              3.063128
+            ],
+            [
+              101.513758,
+              3.063218
+            ],
+            [
+              101.513779,
+              3.063304
+            ],
+            [
+              101.513819,
+              3.063364
+            ],
+            [
+              101.513878,
+              3.063409
+            ],
+            [
+              101.514552,
+              3.063625
+            ],
+            [
+              101.515692,
+              3.063972
+            ],
+            [
+              101.515751,
+              3.063795
+            ],
+            [
+              101.515792,
+              3.063809
+            ],
+            [
+              101.517072,
+              3.06423
+            ],
+            [
+              101.515751,
+              3.063795
+            ],
+            [
+              101.515692,
+              3.063972
+            ],
+            [
+              101.514552,
+              3.063625
+            ],
+            [
+              101.513878,
+              3.063409
+            ],
+            [
+              101.513819,
+              3.063364
+            ],
+            [
+              101.513779,
+              3.063304
+            ],
+            [
+              101.513758,
+              3.063218
+            ],
+            [
+              101.513766,
+              3.063128
+            ],
+            [
+              101.514028,
+              3.062273
+            ],
+            [
+              101.514165,
+              3.061827
+            ],
+            [
+              101.514346,
+              3.061238
+            ],
+            [
+              101.5145,
+              3.060733
+            ],
+            [
+              101.519241,
+              3.06215
+            ],
+            [
+              101.520164,
+              3.062431
+            ],
+            [
+              101.520226,
+              3.062452
+            ],
+            [
+              101.520266,
+              3.06247
+            ],
+            [
+              101.520303,
+              3.062489
+            ],
+            [
+              101.520337,
+              3.062513
+            ],
+            [
+              101.520389,
+              3.062575
+            ],
+            [
+              101.520536,
+              3.062868
+            ],
+            [
+              101.520647,
+              3.063076
+            ],
+            [
+              101.520828,
+              3.063226
+            ],
+            [
+              101.521054,
+              3.063296
+            ],
+            [
+              101.521289,
+              3.063276
+            ],
+            [
+              101.521451,
+              3.063202
+            ],
+            [
+              101.521584,
+              3.063084
+            ],
+            [
+              101.521957,
+              3.062849
+            ],
+            [
+              101.522091,
+              3.062806
+            ],
+            [
+              101.523319,
+              3.062853
+            ],
+            [
+              101.523581,
+              3.062877
+            ],
+            [
+              101.524025,
+              3.062953
+            ],
+            [
+              101.524419,
+              3.06302
+            ],
+            [
+              101.524895,
+              3.063083
+            ],
+            [
+              101.525072,
+              3.063106
+            ],
+            [
+              101.525389,
+              3.063146
+            ],
+            [
+              101.526075,
+              3.063224
+            ],
+            [
+              101.52688,
+              3.06327
+            ],
+            [
+              101.527483,
+              3.063331
+            ],
+            [
+              101.527559,
+              3.063338
+            ],
+            [
+              101.527656,
+              3.063347
+            ],
+            [
+              101.528386,
+              3.063411
+            ],
+            [
+              101.529141,
+              3.063573
+            ],
+            [
+              101.529633,
+              3.063726
+            ],
+            [
+              101.531604,
+              3.06434
+            ],
+            [
+              101.5317,
+              3.064357
+            ],
+            [
+              101.531791,
+              3.06437
+            ],
+            [
+              101.532785,
+              3.064411
+            ],
+            [
+              101.533012,
+              3.06442
+            ],
+            [
+              101.533651,
+              3.064445
+            ],
+            [
+              101.534647,
+              3.064513
+            ],
+            [
+              101.534776,
+              3.064522
+            ],
+            [
+              101.535262,
+              3.064556
+            ],
+            [
+              101.535763,
+              3.06459
+            ],
+            [
+              101.535875,
+              3.064596
+            ],
+            [
+              101.537473,
+              3.064708
+            ],
+            [
+              101.538487,
+              3.064778
+            ],
+            [
+              101.539387,
+              3.06484
+            ],
+            [
+              101.539668,
+              3.064876
+            ],
+            [
+              101.539791,
+              3.064946
+            ],
+            [
+              101.539891,
+              3.065079
+            ],
+            [
+              101.539906,
+              3.065161
+            ],
+            [
+              101.539936,
+              3.065238
+            ],
+            [
+              101.53998,
+              3.065309
+            ],
+            [
+              101.540095,
+              3.065418
+            ],
+            [
+              101.540241,
+              3.06548
+            ],
+            [
+              101.540399,
+              3.065489
+            ],
+            [
+              101.540489,
+              3.06547
+            ],
+            [
+              101.540573,
+              3.065432
+            ],
+            [
+              101.540648,
+              3.065379
+            ],
+            [
+              101.540851,
+              3.06533
+            ],
+            [
+              101.541063,
+              3.065334
+            ],
+            [
+              101.541875,
+              3.065631
+            ],
+            [
+              101.542322,
+              3.065811
+            ],
+            [
+              101.54264,
+              3.065978
+            ],
+            [
+              101.542935,
+              3.066199
+            ],
+            [
+              101.543233,
+              3.066416
+            ],
+            [
+              101.544516,
+              3.067353
+            ],
+            [
+              101.544607,
+              3.06743
+            ],
+            [
+              101.545268,
+              3.068179
+            ],
+            [
+              101.545998,
+              3.069334
+            ],
+            [
+              101.545986,
+              3.069495
+            ],
+            [
+              101.545925,
+              3.069575
+            ],
+            [
+              101.545847,
+              3.069643
+            ],
+            [
+              101.545648,
+              3.069678
+            ],
+            [
+              101.545409,
+              3.06967
+            ],
+            [
+              101.545159,
+              3.069581
+            ],
+            [
+              101.544599,
+              3.069361
+            ],
+            [
+              101.544047,
+              3.069117
+            ],
+            [
+              101.543995,
+              3.069219
+            ],
+            [
+              101.543958,
+              3.069291
+            ],
+            [
+              101.543976,
+              3.069299
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "vehicle_id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+        "vehicle": "Vehicle 1",
+        "color": "#087f80",
+        "distance_m": 11901.1,
+        "travel_duration_s": 1105.9,
+        "matrix_distance_m": 11495.5,
+        "matrix_travel_duration_s": 953.9000000000001,
+        "matrix_working_duration_s": 1196,
+        "matrix_estimated_cost_myr": 27.24,
+        "estimated_cost_myr": 27.85,
+        "geometry_distance_m": 11901.1,
+        "geometry_duration_s": 1105.9,
+        "geometry_estimated_cost_myr": 27.85,
+        "road_geometry_constraints_verified": true,
+        "solver_status": "success",
+        "objective": "distance",
+        "provider": "OSRM-compatible · FOSSGIS public demo",
+        "heavy_vehicle_verified": false,
+        "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8-0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.543826138,
+          3.0696339
+        ]
+      },
+      "properties": {
+        "id": "016fccab-478a-4263-a642-89e94b03533b",
+        "kind": "depot",
+        "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+        "demand": 0,
+        "sequence": 0,
+        "arrival_s": 0,
+        "source_id": "way/1495868943",
+        "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+        "load_after": 4,
+        "node_index": 0,
+        "coordinates": [
+          101.543826138,
+          3.0696339
+        ],
+        "departure_s": 0,
+        "load_before": 4,
+        "vehicle_id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+        "vehicle": "Vehicle 1",
+        "color": "#087f80",
+        "label": "D",
+        "role": "depot",
+        "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+        "demand_context": "hypothetical"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      "properties": {
+        "id": "browser-stop-2",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "demand": 2,
+        "sequence": 1,
+        "arrival_s": 295,
+        "source_id": "way/911253379",
+        "feature_id": null,
+        "load_after": 2,
+        "node_index": 2,
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ],
+        "departure_s": 415,
+        "load_before": 4,
+        "vehicle_id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+        "vehicle": "Vehicle 1",
+        "color": "#087f80",
+        "label": "1",
+        "role": "delivery",
+        "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+        "demand_context": "hypothetical"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      "properties": {
+        "id": "browser-stop-1",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "demand": 2,
+        "sequence": 2,
+        "arrival_s": 724,
+        "source_id": "way/911253375",
+        "feature_id": null,
+        "load_after": 0,
+        "node_index": 1,
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ],
+        "departure_s": 844,
+        "load_before": 2,
+        "vehicle_id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+        "vehicle": "Vehicle 1",
+        "color": "#087f80",
+        "label": "2",
+        "role": "delivery",
+        "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+        "demand_context": "hypothetical"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.543826138,
+          3.0696339
+        ]
+      },
+      "properties": {
+        "id": "016fccab-478a-4263-a642-89e94b03533b",
+        "kind": "depot",
+        "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+        "demand": 0,
+        "sequence": 3,
+        "arrival_s": 1196,
+        "source_id": "way/1495868943",
+        "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+        "load_after": 0,
+        "node_index": 0,
+        "coordinates": [
+          101.543826138,
+          3.0696339
+        ],
+        "departure_s": 1196,
+        "load_before": 0,
+        "vehicle_id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+        "vehicle": "Vehicle 1",
+        "color": "#087f80",
+        "label": "D",
+        "role": "depot",
+        "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+        "demand_context": "hypothetical"
+      }
+    }
+  ],
+  "metadata": {
+    "scenario": {
+      "name": "Phase 5 browser verification · hypothetical demand",
+      "notes": "",
+      "stops": [
+        {
+          "id": "browser-stop-1",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253375)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253375",
+          "feature_id": null,
+          "coordinates": [
+            101.5159103,
+            3.0634516
+          ]
+        },
+        {
+          "id": "browser-stop-2",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253379)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253379",
+          "feature_id": null,
+          "coordinates": [
+            101.525537052,
+            3.06212015
+          ]
+        }
+      ],
+      "depots": [
+        {
+          "id": "016fccab-478a-4263-a642-89e94b03533b",
+          "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "window": [
+            0,
+            86400
+          ],
+          "source_id": "way/1495868943",
+          "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "coordinates": [
+            101.543826138,
+            3.0696339
+          ]
+        }
+      ],
+      "vehicles": [
+        {
+          "id": "55c4ae8d-c796-4b5b-be82-4fde78ad99e8",
+          "name": "Vehicle 1",
+          "window": [
+            0,
+            86400
+          ],
+          "enabled": true,
+          "capacity": 8,
+          "end_depot": "016fccab-478a-4263-a642-89e94b03533b",
+          "fixed_cost": 10,
+          "cost_per_km": 1.5,
+          "start_depot": "016fccab-478a-4263-a642-89e94b03533b",
+          "vehicle_type": "User-defined vehicle",
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "fuel_l_per_100km": 0,
+          "fuel_price_per_l": 0,
+          "driver_cost_per_hour": 0
+        }
+      ],
+      "objective": "distance",
+      "max_snap_m": 1000,
+      "capacity_unit": "units",
+      "demand_context": "hypothetical",
+      "solver_seconds": 3,
+      "allow_unassigned": true
+    },
+    "solver_status": "success",
+    "proven_optimal": false,
+    "provider": "OSRM-compatible · FOSSGIS public demo",
+    "matrix_id": "5b99d2552738d9e8c6b33eb691ee8e132e293562bbbbceaad4ed25a13cbf5a09",
+    "crs": "EPSG:4326",
+    "warnings": [
+      "Standard car routing, not verified heavy-vehicle routing.",
+      "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+      "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+      "Snapped road positions are not verified facility gates or legal vehicle access.",
+      "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+      "Public demo service: light local use only; no SLA or production capacity guarantee.",
+      "GIS locations are candidate references, not verified customers, gates or legal truck access.",
+      "Demands: hypothetical. Capacity is a single integer unit: units.",
+      "Matrix distances follow fastest OSRM paths, not necessarily shortest-distance paths; no live traffic.",
+      "Time windows apply to service start; service completion and depot return must fit the vehicle working limit.",
+      "Optional-stop priorities weight a lexicographic service penalty before the selected travel objective.",
+      "Operating cost excludes tolls. Fuel/driver costs are added only from supplied values; avoid counting them twice in cost/km.",
+      "Empty vehicles are not repositioned between different start/end depots. Vehicle minimization is a weighted count-first objective; balance minimizes total metres + 20 × longest route.",
+      "Solver schedules use upward-rounded whole seconds/metres; final road geometry may differ at via-points because of OSRM turn continuity."
+    ],
+    "unassigned": [],
+    "geometry_complete": true,
+    "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+    "executed_at": "2026-10-24T10:06:33.229087+00:00"
+  }
+}

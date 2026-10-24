@@ -1,0 +1,995 @@
+{
+  "session": {
+    "id": "e2ad1aca-d3cf-4beb-bf2c-f9d78d81ecec",
+    "created_at": "2026-10-24T13:36:42.247632+00:00",
+    "messages": [
+      {
+        "id": "80b49177-6cb9-4f18-8064-2eb5fb4aef0f",
+        "role": "user",
+        "text": "Find warehouses within 1 km of this industrial park.",
+        "created_at": "2026-10-24T13:36:42.247632+00:00"
+      },
+      {
+        "id": "58fa8e3c-7c36-490f-8938-02411a8ad99e",
+        "role": "assistant",
+        "text": "search_industrial_features completed · 2 displayed geometries. {\"total\": 2, \"returned\": 2, \"category_counts\": {\"warehouse\": 2}}",
+        "created_at": "2026-10-24T13:36:45.500890+00:00",
+        "mode": "deterministic",
+        "result_ids": [
+          "df481d40-3c84-4aea-acb2-3810bfb131b1"
+        ],
+        "partial": false
+      }
+    ],
+    "results": [
+      {
+        "id": "df481d40-3c84-4aea-acb2-3810bfb131b1",
+        "tool": "search_industrial_features",
+        "status": "completed",
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "id": "6ae27455-ae97-554f-9996-36ec3554a316",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5586593,
+                      3.2957013
+                    ],
+                    [
+                      101.5581693,
+                      3.2959086
+                    ],
+                    [
+                      101.5585947,
+                      3.2969109
+                    ],
+                    [
+                      101.5590847,
+                      3.2967037
+                    ],
+                    [
+                      101.5586593,
+                      3.2957013
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "May Chemical",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/782984233",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:16:24.251672+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 782984233,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "May Chemical",
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/782984233",
+                  "osm_version": 1,
+                  "rental_price": null,
+                  "osm_timestamp": "2020-03-20T08:40:33Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5580768,
+                      3.2960707
+                    ],
+                    [
+                      101.5578633,
+                      3.2961624
+                    ],
+                    [
+                      101.5579088,
+                      3.2962681
+                    ],
+                    [
+                      101.5578372,
+                      3.2962989
+                    ],
+                    [
+                      101.5581629,
+                      3.2970547
+                    ],
+                    [
+                      101.5585097,
+                      3.2969057
+                    ],
+                    [
+                      101.5581817,
+                      3.2961443
+                    ],
+                    [
+                      101.55812,
+                      3.2961708
+                    ],
+                    [
+                      101.5580768,
+                      3.2960707
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Jun Hong Trading",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/782984236",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:16:24.251672+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 782984236,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "Jun Hong Trading",
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/782984236",
+                  "osm_version": 1,
+                  "rental_price": null,
+                  "osm_timestamp": "2020-03-20T08:40:33Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+                }
+              }
+            }
+          ],
+          "meta": {
+            "mode": "postgis",
+            "crs": "EPSG:4326",
+            "total": 2,
+            "returned": 2,
+            "offset": 0,
+            "limit": 100,
+            "has_more": false,
+            "category_counts": {
+              "warehouse": 2
+            },
+            "missing_categories": [],
+            "failed_categories": [],
+            "warnings": [
+              "Results describe imported records only; absence is not evidence that no real facilities exist.",
+              "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints."
+            ],
+            "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+          },
+          "reference": {
+            "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+            "label": "Canpac Sdn. Bhd.",
+            "coordinates": [
+              101.5597692,
+              3.3016408
+            ],
+            "source_id": "node/8004379471",
+            "source": "OpenStreetMap contributors",
+            "categories": [
+              "industrial"
+            ],
+            "anchor_method": "source_point",
+            "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access."
+          },
+          "parameters": {
+            "categories": [
+              "warehouse"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5597692,
+              3.3016408
+            ],
+            "radius_km": 1.0,
+            "limit": 100,
+            "offset": 0
+          },
+          "title": "Imported GIS search",
+          "statistics": {
+            "total": 2,
+            "returned": 2,
+            "category_counts": {
+              "warehouse": 2
+            }
+          },
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist.",
+            "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints.",
+            "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "id": "6ae27455-ae97-554f-9996-36ec3554a316",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5586593,
+                    3.2957013
+                  ],
+                  [
+                    101.5581693,
+                    3.2959086
+                  ],
+                  [
+                    101.5585947,
+                    3.2969109
+                  ],
+                  [
+                    101.5590847,
+                    3.2967037
+                  ],
+                  [
+                    101.5586593,
+                    3.2957013
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "May Chemical",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984233",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984233,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "May Chemical",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984233",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5580768,
+                    3.2960707
+                  ],
+                  [
+                    101.5578633,
+                    3.2961624
+                  ],
+                  [
+                    101.5579088,
+                    3.2962681
+                  ],
+                  [
+                    101.5578372,
+                    3.2962989
+                  ],
+                  [
+                    101.5581629,
+                    3.2970547
+                  ],
+                  [
+                    101.5585097,
+                    3.2969057
+                  ],
+                  [
+                    101.5581817,
+                    3.2961443
+                  ],
+                  [
+                    101.55812,
+                    3.2961708
+                  ],
+                  [
+                    101.5580768,
+                    3.2960707
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Jun Hong Trading",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984236",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984236,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Jun Hong Trading",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984236",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          }
+        ],
+        "rows": [],
+        "summary": {
+          "total": 2,
+          "returned": 2,
+          "category_counts": {
+            "warehouse": 2
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories.",
+          "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance.",
+        "crs": "EPSG:4326",
+        "executed_at": "2026-10-24T13:36:45.500890+00:00",
+        "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+      }
+    ],
+    "context": {
+      "selected_feature_ids": [
+        "335bcf23-dccb-5eb4-b14a-737040e1e784"
+      ],
+      "search": {
+        "place": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+        "radius_km": 1.0,
+        "categories": [
+          "warehouse"
+        ]
+      },
+      "last_search": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "6ae27455-ae97-554f-9996-36ec3554a316",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5586593,
+                    3.2957013
+                  ],
+                  [
+                    101.5581693,
+                    3.2959086
+                  ],
+                  [
+                    101.5585947,
+                    3.2969109
+                  ],
+                  [
+                    101.5590847,
+                    3.2967037
+                  ],
+                  [
+                    101.5586593,
+                    3.2957013
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "May Chemical",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984233",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984233,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "May Chemical",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984233",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5580768,
+                    3.2960707
+                  ],
+                  [
+                    101.5578633,
+                    3.2961624
+                  ],
+                  [
+                    101.5579088,
+                    3.2962681
+                  ],
+                  [
+                    101.5578372,
+                    3.2962989
+                  ],
+                  [
+                    101.5581629,
+                    3.2970547
+                  ],
+                  [
+                    101.5585097,
+                    3.2969057
+                  ],
+                  [
+                    101.5581817,
+                    3.2961443
+                  ],
+                  [
+                    101.55812,
+                    3.2961708
+                  ],
+                  [
+                    101.5580768,
+                    3.2960707
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Jun Hong Trading",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984236",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984236,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Jun Hong Trading",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984236",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          }
+        ],
+        "meta": {
+          "mode": "postgis",
+          "crs": "EPSG:4326",
+          "total": 2,
+          "returned": 2,
+          "offset": 0,
+          "limit": 100,
+          "has_more": false,
+          "category_counts": {
+            "warehouse": 2
+          },
+          "missing_categories": [],
+          "failed_categories": [],
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist.",
+            "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "reference": {
+          "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+          "label": "Canpac Sdn. Bhd.",
+          "coordinates": [
+            101.5597692,
+            3.3016408
+          ],
+          "source_id": "node/8004379471",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "industrial"
+          ],
+          "anchor_method": "source_point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access."
+        },
+        "parameters": {
+          "categories": [
+            "warehouse"
+          ],
+          "q": "",
+          "bbox": null,
+          "center": [
+            101.5597692,
+            3.3016408
+          ],
+          "radius_km": 1.0,
+          "limit": 100,
+          "offset": 0
+        },
+        "title": "Imported GIS search",
+        "statistics": {
+          "total": 2,
+          "returned": 2,
+          "category_counts": {
+            "warehouse": 2
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+      },
+      "last_feature_ids": [
+        "6ae27455-ae97-554f-9996-36ec3554a316",
+        "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0"
+      ],
+      "last_result_id": "df481d40-3c84-4aea-acb2-3810bfb131b1"
+    },
+    "pending": null
+  },
+  "results": [
+    {
+      "id": "df481d40-3c84-4aea-acb2-3810bfb131b1",
+      "tool": "search_industrial_features",
+      "status": "completed",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "6ae27455-ae97-554f-9996-36ec3554a316",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5586593,
+                    3.2957013
+                  ],
+                  [
+                    101.5581693,
+                    3.2959086
+                  ],
+                  [
+                    101.5585947,
+                    3.2969109
+                  ],
+                  [
+                    101.5590847,
+                    3.2967037
+                  ],
+                  [
+                    101.5586593,
+                    3.2957013
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "May Chemical",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984233",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984233,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "May Chemical",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984233",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5580768,
+                    3.2960707
+                  ],
+                  [
+                    101.5578633,
+                    3.2961624
+                  ],
+                  [
+                    101.5579088,
+                    3.2962681
+                  ],
+                  [
+                    101.5578372,
+                    3.2962989
+                  ],
+                  [
+                    101.5581629,
+                    3.2970547
+                  ],
+                  [
+                    101.5585097,
+                    3.2969057
+                  ],
+                  [
+                    101.5581817,
+                    3.2961443
+                  ],
+                  [
+                    101.55812,
+                    3.2961708
+                  ],
+                  [
+                    101.5580768,
+                    3.2960707
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Jun Hong Trading",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/782984236",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 782984236,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Jun Hong Trading",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/782984236",
+                "osm_version": 1,
+                "rental_price": null,
+                "osm_timestamp": "2020-03-20T08:40:33Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+              }
+            }
+          }
+        ],
+        "meta": {
+          "mode": "postgis",
+          "crs": "EPSG:4326",
+          "total": 2,
+          "returned": 2,
+          "offset": 0,
+          "limit": 100,
+          "has_more": false,
+          "category_counts": {
+            "warehouse": 2
+          },
+          "missing_categories": [],
+          "failed_categories": [],
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist.",
+            "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "reference": {
+          "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+          "label": "Canpac Sdn. Bhd.",
+          "coordinates": [
+            101.5597692,
+            3.3016408
+          ],
+          "source_id": "node/8004379471",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "industrial"
+          ],
+          "anchor_method": "source_point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access."
+        },
+        "parameters": {
+          "categories": [
+            "warehouse"
+          ],
+          "q": "",
+          "bbox": null,
+          "center": [
+            101.5597692,
+            3.3016408
+          ],
+          "radius_km": 1.0,
+          "limit": 100,
+          "offset": 0
+        },
+        "title": "Imported GIS search",
+        "statistics": {
+          "total": 2,
+          "returned": 2,
+          "category_counts": {
+            "warehouse": 2
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "id": "6ae27455-ae97-554f-9996-36ec3554a316",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5586593,
+                  3.2957013
+                ],
+                [
+                  101.5581693,
+                  3.2959086
+                ],
+                [
+                  101.5585947,
+                  3.2969109
+                ],
+                [
+                  101.5590847,
+                  3.2967037
+                ],
+                [
+                  101.5586593,
+                  3.2957013
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "May Chemical",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/782984233",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:16:24.251672+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 782984233,
+              "capacity": null,
+              "osm_tags": {
+                "name": "May Chemical",
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/782984233",
+              "osm_version": 1,
+              "rental_price": null,
+              "osm_timestamp": "2020-03-20T08:40:33Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+            }
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5580768,
+                  3.2960707
+                ],
+                [
+                  101.5578633,
+                  3.2961624
+                ],
+                [
+                  101.5579088,
+                  3.2962681
+                ],
+                [
+                  101.5578372,
+                  3.2962989
+                ],
+                [
+                  101.5581629,
+                  3.2970547
+                ],
+                [
+                  101.5585097,
+                  3.2969057
+                ],
+                [
+                  101.5581817,
+                  3.2961443
+                ],
+                [
+                  101.55812,
+                  3.2961708
+                ],
+                [
+                  101.5580768,
+                  3.2960707
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Jun Hong Trading",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/782984236",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:16:24.251672+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 782984236,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Jun Hong Trading",
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/782984236",
+              "osm_version": 1,
+              "rental_price": null,
+              "osm_timestamp": "2020-03-20T08:40:33Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:16:24.251672+00:00"
+            }
+          }
+        }
+      ],
+      "rows": [],
+      "summary": {
+        "total": 2,
+        "returned": 2,
+        "category_counts": {
+          "warehouse": 2
+        }
+      },
+      "warnings": [
+        "Results describe imported records only; absence is not evidence that no real facilities exist.",
+        "Radius measured from the selected mapped footprint using PostGIS geography, not its town/representative centroid. Includes intersecting/touching footprints.",
+        "Town references are not industrial park entrances. Explicit pagination preserves all requested categories.",
+        "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+      ],
+      "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance.",
+      "crs": "EPSG:4326",
+      "executed_at": "2026-10-24T13:36:45.500890+00:00",
+      "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+    }
+  ],
+  "text": "search_industrial_features completed · 2 displayed geometries. {\"total\": 2, \"returned\": 2, \"category_counts\": {\"warehouse\": 2}}",
+  "language": "en",
+  "mode": "deterministic",
+  "partial": false,
+  "provider": {
+    "provider": "disabled",
+    "configured": false,
+    "live_verified": false,
+    "fallback": "deterministic command grammar; not LLM intelligence",
+    "model": null,
+    "limits": {
+      "requests_per_turn": 1,
+      "max_completion_tokens": 1200,
+      "tool_calls": 6,
+      "timeout_s": 25
+    }
+  }
+}

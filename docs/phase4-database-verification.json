@@ -1,0 +1,79 @@
+{
+  "connected": true,
+  "ssl": true,
+  "postgis_version": "3.3.7",
+  "postgis_schema": "extensions",
+  "spatial_function_checks": 4,
+  "migration": "0001_foundation",
+  "database_verified": true,
+  "table_count": 12,
+  "geometry_columns": [
+    {
+      "table": "spatial_features",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "study_areas",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTIPOLYGON"
+    },
+    {
+      "table": "analysis_results",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "routing_references",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "LINESTRING"
+    }
+  ],
+  "spatial_indexes": 4,
+  "rls_tables": 12,
+  "category_count": 9,
+  "verified_at": "2026-10-24T08:24:41.839752+00:00",
+  "features": {
+    "total": 5234,
+    "synthetic": 0,
+    "invalid": 0
+  },
+  "all_phase3_route_ids_preserved": true,
+  "routes": {
+    "total": 8,
+    "valid": 8,
+    "archived": 0
+  },
+  "phase3_geometry_snapshots_unchanged": true,
+  "analyses": {
+    "total": 7,
+    "valid": 7,
+    "archived": 0
+  },
+  "runtime_checks": {
+    "http://127.0.0.1:8000/health": true,
+    "http://127.0.0.1:8000/ready": true,
+    "http://127.0.0.1:8000/api/history/routes": true,
+    "http://127.0.0.1:8000/api/network/capabilities": true,
+    "http://127.0.0.1:4173/health": true,
+    "http://127.0.0.1:4173/ready": true,
+    "http://127.0.0.1:4173/api/history/routes": true,
+    "http://127.0.0.1:4173/api/network/capabilities": true,
+    "empty_query_honest": true,
+    "large_input_rejected_without_partial_analysis": true,
+    "invalid_polygon_rejected": true,
+    "isochrone_explicitly_unsupported": true
+  },
+  "browser_exports": {
+    "geojson_features": 71,
+    "matched_count": 70,
+    "all_geometries_valid": true,
+    "crs": "EPSG:4326",
+    "csv_rows": 70,
+    "csv_attribution_present": true
+  }
+}

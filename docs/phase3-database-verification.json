@@ -1,0 +1,59 @@
+{
+  "connected": true,
+  "ssl": true,
+  "postgis_version": "3.3.7",
+  "postgis_schema": "extensions",
+  "spatial_function_checks": 4,
+  "migration": "0001_foundation",
+  "database_verified": true,
+  "table_count": 12,
+  "geometry_columns": [
+    {
+      "table": "spatial_features",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "study_areas",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTIPOLYGON"
+    },
+    {
+      "table": "analysis_results",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "routing_references",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "LINESTRING"
+    }
+  ],
+  "spatial_indexes": 4,
+  "rls_tables": 12,
+  "category_count": 9,
+  "verified_at": "2026-10-24T06:56:51.131676+00:00",
+  "features": {
+    "total": 5234,
+    "synthetic": 0,
+    "invalid": 0
+  },
+  "routes": {
+    "saved": 8,
+    "valid_linestring_4326": 8,
+    "valid_metrics_car_provenance": 8
+  },
+  "browser_save_verified": true,
+  "runtime_http_statuses": {
+    "http://127.0.0.1:8000/health": 200,
+    "http://127.0.0.1:8000/ready": 200,
+    "http://127.0.0.1:8000/api/routing/provider": 200,
+    "http://127.0.0.1:4173/health": 200,
+    "http://127.0.0.1:4173/ready": 200,
+    "http://127.0.0.1:4173/api/routing/provider": 200
+  }
+}

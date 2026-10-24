@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-10-24T11:02:11.034985+00:00",
+  "backend": {
+    "passed": 193,
+    "failed": 0,
+    "skipped": 0,
+    "live_db": 10
+  },
+  "frontend": {
+    "passed": 60,
+    "failed": 0,
+    "pending": 0,
+    "files": 12
+  },
+  "typecheck": "passed",
+  "build": "passed",
+  "pip_check": "passed",
+  "real_solver_cases": 16,
+  "all_historical_rows_preserved": true,
+  "browser": "blocked",
+  "phase5_fully_accepted": false,
+  "ready_for_phase6": false,
+  "phase6_started": false
+}

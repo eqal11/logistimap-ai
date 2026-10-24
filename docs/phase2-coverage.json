@@ -1,0 +1,689 @@
+{
+  "generated_at": "2026-10-24T03:15:31.037111+00:00",
+  "radius_km": 5,
+  "areas": [
+    {
+      "target": {
+        "id": "tanjong-malim",
+        "name": "AHTV / Tanjong Malim",
+        "query": "Tanjong Malim, Perak, Malaysia",
+        "note": "Town search reference only; not an AHTV boundary."
+      },
+      "reference": {
+        "name": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+        "center": [
+          101.5234848,
+          3.6900079
+        ],
+        "bbox": [
+          101.5039115,
+          3.678127,
+          101.5386742,
+          3.7052463
+        ],
+        "source_id": "way/657558677",
+        "type": "quarter"
+      },
+      "id": "86ff6fd4-3784-495c-b3b3-a22171d9345d",
+      "status": "completed",
+      "created_at": "2026-10-24T03:15:33.262860+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "AHTV / Tanjong Malim",
+        "center": [
+          101.5234848,
+          3.6900079
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "AHTV / Tanjong Malim",
+        "job_id": "86ff6fd4-3784-495c-b3b3-a22171d9345d",
+        "skipped": {},
+        "updated": 0,
+        "inserted": 234,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "AHTV / Tanjong Malim",
+          "center": [
+            101.5234848,
+            3.6900079
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:15:36.594410+00:00",
+        "raw_elements": 234,
+        "valid_features": 234,
+        "category_counts": {
+          "port": 0,
+          "rail": 30,
+          "road": 197,
+          "airport": 0,
+          "warehouse": 0,
+          "industrial": 1,
+          "logistics_hub": 0,
+          "industrial_park": 7
+        },
+        "preserved_newer": 0,
+        "provider_cached": true,
+        "failed_categories": [],
+        "missing_categories": [
+          "logistics_hub",
+          "airport",
+          "warehouse",
+          "port"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:12:51Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    },
+    {
+      "target": {
+        "id": "rawang",
+        "name": "Rawang",
+        "query": "Rawang, Selangor, Malaysia",
+        "note": "OSM place search reference."
+      },
+      "reference": {
+        "name": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+        "center": [
+          101.5773144,
+          3.3197692
+        ],
+        "bbox": [
+          101.5373144,
+          3.2797692,
+          101.6173144,
+          3.3597692
+        ],
+        "source_id": "node/254074012",
+        "type": "town"
+      },
+      "id": "0f8c0b84-ae5d-4c17-aa38-1bacd5903b22",
+      "status": "completed",
+      "created_at": "2026-10-24T03:15:42.275569+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Rawang",
+        "center": [
+          101.5773144,
+          3.3197692
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "Rawang",
+        "job_id": "0f8c0b84-ae5d-4c17-aa38-1bacd5903b22",
+        "skipped": {},
+        "updated": 0,
+        "inserted": 550,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Rawang",
+          "center": [
+            101.5773144,
+            3.3197692
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:16:24.251672+00:00",
+        "raw_elements": 550,
+        "valid_features": 550,
+        "category_counts": {
+          "port": 0,
+          "rail": 44,
+          "road": 477,
+          "airport": 0,
+          "warehouse": 4,
+          "industrial": 10,
+          "logistics_hub": 1,
+          "industrial_park": 22
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [
+          "airport",
+          "port"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:14:58Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    },
+    {
+      "target": {
+        "id": "shah-alam",
+        "name": "Shah Alam",
+        "query": "Shah Alam, Selangor, Malaysia",
+        "note": "OSM place search reference."
+      },
+      "reference": {
+        "name": "Shah Alam, Petaling, Selangor, Malaysia",
+        "center": [
+          101.5185278,
+          3.0739429
+        ],
+        "bbox": [
+          101.4277331,
+          2.9496181,
+          101.5913878,
+          3.2297212
+        ],
+        "source_id": "relation/8347577",
+        "type": "administrative"
+      },
+      "id": "cef57781-cf31-435a-895e-a7740daaf3ac",
+      "status": "completed",
+      "created_at": "2026-10-24T03:16:30.922300+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Shah Alam",
+        "center": [
+          101.5185278,
+          3.0739429
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "Shah Alam",
+        "job_id": "cef57781-cf31-435a-895e-a7740daaf3ac",
+        "skipped": {},
+        "updated": 0,
+        "inserted": 2099,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Shah Alam",
+          "center": [
+            101.5185278,
+            3.0739429
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:17:17.497243+00:00",
+        "raw_elements": 2099,
+        "valid_features": 2099,
+        "category_counts": {
+          "port": 0,
+          "rail": 63,
+          "road": 1756,
+          "airport": 0,
+          "warehouse": 20,
+          "industrial": 78,
+          "logistics_hub": 1,
+          "industrial_park": 229
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [
+          "airport",
+          "port"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:15:54Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    },
+    {
+      "target": {
+        "id": "bukit-raja",
+        "name": "Bukit Raja",
+        "query": "Bandar Bukit Raja, Malaysia",
+        "note": "OSM place search reference; verify the selected match."
+      },
+      "reference": {
+        "name": "Bandar Bukit Raja, Bandaraya Klang, Klang, Selangor, Malaysia",
+        "center": [
+          101.437697,
+          3.0852015
+        ],
+        "bbox": [
+          101.4121235,
+          3.0759664,
+          101.4686751,
+          3.1116123
+        ],
+        "source_id": "relation/19844690",
+        "type": "residential"
+      },
+      "id": "6524138e-c9a4-4887-8d56-28ca3ce5ee6a",
+      "status": "completed",
+      "created_at": "2026-10-24T03:17:26.769927+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Bukit Raja",
+        "center": [
+          101.437697,
+          3.0852015
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "Bukit Raja",
+        "job_id": "6524138e-c9a4-4887-8d56-28ca3ce5ee6a",
+        "skipped": {},
+        "updated": 49,
+        "inserted": 1179,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Bukit Raja",
+          "center": [
+            101.437697,
+            3.0852015
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:18:11.399742+00:00",
+        "raw_elements": 1228,
+        "valid_features": 1228,
+        "category_counts": {
+          "port": 0,
+          "rail": 18,
+          "road": 1109,
+          "airport": 0,
+          "warehouse": 1,
+          "industrial": 60,
+          "logistics_hub": 0,
+          "industrial_park": 41
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [
+          "logistics_hub",
+          "airport",
+          "port"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:16:52Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    },
+    {
+      "target": {
+        "id": "klang",
+        "name": "Klang",
+        "query": "Klang, Selangor, Malaysia",
+        "note": "OSM place search reference."
+      },
+      "reference": {
+        "name": "Bandaraya Klang, Klang, Selangor, Malaysia",
+        "center": [
+          101.4447363,
+          3.0448394
+        ],
+        "bbox": [
+          101.2168262,
+          2.8848424,
+          101.5240545,
+          3.192016
+        ],
+        "source_id": "relation/10715532",
+        "type": "administrative"
+      },
+      "id": "abac6db7-be57-4bc3-bf70-f7665a753b52",
+      "status": "completed",
+      "created_at": "2026-10-24T03:18:19.086277+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Klang",
+        "center": [
+          101.4447363,
+          3.0448394
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "Klang",
+        "job_id": "abac6db7-be57-4bc3-bf70-f7665a753b52",
+        "skipped": {},
+        "updated": 900,
+        "inserted": 677,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Klang",
+          "center": [
+            101.4447363,
+            3.0448394
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:19:06.333541+00:00",
+        "raw_elements": 1577,
+        "valid_features": 1577,
+        "category_counts": {
+          "port": 0,
+          "rail": 33,
+          "road": 1497,
+          "airport": 0,
+          "warehouse": 2,
+          "industrial": 15,
+          "logistics_hub": 0,
+          "industrial_park": 34
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [
+          "logistics_hub",
+          "airport",
+          "port"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:16:52Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    },
+    {
+      "target": {
+        "id": "port-klang",
+        "name": "Port Klang",
+        "query": "Port Klang, Selangor, Malaysia",
+        "note": "Town/port search reference; not a verified port boundary."
+      },
+      "reference": {
+        "name": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+        "center": [
+          101.3966735,
+          3.0027625
+        ],
+        "bbox": [
+          101.3566735,
+          2.9627625,
+          101.4366735,
+          3.0427625
+        ],
+        "source_id": "node/254072863",
+        "type": "town"
+      },
+      "id": "90bef7f4-90af-49ea-884f-ce858fc44ba4",
+      "status": "completed",
+      "created_at": "2026-10-24T03:19:14.117402+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Port Klang",
+        "center": [
+          101.3966735,
+          3.0027625
+        ],
+        "radius_km": 5.0,
+        "categories": [
+          "industrial",
+          "industrial_park",
+          "warehouse",
+          "logistics_hub",
+          "port",
+          "airport",
+          "road",
+          "rail"
+        ]
+      },
+      "report": {
+        "label": "Port Klang",
+        "job_id": "90bef7f4-90af-49ea-884f-ce858fc44ba4",
+        "skipped": {},
+        "updated": 299,
+        "inserted": 494,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Port Klang",
+          "center": [
+            101.3966735,
+            3.0027625
+          ],
+          "radius_km": 5.0,
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse",
+            "logistics_hub",
+            "port",
+            "airport",
+            "road",
+            "rail"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:19:53.340921+00:00",
+        "raw_elements": 793,
+        "valid_features": 793,
+        "category_counts": {
+          "port": 3,
+          "rail": 58,
+          "road": 636,
+          "airport": 0,
+          "warehouse": 11,
+          "industrial": 48,
+          "logistics_hub": 0,
+          "industrial_park": 46
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [
+          "logistics_hub",
+          "airport"
+        ],
+        "osm_base_timestamp": "2026-10-24T03:18:05Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    }
+  ],
+  "note": "OSM place references, not verified industrial boundaries. Counts overlap across study areas/categories.",
+  "supplemental_imports": [
+    {
+      "id": "bab9ea19-3098-45c8-ab90-4e2963fbf8a2",
+      "status": "completed",
+      "created_at": "2026-10-24T03:22:14.649877+00:00",
+      "parameters": {
+        "bbox": null,
+        "label": "Shah Alam, Petaling",
+        "center": [
+          101.5185278,
+          3.0739429
+        ],
+        "radius_km": 10.0,
+        "categories": [
+          "airport"
+        ]
+      },
+      "report": {
+        "label": "Shah Alam, Petaling",
+        "job_id": "bab9ea19-3098-45c8-ab90-4e2963fbf8a2",
+        "skipped": {},
+        "updated": 0,
+        "inserted": 1,
+        "warnings": [
+          "OSM coverage is incomplete; zero results do not prove real-world absence.",
+          "Industrial land-use polygons are community mapped, not authoritative park/zoning boundaries.",
+          "Roads include motorway, trunk, primary, secondary and links only. Lines are source infrastructure, not computed routes.",
+          "Airports do not imply verified cargo capability. Unknown commercial attributes remain unknown.",
+          "OSM ways/relations with distinct IDs are preserved even when spatially overlapping."
+        ],
+        "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+        "parameters": {
+          "bbox": null,
+          "label": "Shah Alam, Petaling",
+          "center": [
+            101.5185278,
+            3.0739429
+          ],
+          "radius_km": 10.0,
+          "categories": [
+            "airport"
+          ]
+        },
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright",
+        "imported_at": "2026-10-24T03:22:48.420780+00:00",
+        "raw_elements": 1,
+        "valid_features": 1,
+        "category_counts": {
+          "airport": 1
+        },
+        "preserved_newer": 0,
+        "provider_cached": false,
+        "failed_categories": [],
+        "missing_categories": [],
+        "osm_base_timestamp": "2026-10-24T03:21:03Z",
+        "duplicates_in_response": 0,
+        "failed_record_examples": []
+      }
+    }
+  ]
+}

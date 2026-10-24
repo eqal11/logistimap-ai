@@ -1,0 +1,39 @@
+{
+  "connected": true,
+  "ssl": true,
+  "postgis_version": "3.3.7",
+  "postgis_schema": "extensions",
+  "spatial_function_checks": 4,
+  "migration": "0001_foundation",
+  "database_verified": true,
+  "table_count": 12,
+  "geometry_columns": [
+    {
+      "table": "spatial_features",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "study_areas",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTIPOLYGON"
+    },
+    {
+      "table": "analysis_results",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "routing_references",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "LINESTRING"
+    }
+  ],
+  "spatial_indexes": 4,
+  "rls_tables": 12,
+  "category_count": 9
+}

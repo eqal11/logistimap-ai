@@ -1,0 +1,1735 @@
+{
+  "started_at": "2026-10-24T07:50:08.900835+00:00",
+  "scenarios": [
+    {
+      "id": "A",
+      "label": "Industrial facilities within 10 km of Tanjong Malim",
+      "status": "passed",
+      "title": "Tanjong Malim 10 km reference buffer",
+      "feature_count": 2,
+      "statistics": {
+        "input_a": 1,
+        "input_b": 1,
+        "category_counts_a": {},
+        "matched_count": 1,
+        "matched_category_counts": {
+          "industrial": 1,
+          "industrial_park": 1
+        },
+        "output_features": 2,
+        "summed_output_area_km2": 314.0330501186336
+      },
+      "rows": [
+        {
+          "id": "ae8740c5-9819-5e03-925f-1baaf9d3be13",
+          "name": "Depoh MARA Liner Tanjung Malim",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "user geometry",
+          "count": 1
+        },
+        "b": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5234848,
+              3.6900079
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 1,
+          "category_counts": {
+            "industrial": 1,
+            "industrial_park": 1
+          }
+        }
+      },
+      "calculation_id": "5fd7c6655c1ed811e5e4252dc4d5514a145e204de4bfa36fcfd3db727a5b4f64",
+      "export": "data\\exports\\analyses\\A.geojson"
+    },
+    {
+      "id": "B",
+      "label": "5 km warehouse buffer and industrial counts near Shah Alam",
+      "status": "passed",
+      "title": "Shah Alam warehouse 5 km buffer",
+      "feature_count": 71,
+      "statistics": {
+        "input_a": 1,
+        "input_b": 193,
+        "category_counts_a": {
+          "warehouse": 1,
+          "industrial": 1,
+          "industrial_park": 1
+        },
+        "matched_count": 70,
+        "matched_category_counts": {
+          "industrial": 70,
+          "warehouse": 11,
+          "industrial_park": 36
+        },
+        "output_features": 71,
+        "summed_output_area_km2": 80.69368502101466
+      },
+      "rows": [
+        {
+          "id": "027aaddb-129a-5158-831c-5b797121f2e5",
+          "name": "Unnamed OSM industrial (way/911253373)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse"
+          ]
+        },
+        {
+          "id": "038bee22-eb48-589d-90c5-454d20440287",
+          "name": "Unnamed OSM industrial (way/911253379)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "0e8cbbc6-ca84-5c73-ba2e-ca4a64c9ea51",
+          "name": "Unnamed OSM industrial (way/911253387)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "0f872dc7-311f-5f68-b707-749b1a4af69b",
+          "name": "Unnamed OSM industrial (way/911253362)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "10d377b6-03f0-5d40-9992-9e904d323819",
+          "name": "Daikin Electronic Devices Malaysia Sdn. Bhd.",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "16e5d9ee-9472-526a-9b1c-328478759cd0",
+          "name": "Unnamed OSM industrial (way/911253386)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "1bf1b9e1-99af-5db5-8f5b-0ae9670df539",
+          "name": "QL Kitchen Plant 1",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "1cd64c96-77a7-5278-8d8d-55628c1da3c5",
+          "name": "Unnamed OSM industrial (way/911255527)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse"
+          ]
+        },
+        {
+          "id": "2a114069-bcdd-52b3-a16b-f61e85bcdd43",
+          "name": "Kian Joo Can Factory Berhad",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "2b9dfdd8-9da7-587d-b964-f43bd14ccb5e",
+          "name": "Keppel Logistics (M) Sdn Bhd",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse"
+          ]
+        },
+        {
+          "id": "2d297e2a-48d6-549c-b04f-bd6b184c654e",
+          "name": "Carlsberg Brewery Malaysia Berhad",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "31d94b66-d059-5d60-82b2-d0dad37bbf82",
+          "name": "Depoh Bas Shah Alam",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "36fa7922-f28f-5d62-bb7e-618c03c0ceda",
+          "name": "Unnamed OSM industrial (way/1220020493)",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse"
+          ]
+        },
+        {
+          "id": "382354bd-135e-52a1-a0d8-0bdf576444b2",
+          "name": "Tateyama",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "3c6b6e51-708d-5551-bfe0-bc39339f9e3b",
+          "name": "Unnamed OSM industrial (way/911253363)",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "428ef448-443d-5a59-9b66-7885231bde55",
+          "name": "Battlefront Miniatures Malaysia Sdn. Bhd.",
+          "categories": [
+            "industrial",
+            "industrial_park"
+          ]
+        },
+        {
+          "id": "44456a5f-ee13-5778-9a2b-7b42cc2c30e0",
+          "name": "Al Kauthar Eduqids HQ",
+          "categories": [
+            "industrial"
+          ]
+        },
+        {
+          "id": "44539df4-78d4-571d-b1b5-096e90d51120",
+          "name": "Tiong Nam Logistics",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "warehouse"
+          ]
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS selected IDs",
+          "ids": [
+            "030efbe3-8d74-545d-90e0-15df09508265"
+          ],
+          "count": 1
+        },
+        "b": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": [
+              101.25,
+              2.72,
+              101.87,
+              3.4
+            ],
+            "center": null,
+            "radius_km": null,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 193,
+          "category_counts": {
+            "industrial": 193,
+            "industrial_park": 52,
+            "port": 2,
+            "warehouse": 11
+          }
+        }
+      },
+      "calculation_id": "9eb70e6edc25d8fc567b2d4e9d8b5fabe8d342729e783298ea119ebbc4bb3edb",
+      "export": "data\\exports\\analyses\\B.geojson"
+    },
+    {
+      "id": "C",
+      "label": "Clip industrial land-use to user-defined Klang rectangle",
+      "status": "passed",
+      "title": "Klang user-boundary industrial clip",
+      "feature_count": 92,
+      "statistics": {
+        "input_a": 338,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial_park": 338,
+          "industrial": 52,
+          "warehouse": 11,
+          "port": 2
+        },
+        "output_features": 92,
+        "summed_output_area_km2": 34.176869942038024
+      },
+      "rows": [],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial_park"
+            ],
+            "q": "",
+            "bbox": [
+              101.25,
+              2.72,
+              101.87,
+              3.4
+            ],
+            "center": null,
+            "radius_km": null,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 338,
+          "category_counts": {
+            "industrial": 52,
+            "industrial_park": 338,
+            "port": 2,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "0abf2d8552adc6a805a3d0fc5959e3d1eea910fe8eb29c266c3a8e30cf2ab73e",
+      "export": "data\\exports\\analyses\\C.geojson"
+    },
+    {
+      "id": "D",
+      "label": "Nearest mapped warehouse to Canpac by footprint distance",
+      "status": "passed",
+      "title": "Canpac geographic warehouse proximity",
+      "feature_count": 1,
+      "statistics": {
+        "input_a": 1,
+        "input_b": 36,
+        "category_counts_a": {
+          "industrial": 1
+        },
+        "join_pairs": 1,
+        "matched_input_count": 1,
+        "output_features": 1,
+        "summed_output_area_km2": 0
+      },
+      "rows": [
+        {
+          "input_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+          "input_name": "Canpac Sdn. Bhd.",
+          "join_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "join_name": "Jun Hong Trading",
+          "distance_m": 537.6253143889661,
+          "source": "OpenStreetMap contributors",
+          "join_source": "OpenStreetMap contributors"
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS selected IDs",
+          "ids": [
+            "335bcf23-dccb-5eb4-b14a-737040e1e784"
+          ],
+          "count": 1
+        },
+        "b": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "warehouse"
+            ],
+            "q": "",
+            "bbox": [
+              101.25,
+              2.72,
+              101.87,
+              3.4
+            ],
+            "center": null,
+            "radius_km": null,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 36,
+          "category_counts": {
+            "industrial": 11,
+            "industrial_park": 11,
+            "warehouse": 36
+          }
+        }
+      },
+      "calculation_id": "707e8175132432b7a2d42002c37d73b5108cbb8553ff53c7da4ce43ce62cd8b4",
+      "export": "data\\exports\\analyses\\D.geojson"
+    },
+    {
+      "id": "E",
+      "label": "Rawang vs Shah Alam mapped industrial density, equal 5 km windows",
+      "status": "passed",
+      "title": "Industrial area concentration comparison",
+      "feature_count": 2,
+      "statistics": {
+        "regions": 2
+      },
+      "rows": [
+        {
+          "name": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+          "mapped_objects": 24,
+          "area_km2": 78.531927228048,
+          "objects_per_km2": 0.3056081882507055,
+          "mapped_road_segments": 477,
+          "category_counts": {
+            "industrial": 10,
+            "industrial_park": 22
+          },
+          "warehouse_nearest_m": 1986.99574283,
+          "warehouse_nearest_name": "Unnamed OSM warehouse (way/448229201)",
+          "port_nearest_m": 38251.97654108,
+          "port_nearest_name": "Pelabuhan Utara",
+          "airport_nearest_m": 18993.23349551,
+          "airport_nearest_name": "Lapangan Terbang Sultan Abdul Aziz Shah",
+          "logistics_hub_nearest_m": 1606.18081894,
+          "logistics_hub_nearest_name": "GDex"
+        },
+        {
+          "name": "Shah Alam, Petaling, Selangor, Malaysia",
+          "mapped_objects": 270,
+          "area_km2": 78.53192722820773,
+          "objects_per_km2": 3.438092117813444,
+          "mapped_road_segments": 1753,
+          "category_counts": {
+            "industrial": 78,
+            "industrial_park": 229,
+            "warehouse": 11
+          },
+          "warehouse_nearest_m": 1487.49124717,
+          "warehouse_nearest_name": "Unnamed OSM warehouse (way/184104708)",
+          "port_nearest_m": 16062.68882899,
+          "port_nearest_name": "Pelabuhan Selatan",
+          "airport_nearest_m": 5960.59960849,
+          "airport_nearest_name": "Lapangan Terbang Sultan Abdul Aziz Shah",
+          "logistics_hub_nearest_m": 4592.68429094,
+          "logistics_hub_nearest_name": "DHL"
+        }
+      ],
+      "inputs": {
+        "origins": [
+          {
+            "coordinates": [
+              101.5773144,
+              3.3197692
+            ],
+            "label": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+            "anchor_method": "user_reference"
+          },
+          {
+            "coordinates": [
+              101.5185278,
+              3.0739429
+            ],
+            "label": "Shah Alam, Petaling, Selangor, Malaysia",
+            "anchor_method": "user_reference"
+          }
+        ]
+      },
+      "calculation_id": "7a57d4fb4dc99739ebb70810b66e9740dcee9ef1cac9b365c65db719c0692e2a",
+      "export": "data\\exports\\analyses\\E.geojson"
+    },
+    {
+      "id": "F",
+      "label": "Road-network matrix Canpac and warehouse to Port Klang",
+      "status": "passed",
+      "title": "Road-network accessibility",
+      "feature_count": 3,
+      "statistics": {
+        "pairs": 2,
+        "reachable_pairs": 2,
+        "nearest_by_time": [
+          {
+            "origin_index": 0,
+            "destination_index": 0,
+            "origin": "Canpac Sdn. Bhd.",
+            "destination": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+            "distance_m": 54478.8,
+            "duration_s": 2905.3,
+            "reachable": true,
+            "accessibility_score": 55.34
+          },
+          {
+            "origin_index": 1,
+            "destination_index": 0,
+            "origin": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "destination": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+            "distance_m": 20530.2,
+            "duration_s": 1193.3,
+            "reachable": true,
+            "accessibility_score": 75.1
+          }
+        ]
+      },
+      "rows": [
+        {
+          "origin_index": 0,
+          "destination_index": 0,
+          "origin": "Canpac Sdn. Bhd.",
+          "destination": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+          "distance_m": 54478.8,
+          "duration_s": 2905.3,
+          "reachable": true,
+          "accessibility_score": 55.34
+        },
+        {
+          "origin_index": 1,
+          "destination_index": 0,
+          "origin": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "destination": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+          "distance_m": 20530.2,
+          "duration_s": 1193.3,
+          "reachable": true,
+          "accessibility_score": 75.1
+        }
+      ],
+      "inputs": {
+        "origins": [
+          {
+            "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+            "label": "Canpac Sdn. Bhd.",
+            "coordinates": [
+              101.5597692,
+              3.3016408
+            ],
+            "source_id": "node/8004379471",
+            "source": "OpenStreetMap contributors",
+            "categories": [
+              "industrial"
+            ],
+            "anchor_method": "source_point",
+            "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access."
+          },
+          {
+            "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "label": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "coordinates": [
+              101.543826138,
+              3.0696339
+            ],
+            "source_id": "way/1495868943",
+            "source": "OpenStreetMap contributors",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "anchor_method": "ST_PointOnSurface representative point",
+            "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access."
+          }
+        ],
+        "destinations": [
+          {
+            "coordinates": [
+              101.3966735,
+              3.0027625
+            ],
+            "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+            "anchor_method": "user_reference"
+          }
+        ],
+        "snapped_sources": [
+          {
+            "hint": "BZ2hhP___388AAAAkQAAAAAAAAAAAAAAOxeGQqNvvEIAAAAAAAAAADwAAACRAAAAAAAAAAAAAABnXgAARawNBrRhMgDZrQ0GCWEyAAAAvwwAAAAA",
+            "location": [
+              101.559365,
+              3.301812
+            ],
+            "name": "Persiaran Rawang 1",
+            "distance": 48.71717529
+          },
+          {
+            "hint": "2cOqhFwiNYcFAAAAeQAAAAAAAADMAAAAggMMQPAKSUIAAAAAP5ypQgUAAAB5AAAAAAAAAMwAAABnXgAAKHANBnPVLgCSbw0GwtYuAAAAHwQAAAAA",
+            "location": [
+              101.543976,
+              3.069299
+            ],
+            "name": "",
+            "distance": 40.62315932
+          }
+        ],
+        "snapped_destinations": [
+          {
+            "hint": "QPKxhP___39eAAAApAAAAAAAAAAAAAAAtrWCQq1IQUIAAAAAAAAAAF4AAACkAAAAAAAAAAAAAABnXgAAejELBiHQLQDCMAsGi9EtAAAAPw8AAAAA",
+            "location": [
+              101.396858,
+              3.002401
+            ],
+            "name": "Lebuh Beringin",
+            "distance": 44.95225673
+          }
+        ]
+      },
+      "calculation_id": "36278c68008dbe233e551381347bd06844f13b11fa9a26f77ae4389f2fc18085",
+      "export": "data\\exports\\analyses\\F.geojson"
+    },
+    {
+      "id": "G",
+      "label": "Actual industrial land-use / user rectangle intersection export",
+      "status": "passed",
+      "title": "Klang industrial intersection",
+      "feature_count": 33,
+      "statistics": {
+        "input_a": 92,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial": 7,
+          "industrial_park": 92,
+          "port": 1
+        },
+        "output_features": 33,
+        "summed_output_area_km2": 9.68362206663077
+      },
+      "rows": [],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial_park"
+            ],
+            "q": "",
+            "bbox": [
+              101.35,
+              3.0,
+              101.5,
+              3.12
+            ],
+            "center": null,
+            "radius_km": null,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 92,
+          "category_counts": {
+            "industrial": 7,
+            "industrial_park": 92,
+            "port": 1
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "0f55f5126bf46f3a0fe38fb7e9c036cc896b882f0e890053aba378441003478d",
+      "export": "data\\exports\\analyses\\G.geojson"
+    },
+    {
+      "id": "H",
+      "label": "Save analysis, reload and idempotency in Supabase",
+      "status": "passed",
+      "saved_id": "c4cec4c2-d0cf-52d3-9768-b462e273e711",
+      "reload_geometry_identical": true,
+      "idempotent": true
+    },
+    {
+      "id": "I",
+      "label": "Reopen existing Phase 3 route geometry and metrics",
+      "status": "passed",
+      "title": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia → Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "feature_count": 1,
+      "statistics": {
+        "distance_m": 99421.1,
+        "duration_s": 4931.8
+      },
+      "rows": [
+        {
+          "id": "ff019e6f-1029-5f97-a598-4b97d996b4a1",
+          "index": 1,
+          "distance_m": 99421.1,
+          "duration_s": 4931.8,
+          "geometry_length_m": 99421.1
+        }
+      ],
+      "inputs": {
+        "waypoints": [
+          {
+            "index": 0,
+            "label": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+            "source": "User-selected coordinate / place reference",
+            "road_name": "Persiaran Dato' Junus Wahid",
+            "coordinates": [
+              101.5234848,
+              3.6900079
+            ],
+            "anchor_method": "user_reference",
+            "snap_distance_m": 12.11615207,
+            "snapped_coordinates": [
+              101.523589,
+              3.689975
+            ]
+          },
+          {
+            "index": 1,
+            "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+            "source": "User-selected coordinate / place reference",
+            "road_name": "Lebuh Beringin",
+            "coordinates": [
+              101.3966735,
+              3.0027625
+            ],
+            "anchor_method": "user_reference",
+            "snap_distance_m": 44.95225673,
+            "snapped_coordinates": [
+              101.396858,
+              3.002401
+            ]
+          }
+        ]
+      },
+      "calculation_id": null,
+      "export": "data\\exports\\analyses\\I.geojson"
+    },
+    {
+      "id": "J",
+      "label": "Real network isochrone",
+      "status": "unsupported",
+      "http_status": 501,
+      "reason": "OSRM route/table has no isochrone capability; imported source lines are not a validated routing graph."
+    },
+    {
+      "id": "extra-clusters",
+      "label": "clusters on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live clusters",
+      "feature_count": 91,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 0,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "category_counts": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "clusters": 6,
+        "noise": 2,
+        "clustered": 83,
+        "output_features": 91,
+        "summed_output_area_km2": 9.483948142746817
+      },
+      "rows": [
+        {
+          "cluster_id": 0,
+          "count": 5,
+          "categories": {
+            "industrial": 5,
+            "industrial_park": 1
+          }
+        },
+        {
+          "cluster_id": 1,
+          "count": 46,
+          "categories": {
+            "industrial": 46,
+            "warehouse": 5,
+            "industrial_park": 26
+          }
+        },
+        {
+          "cluster_id": 2,
+          "count": 5,
+          "categories": {
+            "industrial": 5
+          }
+        },
+        {
+          "cluster_id": 3,
+          "count": 18,
+          "categories": {
+            "industrial": 18,
+            "warehouse": 6,
+            "industrial_park": 10
+          }
+        },
+        {
+          "cluster_id": 4,
+          "count": 4,
+          "categories": {
+            "industrial": 4
+          }
+        },
+        {
+          "cluster_id": 5,
+          "count": 5,
+          "categories": {
+            "industrial": 5
+          }
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "none",
+          "count": 0
+        }
+      },
+      "calculation_id": "8f7d0ce11638c73864ed1d4d0458a9221c1d7d026f2e6958fde86069bd8e9858",
+      "export": "data\\exports\\analyses\\extra-clusters.geojson"
+    },
+    {
+      "id": "extra-grid",
+      "label": "grid on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live grid",
+      "feature_count": 115,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 0,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "category_counts": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "occupied_cells": 30,
+        "mapped_objects": 85,
+        "grid_m": 1000.0,
+        "output_features": 115,
+        "summed_output_area_km2": 29.99999656024614
+      },
+      "rows": [
+        {
+          "name": "Cell -7,3",
+          "count": 1,
+          "area_km2": 0.9999997772824664,
+          "density_per_km2": 1.0000002227175833,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -7,4",
+          "count": 2,
+          "area_km2": 0.999999744286918,
+          "density_per_km2": 2.0000005114262946,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -7,5",
+          "count": 1,
+          "area_km2": 0.9999997030429733,
+          "density_per_km2": 1.000000296957115,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -6,4",
+          "count": 1,
+          "area_km2": 0.9999997937793393,
+          "density_per_km2": 1.0000002062207032,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -4,-2",
+          "count": 1,
+          "area_km2": 0.9999999422586711,
+          "density_per_km2": 1.0000000577413324,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -4,-1",
+          "count": 3,
+          "area_km2": 0.9999999505071381,
+          "density_per_km2": 3.000000148478593,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -4,0",
+          "count": 1,
+          "area_km2": 0.9999999505071614,
+          "density_per_km2": 1.0000000494928412,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -2,-5",
+          "count": 2,
+          "area_km2": 0.9999999092625982,
+          "density_per_km2": 2.00000018147482,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -2,-3",
+          "count": 1,
+          "area_km2": 0.9999999670058528,
+          "density_per_km2": 1.0000000329941483,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -1,-4",
+          "count": 2,
+          "area_km2": 0.9999999505057113,
+          "density_per_km2": 2.000000098988582,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell -1,-3",
+          "count": 1,
+          "area_km2": 0.99999997525243,
+          "density_per_km2": 1.0000000247475707,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 0,-3",
+          "count": 2,
+          "area_km2": 0.9999999752539797,
+          "density_per_km2": 2.000000049492042,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 1,-4",
+          "count": 1,
+          "area_km2": 0.9999999422577088,
+          "density_per_km2": 1.0000000577422945,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 1,-3",
+          "count": 4,
+          "area_km2": 0.9999999670043628,
+          "density_per_km2": 4.000000131982553,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 2,-3",
+          "count": 4,
+          "area_km2": 0.9999999505070745,
+          "density_per_km2": 4.000000197971712,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 3,-6",
+          "count": 1,
+          "area_km2": 0.9999998267744054,
+          "density_per_km2": 1.0000001732256247,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 3,-5",
+          "count": 6,
+          "area_km2": 0.9999998680189702,
+          "density_per_km2": 6.000000791886283,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 3,-4",
+          "count": 1,
+          "area_km2": 0.9999999010147334,
+          "density_per_km2": 1.0000000989852764,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 3,-3",
+          "count": 1,
+          "area_km2": 0.9999999257605123,
+          "density_per_km2": 1.0000000742394932,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        },
+        {
+          "name": "Cell 3,-2",
+          "count": 6,
+          "area_km2": 0.9999999422587197,
+          "density_per_km2": 6.000000346447702,
+          "role": "density_grid",
+          "source": "Calculated local metric grid"
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "none",
+          "count": 0
+        }
+      },
+      "calculation_id": "4dcd59b897a73a1ccfd998b17cc81c3b7bc1d01e50378b82b773b7cfa8f68e90",
+      "export": "data\\exports\\analyses\\extra-grid.geojson"
+    },
+    {
+      "id": "extra-dissolve",
+      "label": "dissolve on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live dissolve",
+      "feature_count": 52,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 0,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "output_features": 52,
+        "summed_output_area_km2": 3.336421927284395
+      },
+      "rows": [],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "none",
+          "count": 0
+        }
+      },
+      "calculation_id": "7ae0b32527881a112572688527035aaefa188d0439532a80289a10bb616e51be",
+      "export": "data\\exports\\analyses\\extra-dissolve.geojson"
+    },
+    {
+      "id": "extra-union",
+      "label": "union on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live union",
+      "feature_count": 1,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "output_features": 1,
+        "summed_output_area_km2": 368.7549519970179
+      },
+      "rows": [],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "6be299e922e872b0647e334c5ed84053d110ff91e397065609ef6fa5320bd5a2",
+      "export": "data\\exports\\analyses\\extra-union.geojson"
+    },
+    {
+      "id": "extra-difference",
+      "label": "difference on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live difference",
+      "feature_count": 0,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "output_features": 0,
+        "summed_output_area_km2": 0
+      },
+      "rows": [],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "c19f7e7fdd27b419ea987ad205ef3bf0fdb9d7f5366aef0edcc2f89817599017",
+      "export": "data\\exports\\analyses\\extra-difference.geojson"
+    },
+    {
+      "id": "extra-spatial_join",
+      "label": "spatial_join on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live spatial_join",
+      "feature_count": 85,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "join_pairs": 85,
+        "matched_input_count": 85,
+        "output_features": 85,
+        "summed_output_area_km2": 3.362254040693394
+      },
+      "rows": [
+        {
+          "input_id": "007952df-3d41-531c-959e-e1f142c06d7e",
+          "input_name": "Toyota",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "027aaddb-129a-5158-831c-5b797121f2e5",
+          "input_name": "Unnamed OSM industrial (way/911253373)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "input_name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "038bee22-eb48-589d-90c5-454d20440287",
+          "input_name": "Unnamed OSM industrial (way/911253379)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "08aa02fd-e3e9-59dc-9b2e-16d9fb9a3e30",
+          "input_name": "Top Glove",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "0e8cbbc6-ca84-5c73-ba2e-ca4a64c9ea51",
+          "input_name": "Unnamed OSM industrial (way/911253387)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "0f872dc7-311f-5f68-b707-749b1a4af69b",
+          "input_name": "Unnamed OSM industrial (way/911253362)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "10d377b6-03f0-5d40-9992-9e904d323819",
+          "input_name": "Daikin Electronic Devices Malaysia Sdn. Bhd.",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "16e5d9ee-9472-526a-9b1c-328478759cd0",
+          "input_name": "Unnamed OSM industrial (way/911253386)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1bf1b9e1-99af-5db5-8f5b-0ae9670df539",
+          "input_name": "QL Kitchen Plant 1",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1cd64c96-77a7-5278-8d8d-55628c1da3c5",
+          "input_name": "Unnamed OSM industrial (way/911255527)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "input_name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2306c3ae-28cd-501f-9d9b-a33109dd49cf",
+          "input_name": "Indkom Engineering",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2a114069-bcdd-52b3-a16b-f61e85bcdd43",
+          "input_name": "Kian Joo Can Factory Berhad",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2a3acd69-fb5b-52ca-af06-99a5cf693ddc",
+          "input_name": "Unnamed OSM industrial (node/10875250725)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2b9dfdd8-9da7-587d-b964-f43bd14ccb5e",
+          "input_name": "Keppel Logistics (M) Sdn Bhd",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2d297e2a-48d6-549c-b04f-bd6b184c654e",
+          "input_name": "Carlsberg Brewery Malaysia Berhad",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "31d94b66-d059-5d60-82b2-d0dad37bbf82",
+          "input_name": "Depoh Bas Shah Alam",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "36fa7922-f28f-5d62-bb7e-618c03c0ceda",
+          "input_name": "Unnamed OSM industrial (way/1220020493)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "382354bd-135e-52a1-a0d8-0bdf576444b2",
+          "input_name": "Tateyama",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "ba6f6d6978e0eae092198578ecdf144f6889abdaeb490a3b557d08d685524fee",
+      "export": "data\\exports\\analyses\\extra-spatial_join.geojson"
+    },
+    {
+      "id": "extra-aggregate",
+      "label": "aggregate on real mapped industrial geometry",
+      "status": "passed",
+      "title": "Live aggregate",
+      "feature_count": 1,
+      "statistics": {
+        "input_a": 85,
+        "input_b": 1,
+        "category_counts_a": {
+          "industrial": 85,
+          "industrial_park": 37,
+          "warehouse": 11
+        },
+        "join_pairs": 85,
+        "matched_input_count": 85,
+        "output_features": 1,
+        "summed_output_area_km2": 368.7549519970179
+      },
+      "rows": [
+        {
+          "input_id": "007952df-3d41-531c-959e-e1f142c06d7e",
+          "input_name": "Toyota",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "027aaddb-129a-5158-831c-5b797121f2e5",
+          "input_name": "Unnamed OSM industrial (way/911253373)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "input_name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "038bee22-eb48-589d-90c5-454d20440287",
+          "input_name": "Unnamed OSM industrial (way/911253379)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "08aa02fd-e3e9-59dc-9b2e-16d9fb9a3e30",
+          "input_name": "Top Glove",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "0e8cbbc6-ca84-5c73-ba2e-ca4a64c9ea51",
+          "input_name": "Unnamed OSM industrial (way/911253387)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "0f872dc7-311f-5f68-b707-749b1a4af69b",
+          "input_name": "Unnamed OSM industrial (way/911253362)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "10d377b6-03f0-5d40-9992-9e904d323819",
+          "input_name": "Daikin Electronic Devices Malaysia Sdn. Bhd.",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "16e5d9ee-9472-526a-9b1c-328478759cd0",
+          "input_name": "Unnamed OSM industrial (way/911253386)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1bf1b9e1-99af-5db5-8f5b-0ae9670df539",
+          "input_name": "QL Kitchen Plant 1",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1cd64c96-77a7-5278-8d8d-55628c1da3c5",
+          "input_name": "Unnamed OSM industrial (way/911255527)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "input_name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2306c3ae-28cd-501f-9d9b-a33109dd49cf",
+          "input_name": "Indkom Engineering",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2a114069-bcdd-52b3-a16b-f61e85bcdd43",
+          "input_name": "Kian Joo Can Factory Berhad",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2a3acd69-fb5b-52ca-af06-99a5cf693ddc",
+          "input_name": "Unnamed OSM industrial (node/10875250725)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2b9dfdd8-9da7-587d-b964-f43bd14ccb5e",
+          "input_name": "Keppel Logistics (M) Sdn Bhd",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "2d297e2a-48d6-549c-b04f-bd6b184c654e",
+          "input_name": "Carlsberg Brewery Malaysia Berhad",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "31d94b66-d059-5d60-82b2-d0dad37bbf82",
+          "input_name": "Depoh Bas Shah Alam",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "36fa7922-f28f-5d62-bb7e-618c03c0ceda",
+          "input_name": "Unnamed OSM industrial (way/1220020493)",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        },
+        {
+          "input_id": "382354bd-135e-52a1-a0d8-0bdf576444b2",
+          "input_name": "Tateyama",
+          "join_id": "user-klang-study-area",
+          "join_name": "User-defined Klang study rectangle; not verified boundary",
+          "distance_m": 0.0,
+          "source": "OpenStreetMap contributors",
+          "join_source": "User-provided geometry; unverified"
+        }
+      ],
+      "inputs": {
+        "a": {
+          "source": "PostGIS bounded query",
+          "query": {
+            "categories": [
+              "industrial"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 10.0,
+            "limit": 250,
+            "offset": 0
+          },
+          "count": 85,
+          "category_counts": {
+            "industrial": 85,
+            "industrial_park": 37,
+            "warehouse": 11
+          }
+        },
+        "b": {
+          "source": "user geometry",
+          "count": 1
+        }
+      },
+      "calculation_id": "440619f90e70a1dd6f21993828499f8a8e830c048f442668787c5a8f858a774c",
+      "export": "data\\exports\\analyses\\extra-aggregate.geojson"
+    }
+  ],
+  "baseline_features": 5234,
+  "baseline_route_ids": [
+    "085a56ed-e8cc-5c6b-99e7-681ea3b65024",
+    "28e6e422-e6c2-5333-a5b5-97768b6612b1",
+    "45cae8dd-3525-54ea-8fdd-c25a89978e1b",
+    "959022d3-4a81-55cc-a4f2-c91e32a6b31c",
+    "e489b325-e652-5094-8dd0-c8d5e2bd1a34",
+    "e8deec5c-af37-592b-b3a9-10042fc2bee5",
+    "f0ccd935-d6ac-5a27-a998-52afcbbcd54e",
+    "ff019e6f-1029-5f97-a598-4b97d996b4a1"
+  ],
+  "shah_warehouse": {
+    "id": "030efbe3-8d74-545d-90e0-15df09508265",
+    "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+    "source_id": "way/1495868943"
+  },
+  "saved_analysis_id": "c4cec4c2-d0cf-52d3-9768-b462e273e711",
+  "database": {
+    "connected": true,
+    "ssl": true,
+    "postgis_version": "3.3.7",
+    "postgis_schema": "extensions",
+    "spatial_function_checks": 4,
+    "migration": "0001_foundation",
+    "database_verified": true,
+    "table_count": 12,
+    "geometry_columns": [
+      {
+        "table": "spatial_features",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "study_areas",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTIPOLYGON"
+      },
+      {
+        "table": "analysis_results",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "routing_references",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "LINESTRING"
+      }
+    ],
+    "spatial_indexes": 4,
+    "rls_tables": 12,
+    "category_count": 9
+  },
+  "features_preserved": true,
+  "phase3_routes_preserved": true,
+  "synthetic_features": 0,
+  "finished_at": "2026-10-24T07:51:05.846159+00:00"
+}

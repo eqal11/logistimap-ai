@@ -1,0 +1,188 @@
+[
+  {
+    "area": "AHTV / Tanjong Malim",
+    "area_id": "tanjong-malim",
+    "source_reference": {
+      "name": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+      "center": [
+        101.5234848,
+        3.6900079
+      ],
+      "bbox": [
+        101.5039115,
+        3.678127,
+        101.5386742,
+        3.7052463
+      ],
+      "source_id": "way/657558677",
+      "type": "quarter"
+    },
+    "candidates": [
+      {
+        "id": "ae8740c5-9819-5e03-925f-1baaf9d3be13",
+        "name": "Depoh MARA Liner Tanjung Malim",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "342b9704-de47-5e70-bfd4-269e799b7e5e",
+        "name": "Unnamed OSM industrial_park (relation/18802844)",
+        "kind": "POLYGON"
+      }
+    ]
+  },
+  {
+    "area": "Rawang",
+    "area_id": "rawang",
+    "source_reference": {
+      "name": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+      "center": [
+        101.5773144,
+        3.3197692
+      ],
+      "bbox": [
+        101.5373144,
+        3.2797692,
+        101.6173144,
+        3.3597692
+      ],
+      "source_id": "node/254074012",
+      "type": "town"
+    },
+    "candidates": [
+      {
+        "id": "b152803a-fe73-52c5-b8e5-820f8313637b",
+        "name": "Unnamed OSM industrial_park (way/1494483669)",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "b558355d-08b2-571f-9153-643f89e3416b",
+        "name": "LaFarge Cement (Kilang Rawang YTL)",
+        "kind": "POLYGON"
+      }
+    ]
+  },
+  {
+    "area": "Shah Alam",
+    "area_id": "shah-alam",
+    "source_reference": {
+      "name": "Shah Alam, Petaling, Selangor, Malaysia",
+      "center": [
+        101.5185278,
+        3.0739429
+      ],
+      "bbox": [
+        101.4277331,
+        2.9496181,
+        101.5913878,
+        3.2297212
+      ],
+      "source_id": "relation/8347577",
+      "type": "administrative"
+    },
+    "candidates": [
+      {
+        "id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "344a308e-c7ce-5172-beef-ee3b81085207",
+        "name": "UMW Toyotsu (Toyota)",
+        "kind": "POLYGON"
+      }
+    ]
+  },
+  {
+    "area": "Bukit Raja",
+    "area_id": "bukit-raja",
+    "source_reference": {
+      "name": "Bandar Bukit Raja, Bandaraya Klang, Klang, Selangor, Malaysia",
+      "center": [
+        101.437697,
+        3.0852015
+      ],
+      "bbox": [
+        101.4121235,
+        3.0759664,
+        101.4686751,
+        3.1116123
+      ],
+      "source_id": "relation/19844690",
+      "type": "residential"
+    },
+    "candidates": [
+      {
+        "id": "d78e2257-f1e6-524e-b7b6-5f3010d667d9",
+        "name": "Unnamed OSM industrial_park (way/1120991654)",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "2f32e93d-90fd-5662-9c22-fc123925f171",
+        "name": "Unnamed OSM warehouse (way/1544395727)",
+        "kind": "POLYGON"
+      }
+    ]
+  },
+  {
+    "area": "Klang",
+    "area_id": "klang",
+    "source_reference": {
+      "name": "Bandaraya Klang, Klang, Selangor, Malaysia",
+      "center": [
+        101.4447363,
+        3.0448394
+      ],
+      "bbox": [
+        101.2168262,
+        2.8848424,
+        101.5240545,
+        3.192016
+      ],
+      "source_id": "relation/10715532",
+      "type": "administrative"
+    },
+    "candidates": [
+      {
+        "id": "8227803a-927e-5e8b-a486-d4323ebff565",
+        "name": "Unnamed OSM industrial_park (way/954409083)",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "253e7484-7fcb-52e1-8b60-77cdaa2e03f6",
+        "name": "Unnamed OSM industrial_park (way/954409087)",
+        "kind": "POLYGON"
+      }
+    ]
+  },
+  {
+    "area": "Port Klang",
+    "area_id": "port-klang",
+    "source_reference": {
+      "name": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "center": [
+        101.3966735,
+        3.0027625
+      ],
+      "bbox": [
+        101.3566735,
+        2.9627625,
+        101.4366735,
+        3.0427625
+      ],
+      "source_id": "node/254072863",
+      "type": "town"
+    },
+    "candidates": [
+      {
+        "id": "7b0333cc-765d-5e19-b97d-d2a8092ee5a7",
+        "name": "Unnamed OSM industrial_park (way/1465120894)",
+        "kind": "POLYGON"
+      },
+      {
+        "id": "0f31e89c-aa3c-5cd2-9a10-793ba25297fc",
+        "name": "Pelabuhan Selatan",
+        "kind": "POLYGON"
+      }
+    ]
+  }
+]

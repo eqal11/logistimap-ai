@@ -1,0 +1,32 @@
+[
+  {
+    "offset": 0,
+    "status": 200,
+    "returned": 1000,
+    "seconds": 2.83
+  },
+  {
+    "offset": 1000,
+    "status": 200,
+    "returned": 1000,
+    "seconds": 2.87
+  },
+  {
+    "offset": 2000,
+    "status": 200,
+    "returned": 1000,
+    "seconds": 3.01
+  },
+  {
+    "offset": 3000,
+    "status": 200,
+    "returned": 1000,
+    "seconds": 2.87
+  },
+  {
+    "offset": 4000,
+    "status": 200,
+    "returned": 1000,
+    "seconds": 2.88
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "method": "actual frontend functions executed headlessly, not browser downloads",
+  "geojson_candidates": 12,
+  "csv_rows": 12,
+  "geometry_preserved": true,
+  "weights_definitions_provenance_preserved": true
+}

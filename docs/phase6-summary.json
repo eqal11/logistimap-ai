@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-10-24T13:06:33.149563+00:00",
+  "backend": {
+    "passed": 230,
+    "failed": 0,
+    "skipped": 0,
+    "live_db": 14
+  },
+  "frontend": {
+    "passed": 79,
+    "failed": 0,
+    "pending": 0,
+    "files": 16
+  },
+  "typecheck": "passed",
+  "production_build": "passed",
+  "pip_check": "passed",
+  "real_cohort": {
+    "areas": 6,
+    "mapped_candidates": 12,
+    "road_pairs": 196,
+    "unreachable_pairs": 0,
+    "fresh_upstream_requests": 1,
+    "saved_evaluations": 3,
+    "ahp_cr": 0.0,
+    "wlc_ahp_parity": "passed"
+  },
+  "historical_data_preserved": true,
+  "migration": "0003_site_selection",
+  "env_unchanged": true,
+  "browser": {
+    "status": "unavailable",
+    "reason": "Local browser use is disabled in Work settings",
+    "fresh_browser_checks_passed": 0,
+    "manual_checklist": "docs/PHASE6_BROWSER_ACCEPTANCE.md",
+    "phase5_browser_acceptance": "pending",
+    "old_screenshots_reused": false
+  },
+  "phase6_implementation": "complete for bounded local review",
+  "full_visual_acceptance": "pending manual browser sign-off",
+  "phase7_started": false
+}

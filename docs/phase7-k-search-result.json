@@ -1,0 +1,3925 @@
+{
+  "session": {
+    "id": "94679986-430b-400c-a5fd-be22b8d1656a",
+    "created_at": "2026-10-24T13:38:02.094278+00:00",
+    "messages": [
+      {
+        "id": "78c40381-41d6-4488-927e-12ffee9759d6",
+        "role": "user",
+        "text": "Find warehouses within 3 km of Shah Alam, compare road travel time to Port Klang and rank the top three.",
+        "created_at": "2026-10-24T13:38:02.094278+00:00"
+      },
+      {
+        "id": "370a47ad-4ead-45a3-a91f-58f7e4e79b8e",
+        "role": "assistant",
+        "text": "search_industrial_features completed · 4 displayed geometries. {\"total\": 4, \"returned\": 4, \"category_counts\": {\"warehouse\": 4}}\nrank_warehouse_accessibility completed · 4 displayed geometries. {\"warehouses\": 4, \"reachable\": 4, \"top_ids\": [\"f73f559c-1a52-52fd-a24e-19cb0e729b46\", \"1fa2cb94-11c6-551a-878d-8f08ce463255\", \"030efbe3-8d74-545d-90e0-15df09508265\"]}",
+        "created_at": "2026-10-24T13:38:10.066967+00:00",
+        "mode": "deterministic",
+        "result_ids": [
+          "6c70e610-e974-4089-a3ee-b0568c8e140f",
+          "eb132271-72df-4169-b02d-e69d158b05e6"
+        ],
+        "partial": false
+      }
+    ],
+    "results": [
+      {
+        "id": "6c70e610-e974-4089-a3ee-b0568c8e140f",
+        "tool": "search_industrial_features",
+        "status": "completed",
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "id": "030efbe3-8d74-545d-90e0-15df09508265",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5441295,
+                      3.0702645
+                    ],
+                    [
+                      101.5431623,
+                      3.0698326
+                    ],
+                    [
+                      101.5435176,
+                      3.0690107
+                    ],
+                    [
+                      101.5439945,
+                      3.0692188
+                    ],
+                    [
+                      101.5444906,
+                      3.0694352
+                    ],
+                    [
+                      101.5441295,
+                      3.0702645
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "categories": [
+                  "industrial",
+                  "industrial_park",
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/1495868943",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 1495868943,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                    "barrier": "fence",
+                    "landuse": "industrial",
+                    "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                    "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                    "addr:city": "Shah Alam",
+                    "warehouse": "pharmaceutical",
+                    "addr:state": "Selangor",
+                    "industrial": "warehouse",
+                    "addr:street": "Jalan Ragum 15/17",
+                    "addr:country": "MY",
+                    "addr:postcode": "40200"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/1495868943",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-07-19T09:40:00Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5466154,
+                      3.0705804
+                    ],
+                    [
+                      101.5460287,
+                      3.0710959
+                    ],
+                    [
+                      101.5450829,
+                      3.0706902
+                    ],
+                    [
+                      101.5454702,
+                      3.0698002
+                    ],
+                    [
+                      101.5455769,
+                      3.0698047
+                    ],
+                    [
+                      101.5457798,
+                      3.0697658
+                    ],
+                    [
+                      101.5459327,
+                      3.0696863
+                    ],
+                    [
+                      101.5461026,
+                      3.0697248
+                    ],
+                    [
+                      101.5466154,
+                      3.0705804
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "categories": [
+                  "industrial",
+                  "industrial_park",
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/1495868941",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 1495868941,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                    "brand": "Avery Dennison",
+                    "barrier": "fence",
+                    "landuse": "industrial",
+                    "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                    "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                    "product": "adhesive_tape",
+                    "ref:ssm": "1621102-A",
+                    "operator": "Avery Dennison",
+                    "addr:city": "Shah Alam",
+                    "warehouse": "pharmaceutical",
+                    "addr:state": "Selangor",
+                    "industrial": "warehouse",
+                    "addr:street": "Jalan Ragum 15/17",
+                    "addr:country": "MY",
+                    "addr:postcode": "40200"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/1495868941",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-07-19T09:40:00Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5432768,
+                      3.0685916
+                    ],
+                    [
+                      101.5434916,
+                      3.0681062
+                    ],
+                    [
+                      101.5438881,
+                      3.0682825
+                    ],
+                    [
+                      101.5436814,
+                      3.0687652
+                    ],
+                    [
+                      101.5432768,
+                      3.0685916
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Unnamed OSM warehouse (way/581756546)",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/581756546",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 581756546,
+                  "capacity": null,
+                  "osm_tags": {
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/581756546",
+                  "osm_version": 4,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-04-03T15:06:19Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.525968,
+                      3.0627619
+                    ],
+                    [
+                      101.5265353,
+                      3.0629476
+                    ],
+                    [
+                      101.5265612,
+                      3.062854
+                    ],
+                    [
+                      101.5266843,
+                      3.062894
+                    ],
+                    [
+                      101.526808,
+                      3.062801
+                    ],
+                    [
+                      101.5270119,
+                      3.0621798
+                    ],
+                    [
+                      101.5267953,
+                      3.0621089
+                    ],
+                    [
+                      101.5269323,
+                      3.0616916
+                    ],
+                    [
+                      101.5263787,
+                      3.0615104
+                    ],
+                    [
+                      101.525968,
+                      3.0627619
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Unnamed OSM warehouse (way/184104708)",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/184104708",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 184104708,
+                  "capacity": null,
+                  "osm_tags": {
+                    "source": "bing",
+                    "service": "alley",
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/184104708",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2021-05-07T01:03:21Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                }
+              }
+            }
+          ],
+          "meta": {
+            "mode": "postgis",
+            "crs": "EPSG:4326",
+            "total": 4,
+            "returned": 4,
+            "offset": 0,
+            "limit": 100,
+            "has_more": false,
+            "category_counts": {
+              "warehouse": 4
+            },
+            "missing_categories": [],
+            "failed_categories": [],
+            "warnings": [
+              "Results describe imported records only; absence is not evidence that no real facilities exist."
+            ],
+            "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+          },
+          "reference": {
+            "coordinates": [
+              101.5185278,
+              3.0739429
+            ],
+            "label": "Shah Alam",
+            "source_id": "relation/8347577",
+            "anchor_method": "Existing geocoded town/search reference; not verified entrance"
+          },
+          "parameters": {
+            "categories": [
+              "warehouse"
+            ],
+            "q": "",
+            "bbox": null,
+            "center": [
+              101.5185278,
+              3.0739429
+            ],
+            "radius_km": 3.0,
+            "limit": 100,
+            "offset": 0
+          },
+          "title": "Imported GIS search",
+          "statistics": {
+            "total": 4,
+            "returned": 4,
+            "category_counts": {
+              "warehouse": 4
+            }
+          },
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist.",
+            "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5441295,
+                    3.0702645
+                  ],
+                  [
+                    101.5431623,
+                    3.0698326
+                  ],
+                  [
+                    101.5435176,
+                    3.0690107
+                  ],
+                  [
+                    101.5439945,
+                    3.0692188
+                  ],
+                  [
+                    101.5444906,
+                    3.0694352
+                  ],
+                  [
+                    101.5441295,
+                    3.0702645
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868943",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868943,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                  "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868943",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5466154,
+                    3.0705804
+                  ],
+                  [
+                    101.5460287,
+                    3.0710959
+                  ],
+                  [
+                    101.5450829,
+                    3.0706902
+                  ],
+                  [
+                    101.5454702,
+                    3.0698002
+                  ],
+                  [
+                    101.5455769,
+                    3.0698047
+                  ],
+                  [
+                    101.5457798,
+                    3.0697658
+                  ],
+                  [
+                    101.5459327,
+                    3.0696863
+                  ],
+                  [
+                    101.5461026,
+                    3.0697248
+                  ],
+                  [
+                    101.5466154,
+                    3.0705804
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868941",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868941,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "brand": "Avery Dennison",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                  "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "product": "adhesive_tape",
+                  "ref:ssm": "1621102-A",
+                  "operator": "Avery Dennison",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868941",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5432768,
+                    3.0685916
+                  ],
+                  [
+                    101.5434916,
+                    3.0681062
+                  ],
+                  [
+                    101.5438881,
+                    3.0682825
+                  ],
+                  [
+                    101.5436814,
+                    3.0687652
+                  ],
+                  [
+                    101.5432768,
+                    3.0685916
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/581756546",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 581756546,
+                "capacity": null,
+                "osm_tags": {
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/581756546",
+                "osm_version": 4,
+                "rental_price": null,
+                "osm_timestamp": "2026-04-03T15:06:19Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.525968,
+                    3.0627619
+                  ],
+                  [
+                    101.5265353,
+                    3.0629476
+                  ],
+                  [
+                    101.5265612,
+                    3.062854
+                  ],
+                  [
+                    101.5266843,
+                    3.062894
+                  ],
+                  [
+                    101.526808,
+                    3.062801
+                  ],
+                  [
+                    101.5270119,
+                    3.0621798
+                  ],
+                  [
+                    101.5267953,
+                    3.0621089
+                  ],
+                  [
+                    101.5269323,
+                    3.0616916
+                  ],
+                  [
+                    101.5263787,
+                    3.0615104
+                  ],
+                  [
+                    101.525968,
+                    3.0627619
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/184104708",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 184104708,
+                "capacity": null,
+                "osm_tags": {
+                  "source": "bing",
+                  "service": "alley",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/184104708",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2021-05-07T01:03:21Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          }
+        ],
+        "rows": [],
+        "summary": {
+          "total": 4,
+          "returned": 4,
+          "category_counts": {
+            "warehouse": 4
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories.",
+          "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance.",
+        "crs": "EPSG:4326",
+        "executed_at": "2026-10-24T13:38:03.851240+00:00",
+        "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+      },
+      {
+        "id": "eb132271-72df-4169-b02d-e69d158b05e6",
+        "tool": "rank_warehouse_accessibility",
+        "status": "completed",
+        "data": {
+          "features": [
+            {
+              "type": "Feature",
+              "id": "030efbe3-8d74-545d-90e0-15df09508265",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5441295,
+                      3.0702645
+                    ],
+                    [
+                      101.5431623,
+                      3.0698326
+                    ],
+                    [
+                      101.5435176,
+                      3.0690107
+                    ],
+                    [
+                      101.5439945,
+                      3.0692188
+                    ],
+                    [
+                      101.5444906,
+                      3.0694352
+                    ],
+                    [
+                      101.5441295,
+                      3.0702645
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "categories": [
+                  "industrial",
+                  "industrial_park",
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/1495868943",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 1495868943,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                    "barrier": "fence",
+                    "landuse": "industrial",
+                    "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                    "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                    "addr:city": "Shah Alam",
+                    "warehouse": "pharmaceutical",
+                    "addr:state": "Selangor",
+                    "industrial": "warehouse",
+                    "addr:street": "Jalan Ragum 15/17",
+                    "addr:country": "MY",
+                    "addr:postcode": "40200"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/1495868943",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-07-19T09:40:00Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                },
+                "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+                "duration_s": 1193.3,
+                "distance_m": 20530.2,
+                "top_accessible": true,
+                "rank": 3
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5466154,
+                      3.0705804
+                    ],
+                    [
+                      101.5460287,
+                      3.0710959
+                    ],
+                    [
+                      101.5450829,
+                      3.0706902
+                    ],
+                    [
+                      101.5454702,
+                      3.0698002
+                    ],
+                    [
+                      101.5455769,
+                      3.0698047
+                    ],
+                    [
+                      101.5457798,
+                      3.0697658
+                    ],
+                    [
+                      101.5459327,
+                      3.0696863
+                    ],
+                    [
+                      101.5461026,
+                      3.0697248
+                    ],
+                    [
+                      101.5466154,
+                      3.0705804
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "categories": [
+                  "industrial",
+                  "industrial_park",
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/1495868941",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 1495868941,
+                  "capacity": null,
+                  "osm_tags": {
+                    "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                    "brand": "Avery Dennison",
+                    "barrier": "fence",
+                    "landuse": "industrial",
+                    "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                    "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                    "product": "adhesive_tape",
+                    "ref:ssm": "1621102-A",
+                    "operator": "Avery Dennison",
+                    "addr:city": "Shah Alam",
+                    "warehouse": "pharmaceutical",
+                    "addr:state": "Selangor",
+                    "industrial": "warehouse",
+                    "addr:street": "Jalan Ragum 15/17",
+                    "addr:country": "MY",
+                    "addr:postcode": "40200"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/1495868941",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-07-19T09:40:00Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                },
+                "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+                "duration_s": 1148.2,
+                "distance_m": 20305.3,
+                "top_accessible": true,
+                "rank": 2
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5432768,
+                      3.0685916
+                    ],
+                    [
+                      101.5434916,
+                      3.0681062
+                    ],
+                    [
+                      101.5438881,
+                      3.0682825
+                    ],
+                    [
+                      101.5436814,
+                      3.0687652
+                    ],
+                    [
+                      101.5432768,
+                      3.0685916
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Unnamed OSM warehouse (way/581756546)",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/581756546",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 581756546,
+                  "capacity": null,
+                  "osm_tags": {
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/581756546",
+                  "osm_version": 4,
+                  "rental_price": null,
+                  "osm_timestamp": "2026-04-03T15:06:19Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                },
+                "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+                "duration_s": 1234.3,
+                "distance_m": 20782.1,
+                "top_accessible": false,
+                "rank": 4
+              }
+            },
+            {
+              "type": "Feature",
+              "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.525968,
+                      3.0627619
+                    ],
+                    [
+                      101.5265353,
+                      3.0629476
+                    ],
+                    [
+                      101.5265612,
+                      3.062854
+                    ],
+                    [
+                      101.5266843,
+                      3.062894
+                    ],
+                    [
+                      101.526808,
+                      3.062801
+                    ],
+                    [
+                      101.5270119,
+                      3.0621798
+                    ],
+                    [
+                      101.5267953,
+                      3.0621089
+                    ],
+                    [
+                      101.5269323,
+                      3.0616916
+                    ],
+                    [
+                      101.5263787,
+                      3.0615104
+                    ],
+                    [
+                      101.525968,
+                      3.0627619
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Unnamed OSM warehouse (way/184104708)",
+                "categories": [
+                  "warehouse"
+                ],
+                "source": "OpenStreetMap contributors",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "source_id": "way/184104708",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:17:17.497243+00:00",
+                "synthetic": false,
+                "boundary_status": "unverified",
+                "attributes": {
+                  "osm_id": 184104708,
+                  "capacity": null,
+                  "osm_tags": {
+                    "source": "bing",
+                    "service": "alley",
+                    "building": "warehouse"
+                  },
+                  "osm_type": "way",
+                  "source_url": "https://www.openstreetmap.org/way/184104708",
+                  "osm_version": 2,
+                  "rental_price": null,
+                  "osm_timestamp": "2021-05-07T01:03:21Z",
+                  "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                  "available_space": null,
+                  "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+                },
+                "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+                "duration_s": 1025.3,
+                "distance_m": 17669.5,
+                "top_accessible": true,
+                "rank": 1
+              }
+            }
+          ],
+          "rows": [
+            {
+              "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "duration_s": 1025.3,
+              "distance_m": 17669.5
+            },
+            {
+              "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "duration_s": 1148.2,
+              "distance_m": 20305.3
+            },
+            {
+              "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "duration_s": 1193.3,
+              "distance_m": 20530.2
+            },
+            {
+              "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "duration_s": 1234.3,
+              "distance_m": 20782.1
+            }
+          ],
+          "statistics": {
+            "warehouses": 4,
+            "reachable": 4,
+            "top_ids": [
+              "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "030efbe3-8d74-545d-90e0-15df09508265"
+            ]
+          },
+          "matrix": {
+            "id": "84bb802418d4e9ca6a33564f15713edd971ef31091f41678f821565afa271118",
+            "distances": [
+              [
+                0.0,
+                224.9,
+                299.5,
+                3172.7,
+                20530.2
+              ],
+              [
+                224.9,
+                0.0,
+                476.7,
+                2947.8,
+                20305.3
+              ],
+              [
+                299.5,
+                476.7,
+                0.0,
+                3424.6,
+                20782.1
+              ],
+              [
+                4327.2,
+                4102.3,
+                4099.3,
+                0.0,
+                17669.5
+              ],
+              [
+                20480.5,
+                20255.6,
+                20252.6,
+                18411.1,
+                0.0
+              ]
+            ],
+            "durations": [
+              [
+                0.0,
+                45.1,
+                71.7,
+                249.1,
+                1193.3
+              ],
+              [
+                38.7,
+                0.0,
+                86.7,
+                204.0,
+                1148.2
+              ],
+              [
+                71.1,
+                86.1,
+                0.0,
+                290.1,
+                1234.3
+              ],
+              [
+                305.3,
+                266.6,
+                333.7,
+                0.0,
+                1025.3
+              ],
+              [
+                1150.4,
+                1111.7,
+                1178.8,
+                1041.7,
+                0.0
+              ]
+            ],
+            "snapped": [
+              {
+                "coordinates": [
+                  101.543976,
+                  3.069299
+                ],
+                "snap_distance_m": 40.62315932,
+                "road_name": ""
+              },
+              {
+                "coordinates": [
+                  101.545747,
+                  3.069661
+                ],
+                "snap_distance_m": 59.7480055,
+                "road_name": "Jalan Ragum 15/17"
+              },
+              {
+                "coordinates": [
+                  101.543797,
+                  3.068529
+                ],
+                "snap_distance_m": 25.7701274,
+                "road_name": ""
+              },
+              {
+                "coordinates": [
+                  101.526907,
+                  3.062602
+                ],
+                "snap_distance_m": 48.56451606,
+                "road_name": ""
+              },
+              {
+                "coordinates": [
+                  101.396858,
+                  3.002401
+                ],
+                "snap_distance_m": 44.95225673,
+                "road_name": "Lebuh Beringin"
+              }
+            ],
+            "nodes": 5,
+            "pairs": 25,
+            "unreachable_pairs": 0,
+            "provider": "OSRM-compatible · FOSSGIS public demo",
+            "profile": "car",
+            "heavy_vehicle_verified": false,
+            "retrieved_at": "2026-10-24T13:29:17.603237+00:00",
+            "cached": true,
+            "upstream_requests": 1,
+            "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+            "method": "OSRM Table fastest-path road distance (metres) and duration (seconds); asymmetric; no fallback_speed."
+          },
+          "warnings": [
+            "Fastest among returned mapped warehouses only. All search candidates displayed; top subset highlighted. Matrix provides metrics, not connecting road geometry. Town destination is not a terminal gate."
+          ],
+          "profile": "car",
+          "heavy_vehicle_verified": false
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5441295,
+                    3.0702645
+                  ],
+                  [
+                    101.5431623,
+                    3.0698326
+                  ],
+                  [
+                    101.5435176,
+                    3.0690107
+                  ],
+                  [
+                    101.5439945,
+                    3.0692188
+                  ],
+                  [
+                    101.5444906,
+                    3.0694352
+                  ],
+                  [
+                    101.5441295,
+                    3.0702645
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868943",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868943,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                  "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868943",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+              "duration_s": 1193.3,
+              "distance_m": 20530.2,
+              "top_accessible": true,
+              "rank": 3
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5466154,
+                    3.0705804
+                  ],
+                  [
+                    101.5460287,
+                    3.0710959
+                  ],
+                  [
+                    101.5450829,
+                    3.0706902
+                  ],
+                  [
+                    101.5454702,
+                    3.0698002
+                  ],
+                  [
+                    101.5455769,
+                    3.0698047
+                  ],
+                  [
+                    101.5457798,
+                    3.0697658
+                  ],
+                  [
+                    101.5459327,
+                    3.0696863
+                  ],
+                  [
+                    101.5461026,
+                    3.0697248
+                  ],
+                  [
+                    101.5466154,
+                    3.0705804
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868941",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868941,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "brand": "Avery Dennison",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                  "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "product": "adhesive_tape",
+                  "ref:ssm": "1621102-A",
+                  "operator": "Avery Dennison",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868941",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "duration_s": 1148.2,
+              "distance_m": 20305.3,
+              "top_accessible": true,
+              "rank": 2
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5432768,
+                    3.0685916
+                  ],
+                  [
+                    101.5434916,
+                    3.0681062
+                  ],
+                  [
+                    101.5438881,
+                    3.0682825
+                  ],
+                  [
+                    101.5436814,
+                    3.0687652
+                  ],
+                  [
+                    101.5432768,
+                    3.0685916
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/581756546",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 581756546,
+                "capacity": null,
+                "osm_tags": {
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/581756546",
+                "osm_version": 4,
+                "rental_price": null,
+                "osm_timestamp": "2026-04-03T15:06:19Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+              "duration_s": 1234.3,
+              "distance_m": 20782.1,
+              "top_accessible": false,
+              "rank": 4
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.525968,
+                    3.0627619
+                  ],
+                  [
+                    101.5265353,
+                    3.0629476
+                  ],
+                  [
+                    101.5265612,
+                    3.062854
+                  ],
+                  [
+                    101.5266843,
+                    3.062894
+                  ],
+                  [
+                    101.526808,
+                    3.062801
+                  ],
+                  [
+                    101.5270119,
+                    3.0621798
+                  ],
+                  [
+                    101.5267953,
+                    3.0621089
+                  ],
+                  [
+                    101.5269323,
+                    3.0616916
+                  ],
+                  [
+                    101.5263787,
+                    3.0615104
+                  ],
+                  [
+                    101.525968,
+                    3.0627619
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/184104708",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 184104708,
+                "capacity": null,
+                "osm_tags": {
+                  "source": "bing",
+                  "service": "alley",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/184104708",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2021-05-07T01:03:21Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "duration_s": 1025.3,
+              "distance_m": 17669.5,
+              "top_accessible": true,
+              "rank": 1
+            }
+          }
+        ],
+        "rows": [
+          {
+            "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "name": "Unnamed OSM warehouse (way/184104708)",
+            "duration_s": 1025.3,
+            "distance_m": 17669.5
+          },
+          {
+            "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+            "duration_s": 1148.2,
+            "distance_m": 20305.3
+          },
+          {
+            "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "duration_s": 1193.3,
+            "distance_m": 20530.2
+          },
+          {
+            "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "name": "Unnamed OSM warehouse (way/581756546)",
+            "duration_s": 1234.3,
+            "distance_m": 20782.1
+          }
+        ],
+        "summary": {
+          "warehouses": 4,
+          "reachable": 4,
+          "top_ids": [
+            "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "030efbe3-8d74-545d-90e0-15df09508265"
+          ]
+        },
+        "warnings": [
+          "Fastest among returned mapped warehouses only. All search candidates displayed; top subset highlighted. Matrix provides metrics, not connecting road geometry. Town destination is not a terminal gate.",
+          "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+        ],
+        "attribution": "Â© OpenStreetMap contributors Â· ODbL 1.0; supplied scenario assumptions unverified",
+        "crs": "EPSG:4326",
+        "executed_at": "2026-10-24T13:38:10.066967+00:00",
+        "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+      }
+    ],
+    "context": {
+      "selected_feature_ids": [],
+      "search": {
+        "place": "Shah Alam",
+        "radius_km": 3.0,
+        "categories": [
+          "warehouse"
+        ]
+      },
+      "last_search": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5441295,
+                    3.0702645
+                  ],
+                  [
+                    101.5431623,
+                    3.0698326
+                  ],
+                  [
+                    101.5435176,
+                    3.0690107
+                  ],
+                  [
+                    101.5439945,
+                    3.0692188
+                  ],
+                  [
+                    101.5444906,
+                    3.0694352
+                  ],
+                  [
+                    101.5441295,
+                    3.0702645
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868943",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868943,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                  "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868943",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5466154,
+                    3.0705804
+                  ],
+                  [
+                    101.5460287,
+                    3.0710959
+                  ],
+                  [
+                    101.5450829,
+                    3.0706902
+                  ],
+                  [
+                    101.5454702,
+                    3.0698002
+                  ],
+                  [
+                    101.5455769,
+                    3.0698047
+                  ],
+                  [
+                    101.5457798,
+                    3.0697658
+                  ],
+                  [
+                    101.5459327,
+                    3.0696863
+                  ],
+                  [
+                    101.5461026,
+                    3.0697248
+                  ],
+                  [
+                    101.5466154,
+                    3.0705804
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868941",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868941,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "brand": "Avery Dennison",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                  "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "product": "adhesive_tape",
+                  "ref:ssm": "1621102-A",
+                  "operator": "Avery Dennison",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868941",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5432768,
+                    3.0685916
+                  ],
+                  [
+                    101.5434916,
+                    3.0681062
+                  ],
+                  [
+                    101.5438881,
+                    3.0682825
+                  ],
+                  [
+                    101.5436814,
+                    3.0687652
+                  ],
+                  [
+                    101.5432768,
+                    3.0685916
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/581756546",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 581756546,
+                "capacity": null,
+                "osm_tags": {
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/581756546",
+                "osm_version": 4,
+                "rental_price": null,
+                "osm_timestamp": "2026-04-03T15:06:19Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.525968,
+                    3.0627619
+                  ],
+                  [
+                    101.5265353,
+                    3.0629476
+                  ],
+                  [
+                    101.5265612,
+                    3.062854
+                  ],
+                  [
+                    101.5266843,
+                    3.062894
+                  ],
+                  [
+                    101.526808,
+                    3.062801
+                  ],
+                  [
+                    101.5270119,
+                    3.0621798
+                  ],
+                  [
+                    101.5267953,
+                    3.0621089
+                  ],
+                  [
+                    101.5269323,
+                    3.0616916
+                  ],
+                  [
+                    101.5263787,
+                    3.0615104
+                  ],
+                  [
+                    101.525968,
+                    3.0627619
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/184104708",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 184104708,
+                "capacity": null,
+                "osm_tags": {
+                  "source": "bing",
+                  "service": "alley",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/184104708",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2021-05-07T01:03:21Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          }
+        ],
+        "meta": {
+          "mode": "postgis",
+          "crs": "EPSG:4326",
+          "total": 4,
+          "returned": 4,
+          "offset": 0,
+          "limit": 100,
+          "has_more": false,
+          "category_counts": {
+            "warehouse": 4
+          },
+          "missing_categories": [],
+          "failed_categories": [],
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "reference": {
+          "coordinates": [
+            101.5185278,
+            3.0739429
+          ],
+          "label": "Shah Alam",
+          "source_id": "relation/8347577",
+          "anchor_method": "Existing geocoded town/search reference; not verified entrance"
+        },
+        "parameters": {
+          "categories": [
+            "warehouse"
+          ],
+          "q": "",
+          "bbox": null,
+          "center": [
+            101.5185278,
+            3.0739429
+          ],
+          "radius_km": 3.0,
+          "limit": 100,
+          "offset": 0
+        },
+        "title": "Imported GIS search",
+        "statistics": {
+          "total": 4,
+          "returned": 4,
+          "category_counts": {
+            "warehouse": 4
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+      },
+      "last_feature_ids": [
+        "030efbe3-8d74-545d-90e0-15df09508265",
+        "1fa2cb94-11c6-551a-878d-8f08ce463255",
+        "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+        "f73f559c-1a52-52fd-a24e-19cb0e729b46"
+      ],
+      "last_result_id": "eb132271-72df-4169-b02d-e69d158b05e6",
+      "ranked_features": [
+        {
+          "type": "Feature",
+          "id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5441295,
+                  3.0702645
+                ],
+                [
+                  101.5431623,
+                  3.0698326
+                ],
+                [
+                  101.5435176,
+                  3.0690107
+                ],
+                [
+                  101.5439945,
+                  3.0692188
+                ],
+                [
+                  101.5444906,
+                  3.0694352
+                ],
+                [
+                  101.5441295,
+                  3.0702645
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868943",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868943,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868943",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "duration_s": 1193.3,
+            "distance_m": 20530.2,
+            "top_accessible": true,
+            "rank": 3
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5466154,
+                  3.0705804
+                ],
+                [
+                  101.5460287,
+                  3.0710959
+                ],
+                [
+                  101.5450829,
+                  3.0706902
+                ],
+                [
+                  101.5454702,
+                  3.0698002
+                ],
+                [
+                  101.5455769,
+                  3.0698047
+                ],
+                [
+                  101.5457798,
+                  3.0697658
+                ],
+                [
+                  101.5459327,
+                  3.0696863
+                ],
+                [
+                  101.5461026,
+                  3.0697248
+                ],
+                [
+                  101.5466154,
+                  3.0705804
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868941",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868941,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "brand": "Avery Dennison",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "product": "adhesive_tape",
+                "ref:ssm": "1621102-A",
+                "operator": "Avery Dennison",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868941",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "duration_s": 1148.2,
+            "distance_m": 20305.3,
+            "top_accessible": true,
+            "rank": 2
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5432768,
+                  3.0685916
+                ],
+                [
+                  101.5434916,
+                  3.0681062
+                ],
+                [
+                  101.5438881,
+                  3.0682825
+                ],
+                [
+                  101.5436814,
+                  3.0687652
+                ],
+                [
+                  101.5432768,
+                  3.0685916
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/581756546)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/581756546",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 581756546,
+              "capacity": null,
+              "osm_tags": {
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/581756546",
+              "osm_version": 4,
+              "rental_price": null,
+              "osm_timestamp": "2026-04-03T15:06:19Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "duration_s": 1234.3,
+            "distance_m": 20782.1,
+            "top_accessible": false,
+            "rank": 4
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.525968,
+                  3.0627619
+                ],
+                [
+                  101.5265353,
+                  3.0629476
+                ],
+                [
+                  101.5265612,
+                  3.062854
+                ],
+                [
+                  101.5266843,
+                  3.062894
+                ],
+                [
+                  101.526808,
+                  3.062801
+                ],
+                [
+                  101.5270119,
+                  3.0621798
+                ],
+                [
+                  101.5267953,
+                  3.0621089
+                ],
+                [
+                  101.5269323,
+                  3.0616916
+                ],
+                [
+                  101.5263787,
+                  3.0615104
+                ],
+                [
+                  101.525968,
+                  3.0627619
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/184104708)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/184104708",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 184104708,
+              "capacity": null,
+              "osm_tags": {
+                "source": "bing",
+                "service": "alley",
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/184104708",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2021-05-07T01:03:21Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "duration_s": 1025.3,
+            "distance_m": 17669.5,
+            "top_accessible": true,
+            "rank": 1
+          }
+        }
+      ],
+      "top_ids": [
+        "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "1fa2cb94-11c6-551a-878d-8f08ce463255",
+        "030efbe3-8d74-545d-90e0-15df09508265"
+      ]
+    },
+    "pending": null
+  },
+  "results": [
+    {
+      "id": "6c70e610-e974-4089-a3ee-b0568c8e140f",
+      "tool": "search_industrial_features",
+      "status": "completed",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5441295,
+                    3.0702645
+                  ],
+                  [
+                    101.5431623,
+                    3.0698326
+                  ],
+                  [
+                    101.5435176,
+                    3.0690107
+                  ],
+                  [
+                    101.5439945,
+                    3.0692188
+                  ],
+                  [
+                    101.5444906,
+                    3.0694352
+                  ],
+                  [
+                    101.5441295,
+                    3.0702645
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868943",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868943,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                  "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868943",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5466154,
+                    3.0705804
+                  ],
+                  [
+                    101.5460287,
+                    3.0710959
+                  ],
+                  [
+                    101.5450829,
+                    3.0706902
+                  ],
+                  [
+                    101.5454702,
+                    3.0698002
+                  ],
+                  [
+                    101.5455769,
+                    3.0698047
+                  ],
+                  [
+                    101.5457798,
+                    3.0697658
+                  ],
+                  [
+                    101.5459327,
+                    3.0696863
+                  ],
+                  [
+                    101.5461026,
+                    3.0697248
+                  ],
+                  [
+                    101.5466154,
+                    3.0705804
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868941",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868941,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "brand": "Avery Dennison",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                  "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "product": "adhesive_tape",
+                  "ref:ssm": "1621102-A",
+                  "operator": "Avery Dennison",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868941",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5432768,
+                    3.0685916
+                  ],
+                  [
+                    101.5434916,
+                    3.0681062
+                  ],
+                  [
+                    101.5438881,
+                    3.0682825
+                  ],
+                  [
+                    101.5436814,
+                    3.0687652
+                  ],
+                  [
+                    101.5432768,
+                    3.0685916
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/581756546",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 581756546,
+                "capacity": null,
+                "osm_tags": {
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/581756546",
+                "osm_version": 4,
+                "rental_price": null,
+                "osm_timestamp": "2026-04-03T15:06:19Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.525968,
+                    3.0627619
+                  ],
+                  [
+                    101.5265353,
+                    3.0629476
+                  ],
+                  [
+                    101.5265612,
+                    3.062854
+                  ],
+                  [
+                    101.5266843,
+                    3.062894
+                  ],
+                  [
+                    101.526808,
+                    3.062801
+                  ],
+                  [
+                    101.5270119,
+                    3.0621798
+                  ],
+                  [
+                    101.5267953,
+                    3.0621089
+                  ],
+                  [
+                    101.5269323,
+                    3.0616916
+                  ],
+                  [
+                    101.5263787,
+                    3.0615104
+                  ],
+                  [
+                    101.525968,
+                    3.0627619
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/184104708",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 184104708,
+                "capacity": null,
+                "osm_tags": {
+                  "source": "bing",
+                  "service": "alley",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/184104708",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2021-05-07T01:03:21Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              }
+            }
+          }
+        ],
+        "meta": {
+          "mode": "postgis",
+          "crs": "EPSG:4326",
+          "total": 4,
+          "returned": 4,
+          "offset": 0,
+          "limit": 100,
+          "has_more": false,
+          "category_counts": {
+            "warehouse": 4
+          },
+          "missing_categories": [],
+          "failed_categories": [],
+          "warnings": [
+            "Results describe imported records only; absence is not evidence that no real facilities exist."
+          ],
+          "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+        },
+        "reference": {
+          "coordinates": [
+            101.5185278,
+            3.0739429
+          ],
+          "label": "Shah Alam",
+          "source_id": "relation/8347577",
+          "anchor_method": "Existing geocoded town/search reference; not verified entrance"
+        },
+        "parameters": {
+          "categories": [
+            "warehouse"
+          ],
+          "q": "",
+          "bbox": null,
+          "center": [
+            101.5185278,
+            3.0739429
+          ],
+          "radius_km": 3.0,
+          "limit": 100,
+          "offset": 0
+        },
+        "title": "Imported GIS search",
+        "statistics": {
+          "total": 4,
+          "returned": 4,
+          "category_counts": {
+            "warehouse": 4
+          }
+        },
+        "warnings": [
+          "Results describe imported records only; absence is not evidence that no real facilities exist.",
+          "Town references are not industrial park entrances. Explicit pagination preserves all requested categories."
+        ],
+        "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance."
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5441295,
+                  3.0702645
+                ],
+                [
+                  101.5431623,
+                  3.0698326
+                ],
+                [
+                  101.5435176,
+                  3.0690107
+                ],
+                [
+                  101.5439945,
+                  3.0692188
+                ],
+                [
+                  101.5444906,
+                  3.0694352
+                ],
+                [
+                  101.5441295,
+                  3.0702645
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868943",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868943,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868943",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            }
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5466154,
+                  3.0705804
+                ],
+                [
+                  101.5460287,
+                  3.0710959
+                ],
+                [
+                  101.5450829,
+                  3.0706902
+                ],
+                [
+                  101.5454702,
+                  3.0698002
+                ],
+                [
+                  101.5455769,
+                  3.0698047
+                ],
+                [
+                  101.5457798,
+                  3.0697658
+                ],
+                [
+                  101.5459327,
+                  3.0696863
+                ],
+                [
+                  101.5461026,
+                  3.0697248
+                ],
+                [
+                  101.5466154,
+                  3.0705804
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868941",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868941,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "brand": "Avery Dennison",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "product": "adhesive_tape",
+                "ref:ssm": "1621102-A",
+                "operator": "Avery Dennison",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868941",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            }
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5432768,
+                  3.0685916
+                ],
+                [
+                  101.5434916,
+                  3.0681062
+                ],
+                [
+                  101.5438881,
+                  3.0682825
+                ],
+                [
+                  101.5436814,
+                  3.0687652
+                ],
+                [
+                  101.5432768,
+                  3.0685916
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/581756546)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/581756546",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 581756546,
+              "capacity": null,
+              "osm_tags": {
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/581756546",
+              "osm_version": 4,
+              "rental_price": null,
+              "osm_timestamp": "2026-04-03T15:06:19Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            }
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.525968,
+                  3.0627619
+                ],
+                [
+                  101.5265353,
+                  3.0629476
+                ],
+                [
+                  101.5265612,
+                  3.062854
+                ],
+                [
+                  101.5266843,
+                  3.062894
+                ],
+                [
+                  101.526808,
+                  3.062801
+                ],
+                [
+                  101.5270119,
+                  3.0621798
+                ],
+                [
+                  101.5267953,
+                  3.0621089
+                ],
+                [
+                  101.5269323,
+                  3.0616916
+                ],
+                [
+                  101.5263787,
+                  3.0615104
+                ],
+                [
+                  101.525968,
+                  3.0627619
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/184104708)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/184104708",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 184104708,
+              "capacity": null,
+              "osm_tags": {
+                "source": "bing",
+                "service": "alley",
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/184104708",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2021-05-07T01:03:21Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            }
+          }
+        }
+      ],
+      "rows": [],
+      "summary": {
+        "total": 4,
+        "returned": 4,
+        "category_counts": {
+          "warehouse": 4
+        }
+      },
+      "warnings": [
+        "Results describe imported records only; absence is not evidence that no real facilities exist.",
+        "Town references are not industrial park entrances. Explicit pagination preserves all requested categories.",
+        "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+      ],
+      "attribution": "© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright; other sources retain per-feature provenance.",
+      "crs": "EPSG:4326",
+      "executed_at": "2026-10-24T13:38:03.851240+00:00",
+      "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+    },
+    {
+      "id": "eb132271-72df-4169-b02d-e69d158b05e6",
+      "tool": "rank_warehouse_accessibility",
+      "status": "completed",
+      "data": {
+        "features": [
+          {
+            "type": "Feature",
+            "id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5441295,
+                    3.0702645
+                  ],
+                  [
+                    101.5431623,
+                    3.0698326
+                  ],
+                  [
+                    101.5435176,
+                    3.0690107
+                  ],
+                  [
+                    101.5439945,
+                    3.0692188
+                  ],
+                  [
+                    101.5444906,
+                    3.0694352
+                  ],
+                  [
+                    101.5441295,
+                    3.0702645
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868943",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868943,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                  "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868943",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+              "duration_s": 1193.3,
+              "distance_m": 20530.2,
+              "top_accessible": true,
+              "rank": 3
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5466154,
+                    3.0705804
+                  ],
+                  [
+                    101.5460287,
+                    3.0710959
+                  ],
+                  [
+                    101.5450829,
+                    3.0706902
+                  ],
+                  [
+                    101.5454702,
+                    3.0698002
+                  ],
+                  [
+                    101.5455769,
+                    3.0698047
+                  ],
+                  [
+                    101.5457798,
+                    3.0697658
+                  ],
+                  [
+                    101.5459327,
+                    3.0696863
+                  ],
+                  [
+                    101.5461026,
+                    3.0697248
+                  ],
+                  [
+                    101.5466154,
+                    3.0705804
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+              "categories": [
+                "industrial",
+                "industrial_park",
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/1495868941",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 1495868941,
+                "capacity": null,
+                "osm_tags": {
+                  "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "brand": "Avery Dennison",
+                  "barrier": "fence",
+                  "landuse": "industrial",
+                  "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                  "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                  "product": "adhesive_tape",
+                  "ref:ssm": "1621102-A",
+                  "operator": "Avery Dennison",
+                  "addr:city": "Shah Alam",
+                  "warehouse": "pharmaceutical",
+                  "addr:state": "Selangor",
+                  "industrial": "warehouse",
+                  "addr:street": "Jalan Ragum 15/17",
+                  "addr:country": "MY",
+                  "addr:postcode": "40200"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/1495868941",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2026-07-19T09:40:00Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+              "duration_s": 1148.2,
+              "distance_m": 20305.3,
+              "top_accessible": true,
+              "rank": 2
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5432768,
+                    3.0685916
+                  ],
+                  [
+                    101.5434916,
+                    3.0681062
+                  ],
+                  [
+                    101.5438881,
+                    3.0682825
+                  ],
+                  [
+                    101.5436814,
+                    3.0687652
+                  ],
+                  [
+                    101.5432768,
+                    3.0685916
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/581756546)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/581756546",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 581756546,
+                "capacity": null,
+                "osm_tags": {
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/581756546",
+                "osm_version": 4,
+                "rental_price": null,
+                "osm_timestamp": "2026-04-03T15:06:19Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+              "duration_s": 1234.3,
+              "distance_m": 20782.1,
+              "top_accessible": false,
+              "rank": 4
+            }
+          },
+          {
+            "type": "Feature",
+            "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.525968,
+                    3.0627619
+                  ],
+                  [
+                    101.5265353,
+                    3.0629476
+                  ],
+                  [
+                    101.5265612,
+                    3.062854
+                  ],
+                  [
+                    101.5266843,
+                    3.062894
+                  ],
+                  [
+                    101.526808,
+                    3.062801
+                  ],
+                  [
+                    101.5270119,
+                    3.0621798
+                  ],
+                  [
+                    101.5267953,
+                    3.0621089
+                  ],
+                  [
+                    101.5269323,
+                    3.0616916
+                  ],
+                  [
+                    101.5263787,
+                    3.0615104
+                  ],
+                  [
+                    101.525968,
+                    3.0627619
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Unnamed OSM warehouse (way/184104708)",
+              "categories": [
+                "warehouse"
+              ],
+              "source": "OpenStreetMap contributors",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "source_id": "way/184104708",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:17:17.497243+00:00",
+              "synthetic": false,
+              "boundary_status": "unverified",
+              "attributes": {
+                "osm_id": 184104708,
+                "capacity": null,
+                "osm_tags": {
+                  "source": "bing",
+                  "service": "alley",
+                  "building": "warehouse"
+                },
+                "osm_type": "way",
+                "source_url": "https://www.openstreetmap.org/way/184104708",
+                "osm_version": 2,
+                "rental_price": null,
+                "osm_timestamp": "2021-05-07T01:03:21Z",
+                "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+                "available_space": null,
+                "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+              },
+              "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+              "duration_s": 1025.3,
+              "distance_m": 17669.5,
+              "top_accessible": true,
+              "rank": 1
+            }
+          }
+        ],
+        "rows": [
+          {
+            "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "name": "Unnamed OSM warehouse (way/184104708)",
+            "duration_s": 1025.3,
+            "distance_m": 17669.5
+          },
+          {
+            "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+            "duration_s": 1148.2,
+            "distance_m": 20305.3
+          },
+          {
+            "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "duration_s": 1193.3,
+            "distance_m": 20530.2
+          },
+          {
+            "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "name": "Unnamed OSM warehouse (way/581756546)",
+            "duration_s": 1234.3,
+            "distance_m": 20782.1
+          }
+        ],
+        "statistics": {
+          "warehouses": 4,
+          "reachable": 4,
+          "top_ids": [
+            "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "030efbe3-8d74-545d-90e0-15df09508265"
+          ]
+        },
+        "matrix": {
+          "id": "84bb802418d4e9ca6a33564f15713edd971ef31091f41678f821565afa271118",
+          "distances": [
+            [
+              0.0,
+              224.9,
+              299.5,
+              3172.7,
+              20530.2
+            ],
+            [
+              224.9,
+              0.0,
+              476.7,
+              2947.8,
+              20305.3
+            ],
+            [
+              299.5,
+              476.7,
+              0.0,
+              3424.6,
+              20782.1
+            ],
+            [
+              4327.2,
+              4102.3,
+              4099.3,
+              0.0,
+              17669.5
+            ],
+            [
+              20480.5,
+              20255.6,
+              20252.6,
+              18411.1,
+              0.0
+            ]
+          ],
+          "durations": [
+            [
+              0.0,
+              45.1,
+              71.7,
+              249.1,
+              1193.3
+            ],
+            [
+              38.7,
+              0.0,
+              86.7,
+              204.0,
+              1148.2
+            ],
+            [
+              71.1,
+              86.1,
+              0.0,
+              290.1,
+              1234.3
+            ],
+            [
+              305.3,
+              266.6,
+              333.7,
+              0.0,
+              1025.3
+            ],
+            [
+              1150.4,
+              1111.7,
+              1178.8,
+              1041.7,
+              0.0
+            ]
+          ],
+          "snapped": [
+            {
+              "coordinates": [
+                101.543976,
+                3.069299
+              ],
+              "snap_distance_m": 40.62315932,
+              "road_name": ""
+            },
+            {
+              "coordinates": [
+                101.545747,
+                3.069661
+              ],
+              "snap_distance_m": 59.7480055,
+              "road_name": "Jalan Ragum 15/17"
+            },
+            {
+              "coordinates": [
+                101.543797,
+                3.068529
+              ],
+              "snap_distance_m": 25.7701274,
+              "road_name": ""
+            },
+            {
+              "coordinates": [
+                101.526907,
+                3.062602
+              ],
+              "snap_distance_m": 48.56451606,
+              "road_name": ""
+            },
+            {
+              "coordinates": [
+                101.396858,
+                3.002401
+              ],
+              "snap_distance_m": 44.95225673,
+              "road_name": "Lebuh Beringin"
+            }
+          ],
+          "nodes": 5,
+          "pairs": 25,
+          "unreachable_pairs": 0,
+          "provider": "OSRM-compatible · FOSSGIS public demo",
+          "profile": "car",
+          "heavy_vehicle_verified": false,
+          "retrieved_at": "2026-10-24T13:29:17.603237+00:00",
+          "cached": true,
+          "upstream_requests": 1,
+          "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+          "method": "OSRM Table fastest-path road distance (metres) and duration (seconds); asymmetric; no fallback_speed."
+        },
+        "warnings": [
+          "Fastest among returned mapped warehouses only. All search candidates displayed; top subset highlighted. Matrix provides metrics, not connecting road geometry. Town destination is not a terminal gate."
+        ],
+        "profile": "car",
+        "heavy_vehicle_verified": false
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5441295,
+                  3.0702645
+                ],
+                [
+                  101.5431623,
+                  3.0698326
+                ],
+                [
+                  101.5435176,
+                  3.0690107
+                ],
+                [
+                  101.5439945,
+                  3.0692188
+                ],
+                [
+                  101.5444906,
+                  3.0694352
+                ],
+                [
+                  101.5441295,
+                  3.0702645
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868943",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868943,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Pharmaniaga Logistics Sdn Bhd",
+                "name:ms": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868943",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+            "duration_s": 1193.3,
+            "distance_m": 20530.2,
+            "top_accessible": true,
+            "rank": 3
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5466154,
+                  3.0705804
+                ],
+                [
+                  101.5460287,
+                  3.0710959
+                ],
+                [
+                  101.5450829,
+                  3.0706902
+                ],
+                [
+                  101.5454702,
+                  3.0698002
+                ],
+                [
+                  101.5455769,
+                  3.0698047
+                ],
+                [
+                  101.5457798,
+                  3.0697658
+                ],
+                [
+                  101.5459327,
+                  3.0696863
+                ],
+                [
+                  101.5461026,
+                  3.0697248
+                ],
+                [
+                  101.5466154,
+                  3.0705804
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+            "categories": [
+              "industrial",
+              "industrial_park",
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/1495868941",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 1495868941,
+              "capacity": null,
+              "osm_tags": {
+                "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "brand": "Avery Dennison",
+                "barrier": "fence",
+                "landuse": "industrial",
+                "name:en": "Avery Dennison Yongle Tape Sdn Bhd",
+                "name:ms": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+                "product": "adhesive_tape",
+                "ref:ssm": "1621102-A",
+                "operator": "Avery Dennison",
+                "addr:city": "Shah Alam",
+                "warehouse": "pharmaceutical",
+                "addr:state": "Selangor",
+                "industrial": "warehouse",
+                "addr:street": "Jalan Ragum 15/17",
+                "addr:country": "MY",
+                "addr:postcode": "40200"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/1495868941",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2026-07-19T09:40:00Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+            "duration_s": 1148.2,
+            "distance_m": 20305.3,
+            "top_accessible": true,
+            "rank": 2
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5432768,
+                  3.0685916
+                ],
+                [
+                  101.5434916,
+                  3.0681062
+                ],
+                [
+                  101.5438881,
+                  3.0682825
+                ],
+                [
+                  101.5436814,
+                  3.0687652
+                ],
+                [
+                  101.5432768,
+                  3.0685916
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/581756546)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/581756546",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 581756546,
+              "capacity": null,
+              "osm_tags": {
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/581756546",
+              "osm_version": 4,
+              "rental_price": null,
+              "osm_timestamp": "2026-04-03T15:06:19Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+            "duration_s": 1234.3,
+            "distance_m": 20782.1,
+            "top_accessible": false,
+            "rank": 4
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.525968,
+                  3.0627619
+                ],
+                [
+                  101.5265353,
+                  3.0629476
+                ],
+                [
+                  101.5265612,
+                  3.062854
+                ],
+                [
+                  101.5266843,
+                  3.062894
+                ],
+                [
+                  101.526808,
+                  3.062801
+                ],
+                [
+                  101.5270119,
+                  3.0621798
+                ],
+                [
+                  101.5267953,
+                  3.0621089
+                ],
+                [
+                  101.5269323,
+                  3.0616916
+                ],
+                [
+                  101.5263787,
+                  3.0615104
+                ],
+                [
+                  101.525968,
+                  3.0627619
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Unnamed OSM warehouse (way/184104708)",
+            "categories": [
+              "warehouse"
+            ],
+            "source": "OpenStreetMap contributors",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "source_id": "way/184104708",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:17:17.497243+00:00",
+            "synthetic": false,
+            "boundary_status": "unverified",
+            "attributes": {
+              "osm_id": 184104708,
+              "capacity": null,
+              "osm_tags": {
+                "source": "bing",
+                "service": "alley",
+                "building": "warehouse"
+              },
+              "osm_type": "way",
+              "source_url": "https://www.openstreetmap.org/way/184104708",
+              "osm_version": 2,
+              "rental_price": null,
+              "osm_timestamp": "2021-05-07T01:03:21Z",
+              "classification": "OSM tags; industrial land-use is not a verified park boundary.",
+              "available_space": null,
+              "last_imported_at": "2026-10-24T03:17:17.497243+00:00"
+            },
+            "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+            "duration_s": 1025.3,
+            "distance_m": 17669.5,
+            "top_accessible": true,
+            "rank": 1
+          }
+        }
+      ],
+      "rows": [
+        {
+          "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "name": "Unnamed OSM warehouse (way/184104708)",
+          "duration_s": 1025.3,
+          "distance_m": 17669.5
+        },
+        {
+          "feature_id": "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "name": "Kilang Pita Pelekat Avery Dennison Yongle Tape",
+          "duration_s": 1148.2,
+          "distance_m": 20305.3
+        },
+        {
+          "feature_id": "030efbe3-8d74-545d-90e0-15df09508265",
+          "name": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+          "duration_s": 1193.3,
+          "distance_m": 20530.2
+        },
+        {
+          "feature_id": "a3ff633e-9a3a-5ebf-8964-91a6122bc5e0",
+          "name": "Unnamed OSM warehouse (way/581756546)",
+          "duration_s": 1234.3,
+          "distance_m": 20782.1
+        }
+      ],
+      "summary": {
+        "warehouses": 4,
+        "reachable": 4,
+        "top_ids": [
+          "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "1fa2cb94-11c6-551a-878d-8f08ce463255",
+          "030efbe3-8d74-545d-90e0-15df09508265"
+        ]
+      },
+      "warnings": [
+        "Fastest among returned mapped warehouses only. All search candidates displayed; top subset highlighted. Matrix provides metrics, not connecting road geometry. Town destination is not a terminal gate.",
+        "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+      ],
+      "attribution": "Â© OpenStreetMap contributors Â· ODbL 1.0; supplied scenario assumptions unverified",
+      "crs": "EPSG:4326",
+      "executed_at": "2026-10-24T13:38:10.066967+00:00",
+      "measurement_method": "Existing validated PostGIS/geodesic/OSRM or saved snapshot service; inspect parameters"
+    }
+  ],
+  "text": "search_industrial_features completed · 4 displayed geometries. {\"total\": 4, \"returned\": 4, \"category_counts\": {\"warehouse\": 4}}\nrank_warehouse_accessibility completed · 4 displayed geometries. {\"warehouses\": 4, \"reachable\": 4, \"top_ids\": [\"f73f559c-1a52-52fd-a24e-19cb0e729b46\", \"1fa2cb94-11c6-551a-878d-8f08ce463255\", \"030efbe3-8d74-545d-90e0-15df09508265\"]}",
+  "language": "en",
+  "mode": "deterministic",
+  "partial": false,
+  "provider": {
+    "provider": "disabled",
+    "configured": false,
+    "live_verified": false,
+    "fallback": "deterministic command grammar; not LLM intelligence",
+    "model": null,
+    "limits": {
+      "requests_per_turn": 1,
+      "max_completion_tokens": 1200,
+      "tool_calls": 6,
+      "timeout_s": 25
+    }
+  }
+}

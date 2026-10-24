@@ -1,0 +1,342 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "metadata": {
+    "scenario": {
+      "name": "Fresh Phase 5 acceptance mandatory · hypothetical demands",
+      "notes": "Real imported OSM candidate locations; hypothetical demand 2 units/stop and assumed RM1.50/km + RM10/used vehicle. No actual business shipment/customer claimed.",
+      "stops": [
+        {
+          "id": "stop-1",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253375)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253375",
+          "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+          "coordinates": [
+            101.5159103,
+            3.0634516
+          ]
+        },
+        {
+          "id": "stop-2",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253379)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253379",
+          "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+          "coordinates": [
+            101.525537052,
+            3.06212015
+          ]
+        },
+        {
+          "id": "stop-3",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253370)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253370",
+          "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+          "coordinates": [
+            101.515309587,
+            3.0586112
+          ]
+        },
+        {
+          "id": "stop-4",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253380)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253380",
+          "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+          "coordinates": [
+            101.528242287,
+            3.06253405
+          ]
+        },
+        {
+          "id": "stop-5",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253369)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253369",
+          "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+          "coordinates": [
+            101.513047627,
+            3.05600945
+          ]
+        },
+        {
+          "id": "stop-6",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253377)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253377",
+          "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+          "coordinates": [
+            101.521319125,
+            3.05759575
+          ]
+        },
+        {
+          "id": "stop-7",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253376)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253376",
+          "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+          "coordinates": [
+            101.520154812,
+            3.05679125
+          ]
+        },
+        {
+          "id": "stop-8",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/621722345)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/621722345",
+          "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+          "coordinates": [
+            101.528842484,
+            3.05947255
+          ]
+        },
+        {
+          "id": "stop-9",
+          "kind": "delivery",
+          "name": "Unnamed OSM industrial (way/911253383)",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/911253383",
+          "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+          "coordinates": [
+            101.533955992,
+            3.0664657
+          ]
+        },
+        {
+          "id": "stop-10",
+          "kind": "delivery",
+          "name": "KLK Bioenergy",
+          "demand": 2,
+          "window": [
+            0,
+            86400
+          ],
+          "priority": 1,
+          "mandatory": false,
+          "pickup_id": null,
+          "service_s": 120,
+          "source_id": "way/621722344",
+          "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+          "coordinates": [
+            101.529916429,
+            3.05982745
+          ]
+        }
+      ],
+      "depots": [
+        {
+          "id": "depot",
+          "name": "Unnamed OSM warehouse (way/184104708)",
+          "window": [
+            0,
+            86400
+          ],
+          "source_id": "way/184104708",
+          "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+          "coordinates": [
+            101.52648994,
+            3.06247085
+          ]
+        }
+      ],
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "window": [
+            0,
+            86400
+          ],
+          "enabled": true,
+          "capacity": 2,
+          "end_depot": "depot",
+          "fixed_cost": 10,
+          "cost_per_km": 1.5,
+          "start_depot": "depot",
+          "vehicle_type": "User-defined vehicle",
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "fuel_l_per_100km": 0,
+          "fuel_price_per_l": 0,
+          "driver_cost_per_hour": 0
+        }
+      ],
+      "objective": "distance",
+      "max_snap_m": 1900,
+      "capacity_unit": "hypothetical units",
+      "demand_context": "hypothetical",
+      "solver_seconds": 3,
+      "allow_unassigned": false
+    },
+    "solver_status": "search_failed",
+    "proven_optimal": false,
+    "provider": "OSRM-compatible · FOSSGIS public demo",
+    "matrix_id": "351e217d55ae796d5938de35b4770462ba398f42a8905682cde445ceffc12196",
+    "crs": "EPSG:4326",
+    "warnings": [
+      "Standard car routing, not verified heavy-vehicle routing.",
+      "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+      "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+      "Snapped road positions are not verified facility gates or legal vehicle access.",
+      "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+      "Public demo service: light local use only; no SLA or production capacity guarantee.",
+      "GIS locations are candidate references, not verified customers, gates or legal truck access.",
+      "Demands: hypothetical. Capacity is a single integer unit: hypothetical units.",
+      "Matrix distances follow fastest OSRM paths, not necessarily shortest-distance paths; no live traffic.",
+      "Time windows apply to service start; service completion and depot return must fit the vehicle working limit.",
+      "Optional-stop priorities weight a lexicographic service penalty before the selected travel objective.",
+      "Operating cost excludes tolls. Fuel/driver costs are added only from supplied values; avoid counting them twice in cost/km.",
+      "Empty vehicles are not repositioned between different start/end depots. Vehicle minimization is a weighted count-first objective; balance minimizes total metres + 20 × longest route.",
+      "Solver schedules use upward-rounded whole seconds/metres; final road geometry may differ at via-points because of OSRM turn continuity."
+    ],
+    "unassigned": [
+      {
+        "id": "stop-1",
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-2",
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-3",
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-4",
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-5",
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-6",
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-7",
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-8",
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-9",
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-10",
+        "name": "KLK Bioenergy",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      }
+    ],
+    "geometry_complete": false,
+    "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+    "executed_at": "2026-10-24T10:52:41.046160+00:00"
+  }
+}

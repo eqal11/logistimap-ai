@@ -1,0 +1,5331 @@
+{
+  "review_started_at": "2026-10-24T10:46:33.381052+00:00",
+  "A": {
+    "scenario_id": "fd824f24-eb2d-4fe8-9ef4-e6482a66d1b5",
+    "job_id": "43ed729d-d98c-4e43-bd50-e829bef859df",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": false,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:47:30.615875+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "B": {
+    "scenario_id": "6a802582-745e-4e22-b902-3d96fdcd800c",
+    "job_id": "6e6ec01a-82b2-4291-a758-f556e2170bfc",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 36256.3,
+      "cost_per_km": 2.05,
+      "total_demand": 16,
+      "vehicles_used": 2,
+      "assigned_stops": 8,
+      "estimated_cost": 74.39,
+      "assigned_demand": 16,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 9.3,
+      "travel_duration_s": 3749.5,
+      "unassigned_demand": 0,
+      "available_capacity": 16,
+      "vehicles_available": 2,
+      "working_duration_s": 4714,
+      "fleet_peak_capacity_utilization_pct": 100.0
+    },
+    "matrix": {
+      "nodes": 9,
+      "pairs": 81,
+      "unreachable_pairs": 0,
+      "cached": false,
+      "retrieved_at": "2026-10-24T10:47:53.992164+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 37380.0,
+      "estimated_cost": 76.07,
+      "travel_duration_s": 4055.7000000000003,
+      "working_duration_s": 5020
+    },
+    "geometry_vertices": [
+      316,
+      686
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/448229201)",
+        "source_id": "way/448229201",
+        "feature_id": "dfc3c9fc-7f1b-5117-b283-26f4c680579f",
+        "coordinates": [
+          101.55996449,
+          3.32454365
+        ]
+      },
+      {
+        "name": "Rawang Industrial Estate",
+        "source_id": "way/871974501",
+        "feature_id": "c19be4ac-0a05-5f42-929a-92bd014d90bc",
+        "coordinates": [
+          101.589948468,
+          3.31409555
+        ]
+      },
+      {
+        "name": "Kawasan Industri Rawang Integrated",
+        "source_id": "way/871970493",
+        "feature_id": "8eb68176-728a-5d7c-a816-2bd881385b08",
+        "coordinates": [
+          101.560155551,
+          3.30340375
+        ]
+      },
+      {
+        "name": "Taman Industri Bukit Rawang Jaya",
+        "source_id": "way/499806128",
+        "feature_id": "d8341557-1392-5b9d-a264-57a2ebc235c2",
+        "coordinates": [
+          101.583454052,
+          3.3380935
+        ]
+      },
+      {
+        "name": "Kawasan Perindustrian KRI Rawang",
+        "source_id": "way/1002284441",
+        "feature_id": "5feff357-fbcf-5f3d-a475-d9dade1eefa6",
+        "coordinates": [
+          101.571180281,
+          3.2972399
+        ]
+      },
+      {
+        "name": "Industri Garing Utama",
+        "source_id": "way/1036180970",
+        "feature_id": "1b08b16d-57f5-5553-a12e-cb81a2d69c2c",
+        "coordinates": [
+          101.561009158,
+          3.33933065
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/1369705481)",
+        "source_id": "way/1369705481",
+        "feature_id": "854c2128-b9b5-5b31-8252-8a71ff06eed6",
+        "coordinates": [
+          101.558632,
+          3.30292365
+        ]
+      },
+      {
+        "name": "Canpac Sdn. Bhd.",
+        "source_id": "node/8004379471",
+        "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+        "coordinates": [
+          101.5597692,
+          3.3016408
+        ]
+      },
+      {
+        "name": "Ingress Technologies Sdn. Bhd.",
+        "source_id": "way/402420791",
+        "feature_id": "de45228c-e896-5525-a523-265c7c0a9ed0",
+        "coordinates": [
+          101.59231844,
+          3.3532218
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 13918.099999999999,
+        "travel_duration_s": 1646.2,
+        "working_duration_s": 2128,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-7",
+          "stop-6",
+          "stop-4"
+        ],
+        "estimated_cost": 30.88,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 22338.2,
+        "travel_duration_s": 2103.3,
+        "working_duration_s": 2586,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-1",
+          "stop-3",
+          "stop-8",
+          "stop-5"
+        ],
+        "estimated_cost": 43.51,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:48:17.045897+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "C": {
+    "scenario_id": "2f8967f5-c740-4cce-b52c-97e7a581df66",
+    "job_id": "440ce869-f9e1-4ca0-bd3b-f689f977d125",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 68126.09999999999,
+      "cost_per_km": 1.79,
+      "total_demand": 12,
+      "vehicles_used": 2,
+      "assigned_stops": 6,
+      "estimated_cost": 122.19,
+      "assigned_demand": 12,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 20.36,
+      "travel_duration_s": 5270.3,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 5993,
+      "fleet_peak_capacity_utilization_pct": 50.0
+    },
+    "matrix": {
+      "nodes": 7,
+      "pairs": 49,
+      "unreachable_pairs": 0,
+      "cached": false,
+      "retrieved_at": "2026-10-24T10:48:50.042808+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 68249.6,
+      "estimated_cost": 122.38,
+      "travel_duration_s": 5354.5,
+      "working_duration_s": 6078
+    },
+    "geometry_vertices": [
+      720,
+      707
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/1234536724)",
+        "source_id": "way/1234536724",
+        "feature_id": "b9d537ff-ccf2-5c33-a349-50b6ecae8e73",
+        "coordinates": [
+          101.401407301,
+          2.9764052
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640065)",
+        "source_id": "way/745640065",
+        "feature_id": "30240810-cb69-52d3-958f-33476365d052",
+        "coordinates": [
+          101.386812141,
+          3.0441296
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640066)",
+        "source_id": "way/745640066",
+        "feature_id": "29c9e431-80e3-5613-a1cb-1df58014fdec",
+        "coordinates": [
+          101.386847423,
+          3.04478325
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640064)",
+        "source_id": "way/745640064",
+        "feature_id": "f33ac1c6-93b1-5f37-a1b5-d6f283f7692c",
+        "coordinates": [
+          101.386775399,
+          3.0453327
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640063)",
+        "source_id": "way/745640063",
+        "feature_id": "96129897-9be1-5ae1-aac6-19c61eb002cb",
+        "coordinates": [
+          101.386864855,
+          3.04578545
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640062)",
+        "source_id": "way/745640062",
+        "feature_id": "184e560f-2933-5f86-9572-5be939fc3899",
+        "coordinates": [
+          101.386909352,
+          3.04627635
+        ]
+      },
+      {
+        "name": "Unnamed OSM warehouse (way/745640058)",
+        "source_id": "way/745640058",
+        "feature_id": "59bc21ec-910f-5005-b2c3-4829574c139b",
+        "coordinates": [
+          101.385305,
+          3.0458437
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 34257.2,
+        "travel_duration_s": 2699.8,
+        "working_duration_s": 3182,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-3",
+          "stop-1",
+          "stop-2",
+          "stop-6"
+        ],
+        "estimated_cost": 61.39,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 33868.899999999994,
+        "travel_duration_s": 2570.5,
+        "working_duration_s": 2811,
+        "peak_load": 4,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-5",
+          "stop-4"
+        ],
+        "estimated_cost": 60.8,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:49:13.786999+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "D2": {
+    "scenario_id": "2b191373-6f15-4546-a75a-20c0696d05f4",
+    "job_id": "a7afcff4-15d9-4df2-85b7-efbf434e78a6",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 12439.4,
+      "cost_per_km": 3.11,
+      "total_demand": 20,
+      "vehicles_used": 2,
+      "assigned_stops": 8,
+      "estimated_cost": 38.66,
+      "assigned_demand": 16,
+      "unassigned_stops": 2,
+      "cost_per_delivery": 4.83,
+      "travel_duration_s": 2006.9,
+      "unassigned_demand": 4,
+      "available_capacity": 16,
+      "vehicles_available": 2,
+      "working_duration_s": 2972,
+      "fleet_peak_capacity_utilization_pct": 100.0
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 13440.7,
+      "estimated_cost": 40.16,
+      "travel_duration_s": 2397.4,
+      "working_duration_s": 3362
+    },
+    "geometry_vertices": [
+      112,
+      182
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 4005.3999999999996,
+        "travel_duration_s": 800.6,
+        "working_duration_s": 1283,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 16.01,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [
+      {
+        "id": "stop-6",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-7",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      }
+    ],
+    "verified_at": "2026-10-24T10:49:52.672864+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "D3": {
+    "scenario_id": "0b03b730-d1d5-4356-8569-ebf5d0a21aea",
+    "job_id": "88759650-8aa9-4ea2-ae3d-2bf013f6c83b",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:50:31.569980+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "D4": {
+    "scenario_id": "b529c48c-a6d9-441a-8337-e25a57738513",
+    "job_id": "c37e61d5-3f9f-4d71-940d-313892a722e5",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 32,
+      "vehicles_available": 4,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 62.5
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-4",
+          "name": "Vehicle 4",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:51:10.785636+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "E": {
+    "scenario_id": "adf06fee-24da-4b34-adce-2e47ae4d470f",
+    "job_id": "55d7350c-1d80-45ba-ac10-6a73a3db2135",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 1202.8,
+      "cost_per_km": 9.81,
+      "total_demand": 20,
+      "vehicles_used": 1,
+      "assigned_stops": 1,
+      "estimated_cost": 11.8,
+      "assigned_demand": 2,
+      "unassigned_stops": 9,
+      "cost_per_delivery": 11.8,
+      "travel_duration_s": 284.6,
+      "unassigned_demand": 18,
+      "available_capacity": 2,
+      "vehicles_available": 1,
+      "working_duration_s": 406,
+      "fleet_peak_capacity_utilization_pct": 100.0
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 1467.6,
+      "estimated_cost": 12.2,
+      "travel_duration_s": 375.4,
+      "working_duration_s": 497
+    },
+    "geometry_vertices": [
+      30
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 2,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 1202.8,
+        "travel_duration_s": 284.6,
+        "working_duration_s": 406,
+        "peak_load": 2,
+        "capacity": 2,
+        "stop_ids": [
+          "stop-8"
+        ],
+        "estimated_cost": 11.8,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [
+      {
+        "id": "stop-1",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-2",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-3",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-4",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-5",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-6",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-7",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-9",
+        "kind": "delivery",
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      },
+      {
+        "id": "stop-10",
+        "kind": "delivery",
+        "name": "KLK Bioenergy",
+        "demand": 2,
+        "reason": "Excluded by constrained best solution; exact cause not proven"
+      }
+    ],
+    "verified_at": "2026-10-24T10:51:45.606765+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "F": {
+    "scenario_id": "3f7d6c66-9ae3-49c9-9df3-64b3eb90d340",
+    "job_id": "4b326205-4ae7-4ef6-bbae-12d724b055b8",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            28800,
+            57600
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            28800,
+            57600
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            28800,
+            57600
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            28800,
+            43200
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            28800,
+            43200
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:52:24.749031+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip",
+      "all final-road service starts inside 08:00\u201312:00"
+    ]
+  },
+  "mandatory": {
+    "scenario_id": "fe4efcd5-37c7-4f87-8f95-64173ec1fa49",
+    "job_id": "89965141-e017-48f0-b650-2096a9bd6fd5",
+    "status": "passed",
+    "solver_status": "search_failed",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 0,
+      "cost_per_km": 0.0,
+      "total_demand": 20,
+      "vehicles_used": 0,
+      "assigned_stops": 0,
+      "estimated_cost": 0,
+      "assigned_demand": 0,
+      "unassigned_stops": 10,
+      "cost_per_delivery": 0.0,
+      "travel_duration_s": 0,
+      "unassigned_demand": 20,
+      "available_capacity": 2,
+      "vehicles_available": 1,
+      "working_duration_s": 0,
+      "fleet_peak_capacity_utilization_pct": 0.0
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": false,
+    "road_geometry_constraints_verified": false,
+    "routed_summary": null,
+    "geometry_vertices": [],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 2,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [],
+    "result_status": "no_solution_found",
+    "unassigned": [
+      {
+        "id": "stop-1",
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-2",
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-3",
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-4",
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-5",
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-6",
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-7",
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-8",
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-9",
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      },
+      {
+        "id": "stop-10",
+        "name": "KLK Bioenergy",
+        "demand": 2,
+        "reason": "No feasible assignment established within solver limits"
+      }
+    ],
+    "verified_at": "2026-10-24T10:52:54.316012+00:00",
+    "independent_assertions": [
+      "mandatory demand exceeds capacity; no feasible solution claimed",
+      "all unserved stops explicit"
+    ]
+  },
+  "pickup": {
+    "scenario_id": "1f08b647-44ff-4b78-87b5-61cef8ffa123",
+    "job_id": "9cef131c-15a3-4080-ba97-b94be70a8a5f",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18363.899999999998,
+      "cost_per_km": 2.59,
+      "total_demand": 18,
+      "vehicles_used": 2,
+      "assigned_stops": 10,
+      "estimated_cost": 47.55,
+      "assigned_demand": 18,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.28,
+      "travel_duration_s": 2538.0,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3743,
+      "fleet_peak_capacity_utilization_pct": 66.67
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19730.1,
+      "estimated_cost": 49.59,
+      "travel_duration_s": 3045.4,
+      "working_duration_s": 4251
+    },
+    "geometry_vertices": [
+      326,
+      112
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 14358.499999999998,
+        "travel_duration_s": 1737.4,
+        "working_duration_s": 2460,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-6",
+          "stop-7",
+          "stop-3",
+          "stop-5",
+          "stop-1",
+          "stop-2"
+        ],
+        "estimated_cost": 31.54,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 4005.3999999999996,
+        "travel_duration_s": 800.6,
+        "working_duration_s": 1283,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 16.01,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:53:33.333808+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip",
+      "pickup precedes paired delivery on same vehicle"
+    ]
+  },
+  "multi_depot": {
+    "scenario_id": "7b8de780-6605-4f75-a4b3-0256ab0bc909",
+    "job_id": "406db9c0-906c-4fa3-8c7d-066e14aff354",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18250.0,
+      "cost_per_km": 3.14,
+      "total_demand": 18,
+      "vehicles_used": 3,
+      "assigned_stops": 9,
+      "estimated_cost": 57.38,
+      "assigned_demand": 18,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 6.38,
+      "travel_duration_s": 2439.4,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3525,
+      "fleet_peak_capacity_utilization_pct": 75.0
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": false,
+      "retrieved_at": "2026-10-24T10:53:49.145235+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19484.2,
+      "estimated_cost": 59.23,
+      "travel_duration_s": 2880.3,
+      "working_duration_s": 3966
+    },
+    "geometry_vertices": [
+      218,
+      28,
+      182
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot-2",
+          "end_depot": "depot-2",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 8590.199999999999,
+        "travel_duration_s": 925.9,
+        "working_duration_s": 1408,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-6",
+          "stop-7",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 22.89,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 1225.8,
+        "travel_duration_s": 307.20000000000005,
+        "working_duration_s": 428,
+        "peak_load": 2,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8"
+        ],
+        "estimated_cost": 11.84,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:54:12.450225+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "tsp": {
+    "scenario_id": "820a32de-af06-48be-ad0c-2fdd3833735a",
+    "job_id": "dd6f45cd-2d65-467c-bfd9-6fa2470d5686",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 16494.5,
+      "cost_per_km": 2.11,
+      "total_demand": 20,
+      "vehicles_used": 1,
+      "assigned_stops": 10,
+      "estimated_cost": 34.74,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 3.47,
+      "travel_duration_s": 2357.1000000000004,
+      "unassigned_demand": 0,
+      "available_capacity": 100,
+      "vehicles_available": 1,
+      "working_duration_s": 3562,
+      "fleet_peak_capacity_utilization_pct": 20.0
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 17515.199999999997,
+      "estimated_cost": 36.27,
+      "travel_duration_s": 2779.6,
+      "working_duration_s": 3984
+    },
+    "geometry_vertices": [
+      373
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 100,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 16494.5,
+        "travel_duration_s": 2357.1000000000004,
+        "working_duration_s": 3562,
+        "peak_load": 20,
+        "capacity": 100,
+        "stop_ids": [
+          "stop-8",
+          "stop-10",
+          "stop-9",
+          "stop-4",
+          "stop-2",
+          "stop-7",
+          "stop-6",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 34.74,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:54:51.195980+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "objective-time": {
+    "scenario_id": "6236f672-3aa0-4935-84af-f700e42fc960",
+    "job_id": "61d233e6-0738-4bf3-b38c-76806f5bd8ea",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18877.399999999998,
+      "cost_per_km": 3.09,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 58.32,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.83,
+      "travel_duration_s": 2553.9,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3760,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 20243.5,
+      "estimated_cost": 60.36,
+      "travel_duration_s": 3061.3,
+      "working_duration_s": 4267
+    },
+    "geometry_vertices": [
+      218,
+      47,
+      182
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 8590.3,
+        "travel_duration_s": 919.4,
+        "working_duration_s": 1402,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-7",
+          "stop-6",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 22.89,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 1853.1,
+        "travel_duration_s": 428.20000000000005,
+        "working_duration_s": 669,
+        "peak_load": 4,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-10"
+        ],
+        "estimated_cost": 12.78,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:55:29.929671+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "objective-cost": {
+    "scenario_id": "ee46694b-2f9d-420c-9c8a-9de4da2c7595",
+    "job_id": "695295b0-4544-4159-a759-43ee792dc2c9",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:56:09.086095+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "objective-vehicles": {
+    "scenario_id": "9deb3adc-fdc4-461e-86cb-eac88daf300e",
+    "job_id": "dccfd673-24b6-47c7-853b-232dde09c2f3",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18519.1,
+      "cost_per_km": 3.12,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 57.77,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.78,
+      "travel_duration_s": 2671.3999999999996,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3879,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 19885.3,
+      "estimated_cost": 59.83,
+      "travel_duration_s": 3178.8,
+      "working_duration_s": 4386
+    },
+    "geometry_vertices": [
+      99,
+      182,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 3429.9,
+        "travel_duration_s": 643.5999999999999,
+        "working_duration_s": 1006,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 15.14,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 8434.0,
+        "travel_duration_s": 1206.3,
+        "working_duration_s": 1689,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 22.65,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6655.2,
+        "travel_duration_s": 821.5,
+        "working_duration_s": 1184,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 19.98,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:56:48.741872+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "objective-balance": {
+    "scenario_id": "57d418d2-513a-42af-af9e-975cb9e18995",
+    "job_id": "0ee028e9-3225-4c9d-bc83-01663b1d7ea2",
+    "status": "passed",
+    "solver_status": "success",
+    "proven_optimal": false,
+    "summary": {
+      "distance_m": 18676.0,
+      "cost_per_km": 3.11,
+      "total_demand": 20,
+      "vehicles_used": 3,
+      "assigned_stops": 10,
+      "estimated_cost": 58.01,
+      "assigned_demand": 20,
+      "unassigned_stops": 0,
+      "cost_per_delivery": 5.8,
+      "travel_duration_s": 2607.6,
+      "unassigned_demand": 0,
+      "available_capacity": 24,
+      "vehicles_available": 3,
+      "working_duration_s": 3814,
+      "fleet_peak_capacity_utilization_pct": 83.33
+    },
+    "matrix": {
+      "nodes": 11,
+      "pairs": 121,
+      "unreachable_pairs": 0,
+      "cached": true,
+      "retrieved_at": "2026-10-24T10:47:03.408437+00:00",
+      "upstream_requests": 1
+    },
+    "geometry_complete": true,
+    "road_geometry_constraints_verified": true,
+    "routed_summary": {
+      "distance_m": 20042.2,
+      "estimated_cost": 60.06,
+      "travel_duration_s": 3115.0,
+      "working_duration_s": 4321
+    },
+    "geometry_vertices": [
+      112,
+      167,
+      168
+    ],
+    "geometry_errors": [],
+    "persistence_roundtrip": true,
+    "scenario_assumptions": {
+      "demand_context": "hypothetical",
+      "capacity_unit": "hypothetical units",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Vehicle 1",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Vehicle 2",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        },
+        {
+          "id": "vehicle-3",
+          "name": "Vehicle 3",
+          "vehicle_type": "User-defined vehicle",
+          "enabled": true,
+          "capacity": 8,
+          "start_depot": "depot",
+          "end_depot": "depot",
+          "window": [
+            0,
+            86400
+          ],
+          "max_distance_m": 1000000,
+          "max_duration_s": 43200,
+          "cost_per_km": 1.5,
+          "fixed_cost": 10.0,
+          "driver_cost_per_hour": 0.0,
+          "fuel_l_per_100km": 0.0,
+          "fuel_price_per_l": 0.0
+        }
+      ],
+      "delivery_windows": [
+        {
+          "id": "stop-1",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-2",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-3",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-4",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-5",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-6",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-7",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-8",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-9",
+          "window": [
+            0,
+            86400
+          ]
+        },
+        {
+          "id": "stop-10",
+          "window": [
+            0,
+            86400
+          ]
+        }
+      ]
+    },
+    "locations": [
+      {
+        "name": "Unnamed OSM warehouse (way/184104708)",
+        "source_id": "way/184104708",
+        "feature_id": "f73f559c-1a52-52fd-a24e-19cb0e729b46",
+        "coordinates": [
+          101.52648994,
+          3.06247085
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253375)",
+        "source_id": "way/911253375",
+        "feature_id": "6f9a39cd-b0d5-587b-9add-b5cb581a620b",
+        "coordinates": [
+          101.5159103,
+          3.0634516
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253379)",
+        "source_id": "way/911253379",
+        "feature_id": "038bee22-eb48-589d-90c5-454d20440287",
+        "coordinates": [
+          101.525537052,
+          3.06212015
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253370)",
+        "source_id": "way/911253370",
+        "feature_id": "f72fd4b1-9513-53ff-8c63-15e78d1077f0",
+        "coordinates": [
+          101.515309587,
+          3.0586112
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253380)",
+        "source_id": "way/911253380",
+        "feature_id": "6e479ccf-ffc6-5c0c-b93d-de8fc199a7ca",
+        "coordinates": [
+          101.528242287,
+          3.06253405
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253369)",
+        "source_id": "way/911253369",
+        "feature_id": "a15c99c8-3b27-5f2d-a0ce-a4296126caa5",
+        "coordinates": [
+          101.513047627,
+          3.05600945
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253377)",
+        "source_id": "way/911253377",
+        "feature_id": "671bd098-482c-59dd-87d2-8feef794c294",
+        "coordinates": [
+          101.521319125,
+          3.05759575
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253376)",
+        "source_id": "way/911253376",
+        "feature_id": "4561c5f9-4c81-57e3-966e-40d9e766dbe5",
+        "coordinates": [
+          101.520154812,
+          3.05679125
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/621722345)",
+        "source_id": "way/621722345",
+        "feature_id": "d50c3bb7-ab06-560f-a643-5a3d49f8d257",
+        "coordinates": [
+          101.528842484,
+          3.05947255
+        ]
+      },
+      {
+        "name": "Unnamed OSM industrial (way/911253383)",
+        "source_id": "way/911253383",
+        "feature_id": "9c85a81d-147b-5aa4-b743-b89f472353db",
+        "coordinates": [
+          101.533955992,
+          3.0664657
+        ]
+      },
+      {
+        "name": "KLK Bioenergy",
+        "source_id": "way/621722344",
+        "feature_id": "94486017-4c49-5df5-b0ec-6b917a3e0fb6",
+        "coordinates": [
+          101.529916429,
+          3.05982745
+        ]
+      }
+    ],
+    "road_routes": [
+      {
+        "vehicle_name": "Vehicle 1",
+        "distance_m": 4005.3999999999996,
+        "travel_duration_s": 800.6,
+        "working_duration_s": 1283,
+        "peak_load": 8,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-8",
+          "stop-10",
+          "stop-9",
+          "stop-4"
+        ],
+        "estimated_cost": 16.01,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 2",
+        "distance_m": 7875.0,
+        "travel_duration_s": 1054.1,
+        "working_duration_s": 1416,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-3",
+          "stop-5",
+          "stop-1"
+        ],
+        "estimated_cost": 21.81,
+        "geometry_status": "available"
+      },
+      {
+        "vehicle_name": "Vehicle 3",
+        "distance_m": 6795.6,
+        "travel_duration_s": 752.9,
+        "working_duration_s": 1115,
+        "peak_load": 6,
+        "capacity": 8,
+        "stop_ids": [
+          "stop-2",
+          "stop-6",
+          "stop-7"
+        ],
+        "estimated_cost": 20.19,
+        "geometry_status": "available"
+      }
+    ],
+    "result_status": "best_found",
+    "unassigned": [],
+    "verified_at": "2026-10-24T10:57:28.454081+00:00",
+    "independent_assertions": [
+      "assignment partition unique",
+      "capacity valid",
+      "matrix schedule validated",
+      "actual road geometry valid",
+      "final road constraints valid",
+      "explicit costs verified",
+      "saved scenario roundtrip"
+    ]
+  },
+  "compare": {
+    "id": "bd4a0601-18b2-426d-9b60-49100704b031",
+    "name": "Fresh acceptance review \u00b7 hypothetical fleet comparison",
+    "rows": [
+      {
+        "scenario_id": "2b191373-6f15-4546-a75a-20c0696d05f4",
+        "name": "Fresh Phase 5 acceptance D2 \u00b7 hypothetical demands",
+        "objective": "distance",
+        "status": "best_found",
+        "proven_optimal": false,
+        "distance_m": 12439.4,
+        "cost_per_km": 3.11,
+        "total_demand": 20,
+        "vehicles_used": 2,
+        "assigned_stops": 8,
+        "estimated_cost": 38.66,
+        "assigned_demand": 16,
+        "unassigned_stops": 2,
+        "cost_per_delivery": 4.83,
+        "travel_duration_s": 2006.9,
+        "unassigned_demand": 4,
+        "available_capacity": 16,
+        "vehicles_available": 2,
+        "working_duration_s": 2972,
+        "fleet_peak_capacity_utilization_pct": 100.0
+      },
+      {
+        "scenario_id": "0b03b730-d1d5-4356-8569-ebf5d0a21aea",
+        "name": "Fresh Phase 5 acceptance D3 \u00b7 hypothetical demands",
+        "objective": "distance",
+        "status": "best_found",
+        "proven_optimal": false,
+        "distance_m": 18519.1,
+        "cost_per_km": 3.12,
+        "total_demand": 20,
+        "vehicles_used": 3,
+        "assigned_stops": 10,
+        "estimated_cost": 57.77,
+        "assigned_demand": 20,
+        "unassigned_stops": 0,
+        "cost_per_delivery": 5.78,
+        "travel_duration_s": 2671.3999999999996,
+        "unassigned_demand": 0,
+        "available_capacity": 24,
+        "vehicles_available": 3,
+        "working_duration_s": 3879,
+        "fleet_peak_capacity_utilization_pct": 83.33
+      },
+      {
+        "scenario_id": "b529c48c-a6d9-441a-8337-e25a57738513",
+        "name": "Fresh Phase 5 acceptance D4 \u00b7 hypothetical demands",
+        "objective": "distance",
+        "status": "best_found",
+        "proven_optimal": false,
+        "distance_m": 18519.1,
+        "cost_per_km": 3.12,
+        "total_demand": 20,
+        "vehicles_used": 3,
+        "assigned_stops": 10,
+        "estimated_cost": 57.77,
+        "assigned_demand": 20,
+        "unassigned_stops": 0,
+        "cost_per_delivery": 5.78,
+        "travel_duration_s": 2671.3999999999996,
+        "unassigned_demand": 0,
+        "available_capacity": 32,
+        "vehicles_available": 4,
+        "working_duration_s": 3879,
+        "fleet_peak_capacity_utilization_pct": 62.5
+      }
+    ],
+    "comparable_locations_and_demand": true,
+    "warnings": [
+      "Different scenarios can change demand, windows, depots, costs and objectives. Inspect assumptions; comparison is descriptive, not a controlled causal estimate."
+    ]
+  }
+}

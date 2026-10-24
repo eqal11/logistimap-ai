@@ -1,0 +1,18 @@
+{
+  "spatial_features": {
+    "count": 5234,
+    "digest": "9af6f739b717882a7f200fedd24a8d66"
+  },
+  "routing_references": {
+    "count": 8,
+    "digest": "dddfc8aab5fefac4bdaf2597d4d49238"
+  },
+  "analysis_jobs": {
+    "count": 14,
+    "digest": "103fc2a14235baba16f301e18be74d04"
+  },
+  "analysis_results": {
+    "count": 14,
+    "digest": "faaa7597b75aeec027b7b2510ce04b0c"
+  }
+}

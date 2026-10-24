@@ -1,0 +1,44 @@
+{
+  "backend": {
+    "passed": 288,
+    "failed": 0,
+    "skipped": 0,
+    "live_db": 17
+  },
+  "frontend": {
+    "passed": 89,
+    "failed": 0,
+    "pending": 0,
+    "files": 18
+  },
+  "typecheck": "passed",
+  "production_build": "passed",
+  "pip_check": "passed",
+  "live_http_steps": 23,
+  "unexpected_failed_steps": 0,
+  "database": {
+    "revision": "0004_geoai",
+    "tables": 26,
+    "geometry_gist": 8,
+    "old_tables_unchanged": 24,
+    "geoai_rows": {
+      "geoai_sessions": 3,
+      "geoai_confirmations": 14
+    },
+    "env_unchanged": true
+  },
+  "llm": "disabled; external live verification unavailable; deterministic mode verified",
+  "browser": {
+    "status": "unavailable",
+    "reason": "Local browser use is disabled in Work settings",
+    "fresh_browser_checks_passed": 0,
+    "phase5_browser": "pending",
+    "phase6_browser": "pending",
+    "phase7_browser": "pending manual acceptance",
+    "checklist": "docs/PHASE7_BROWSER_ACCEPTANCE.md",
+    "old_screenshots_reused": false
+  },
+  "development": "complete for bounded local review",
+  "visual_acceptance": "pending",
+  "phase8_started": false
+}

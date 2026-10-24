@@ -1,0 +1,122 @@
+{
+  "connected": true,
+  "ssl": true,
+  "postgis_version": "3.3.7",
+  "postgis_schema": "extensions",
+  "spatial_function_checks": 4,
+  "migration": "0001_foundation",
+  "database_verified": true,
+  "table_count": 12,
+  "geometry_columns": [
+    {
+      "table": "spatial_features",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "study_areas",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "MULTIPOLYGON"
+    },
+    {
+      "table": "analysis_results",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "GEOMETRY"
+    },
+    {
+      "table": "routing_references",
+      "column": "geometry",
+      "srid": 4326,
+      "type": "LINESTRING"
+    }
+  ],
+  "spatial_indexes": 4,
+  "rls_tables": 12,
+  "category_count": 9,
+  "feature_count": 5234,
+  "synthetic_features": 0,
+  "category_counts": {
+    "airport": 1,
+    "industrial": 194,
+    "industrial_park": 345,
+    "logistics_hub": 2,
+    "port": 3,
+    "rail": 214,
+    "road": 4505,
+    "warehouse": 36
+  },
+  "geometry_counts": {
+    "ST_LineString": 4696,
+    "ST_Polygon": 514,
+    "ST_Point": 20,
+    "ST_MultiPolygon": 4
+  },
+  "invalid_geometries": 0,
+  "duplicate_source_ids": 0,
+  "import_jobs": [
+    {
+      "id": "bab9ea19-3098-45c8-ab90-4e2963fbf8a2",
+      "label": "Shah Alam, Petaling",
+      "status": "completed",
+      "valid_features": 1,
+      "skipped": {}
+    },
+    {
+      "id": "90bef7f4-90af-49ea-884f-ce858fc44ba4",
+      "label": "Port Klang",
+      "status": "completed",
+      "valid_features": 793,
+      "skipped": {}
+    },
+    {
+      "id": "abac6db7-be57-4bc3-bf70-f7665a753b52",
+      "label": "Klang",
+      "status": "completed",
+      "valid_features": 1577,
+      "skipped": {}
+    },
+    {
+      "id": "6524138e-c9a4-4887-8d56-28ca3ce5ee6a",
+      "label": "Bukit Raja",
+      "status": "completed",
+      "valid_features": 1228,
+      "skipped": {}
+    },
+    {
+      "id": "cef57781-cf31-435a-895e-a7740daaf3ac",
+      "label": "Shah Alam",
+      "status": "completed",
+      "valid_features": 2099,
+      "skipped": {}
+    },
+    {
+      "id": "0f8c0b84-ae5d-4c17-aa38-1bacd5903b22",
+      "label": "Rawang",
+      "status": "completed",
+      "valid_features": 550,
+      "skipped": {}
+    },
+    {
+      "id": "86ff6fd4-3784-495c-b3b3-a22171d9345d",
+      "label": "AHTV / Tanjong Malim",
+      "status": "completed",
+      "valid_features": 234,
+      "skipped": {}
+    }
+  ],
+  "http_acceptance_checks": {
+    "health_postgis": true,
+    "ready_verified": true,
+    "all_four_categories_present": true,
+    "multicategory_unique_ids": true,
+    "actual_radius_port_query": true,
+    "empty_no_fallback": true,
+    "full_export_count": true,
+    "valid_real_wgs84_export": true,
+    "all_import_jobs_completed": true
+  },
+  "generated_at": "2026-10-24T03:29:24.750444+00:00"
+}

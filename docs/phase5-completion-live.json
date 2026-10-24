@@ -1,0 +1,179 @@
+{
+  "verified_at": "2026-10-24T11:28:33.856107+00:00",
+  "new_routing_calls": 0,
+  "migration_applied": false,
+  "comparison_id": "2611752b-e82b-4130-a2e5-2e733dfa4d64",
+  "exact_snapshot_roundtrip": true,
+  "pinned_solution_ids": [
+    "bf8b9766-ade2-4104-8e26-f2c258d68fbc",
+    "a13760b3-a83c-41b4-9944-4d6fcbd65e9b",
+    "5816c99f-3442-4003-bf45-1f4b6f475fdf"
+  ],
+  "scenario_count": 3,
+  "road_geometry_count": 8,
+  "road_vertices": 1192,
+  "existing_comparisons_reopened": 3,
+  "pagination": "passed",
+  "guard_403_validation_422_missing_404": "passed",
+  "solution_geometry_identical_to_database": true,
+  "database": {
+    "connected": true,
+    "ssl": true,
+    "postgis_version": "3.3.7",
+    "postgis_schema": "extensions",
+    "spatial_function_checks": 4,
+    "migration": "0002_logistics",
+    "database_verified": true,
+    "table_count": 20,
+    "geometry_columns": [
+      {
+        "table": "logistics_depots",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "logistics_stops",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "vehicle_route_assignments",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTILINESTRING"
+      },
+      {
+        "table": "spatial_features",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "study_areas",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTIPOLYGON"
+      },
+      {
+        "table": "analysis_results",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "routing_references",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "LINESTRING"
+      }
+    ],
+    "spatial_indexes": 7,
+    "rls_tables": 20,
+    "category_count": 9
+  },
+  "integrity": {
+    "analysis_jobs": {
+      "before": 14,
+      "now": 14,
+      "missing_or_changed_original": 0
+    },
+    "analysis_results": {
+      "before": 14,
+      "now": 14,
+      "missing_or_changed_original": 0
+    },
+    "candidate_sites": {
+      "before": 0,
+      "now": 0,
+      "missing_or_changed_original": 0
+    },
+    "categories": {
+      "before": 9,
+      "now": 9,
+      "missing_or_changed_original": 0
+    },
+    "datasets": {
+      "before": 1,
+      "now": 1,
+      "missing_or_changed_original": 0
+    },
+    "feature_categories": {
+      "before": 5300,
+      "now": 5300,
+      "missing_or_changed_original": 0
+    },
+    "logistics_comparisons": {
+      "before": 3,
+      "now": 4,
+      "missing_or_changed_original": 0
+    },
+    "logistics_demands": {
+      "before": 241,
+      "now": 241,
+      "missing_or_changed_original": 0
+    },
+    "logistics_depots": {
+      "before": 28,
+      "now": 28,
+      "missing_or_changed_original": 0
+    },
+    "logistics_stops": {
+      "before": 241,
+      "now": 241,
+      "missing_or_changed_original": 0
+    },
+    "logistics_vehicles": {
+      "before": 67,
+      "now": 67,
+      "missing_or_changed_original": 0
+    },
+    "optimization_jobs": {
+      "before": 25,
+      "now": 25,
+      "missing_or_changed_original": 0
+    },
+    "optimization_scenarios": {
+      "before": 27,
+      "now": 27,
+      "missing_or_changed_original": 0
+    },
+    "optimization_solutions": {
+      "before": 25,
+      "now": 25,
+      "missing_or_changed_original": 0
+    },
+    "routing_references": {
+      "before": 8,
+      "now": 8,
+      "missing_or_changed_original": 0
+    },
+    "shipments": {
+      "before": 0,
+      "now": 0,
+      "missing_or_changed_original": 0
+    },
+    "spatial_features": {
+      "before": 5234,
+      "now": 5234,
+      "missing_or_changed_original": 0
+    },
+    "study_areas": {
+      "before": 0,
+      "now": 0,
+      "missing_or_changed_original": 0
+    },
+    "vehicle_route_assignments": {
+      "before": 57,
+      "now": 57,
+      "missing_or_changed_original": 0
+    },
+    "vehicles": {
+      "before": 0,
+      "now": 0,
+      "missing_or_changed_original": 0
+    }
+  },
+  "status": "passed"
+}

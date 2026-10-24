@@ -1,0 +1,17 @@
+{
+  "downloaded_count": 5000,
+  "total": 5000,
+  "returned": 5000,
+  "has_more": false,
+  "unique_ids": 5000,
+  "all_real": true,
+  "valid_geometry": true,
+  "license_preserved": true,
+  "crs": "EPSG:4326",
+  "geometry_types": [
+    "LineString",
+    "MultiPolygon",
+    "Point",
+    "Polygon"
+  ]
+}

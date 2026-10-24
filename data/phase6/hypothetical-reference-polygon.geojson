@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "manual-polygon",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.5137961,
+              3.0631833
+            ],
+            [
+              101.5139977,
+              3.06255
+            ],
+            [
+              101.5142673,
+              3.0624442
+            ],
+            [
+              101.5184301,
+              3.0637084
+            ],
+            [
+              101.5185168,
+              3.0639104
+            ],
+            [
+              101.5183895,
+              3.0642704
+            ],
+            [
+              101.5173131,
+              3.0644025
+            ],
+            [
+              101.5168744,
+              3.0644691
+            ],
+            [
+              101.5145731,
+              3.0637513
+            ],
+            [
+              101.5146292,
+              3.0635731
+            ],
+            [
+              101.513843,
+              3.0633301
+            ],
+            [
+              101.5137961,
+              3.0631833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hypothetical footprint based on OSM; not available land",
+        "kind": "hypothetical_site",
+        "source_id": "way/911253375",
+        "attribution": "\u00a9 OpenStreetMap contributors (ODbL); user-supplied data retains its stated provenance."
+      }
+    }
+  ]
+}

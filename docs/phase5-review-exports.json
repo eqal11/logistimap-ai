@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "method": "actual frontend export functions executed headlessly in Node; browser download not verified",
+  "geojson_features": 19,
+  "road_geometries": 3,
+  "road_geometry_identical_to_saved_result": true,
+  "geometry_vertices": [
+    99,
+    182,
+    168
+  ],
+  "csv_rows": {
+    "assignments": 3,
+    "schedules": 16,
+    "summary": 1
+  },
+  "no_solution_exports": {
+    "csv_rows_each": 1,
+    "unassigned_count": 10,
+    "geometry_features": 0,
+    "status": "passed"
+  }
+}

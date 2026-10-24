@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tanjong-malim",
+    "name": "AHTV / Tanjong Malim",
+    "center": [
+      101.5234848,
+      3.6900079
+    ],
+    "source_id": "way/657558677"
+  },
+  {
+    "id": "rawang",
+    "name": "Rawang",
+    "center": [
+      101.5773144,
+      3.3197692
+    ],
+    "source_id": "node/254074012"
+  },
+  {
+    "id": "shah-alam",
+    "name": "Shah Alam",
+    "center": [
+      101.5185278,
+      3.0739429
+    ],
+    "source_id": "relation/8347577"
+  },
+  {
+    "id": "bukit-raja",
+    "name": "Bukit Raja",
+    "center": [
+      101.437697,
+      3.0852015
+    ],
+    "source_id": "relation/19844690"
+  },
+  {
+    "id": "klang",
+    "name": "Klang",
+    "center": [
+      101.4447363,
+      3.0448394
+    ],
+    "source_id": "relation/10715532"
+  },
+  {
+    "id": "port-klang",
+    "name": "Port Klang",
+    "center": [
+      101.3966735,
+      3.0027625
+    ],
+    "source_id": "node/254072863"
+  }
+]

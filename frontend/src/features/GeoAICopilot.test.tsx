@@ -1,0 +1,32 @@
+import {beforeEach,describe,it,expect,vi} from 'vitest'
+import {render,screen,waitFor} from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import {GeoAICopilot} from './GeoAICopilot'
+import * as api from '../services/geoai'
+import {useWorkspace} from '../store/workspace'
+vi.mock('./MapWorkspace',()=>({MapWorkspace:({onAnalysisSelect,analysisLayers}:{onAnalysisSelect:(x:unknown)=>void;analysisLayers:{result:{features:unknown[]}}[]})=><div aria-label="GeoAI map stub"><button onClick={()=>onAnalysisSelect(analysisLayers[0].result.features[0])}>Select map result</button></div>}))
+vi.mock('recharts',()=>({ResponsiveContainer:({children}:{children:unknown})=>children,BarChart:()=>null,Bar:()=>null,XAxis:()=>null,YAxis:()=>null,Tooltip:()=>null}))
+vi.mock('../services/api',async orig=>({...await orig<typeof import('../services/api')>(),request:vi.fn().mockResolvedValue({items:[]})}))
+vi.mock('../services/geoai',async orig=>({...await orig<typeof import('../services/geoai')>(),geoHealth:vi.fn(),geoTools:vi.fn(),geoNew:vi.fn(),geoChat:vi.fn(),geoHistory:vi.fn(),geoSave:vi.fn(),geoConfirm:vi.fn(),geoRestore:vi.fn(),geoExecute:vi.fn(),geoDownload:vi.fn(),downloadGeoCSV:vi.fn()}))
+const id='11111111-1111-4111-8111-111111111111'
+const session:api.GeoSession={id:'session-test',created_at:'2026-10-24',messages:[],results:[],context:{},pending:null}
+const result:api.GeoResult={id:'result-test',tool:'search_industrial_features',status:'completed',features:[{type:'Feature',id,geometry:{type:'Point',coordinates:[101.5,3.1]},properties:{name:'Actual tool fixture',categories:['warehouse']}}],rows:[{feature_id:id,name:'Actual tool fixture'}],data:{},summary:{returned:1},warnings:['OSM coverage only'],attribution:'OSM',crs:'EPSG:4326',executed_at:'2026-10-24',measurement_method:'PostGIS'}
+beforeEach(()=>{vi.clearAllMocks();useWorkspace.setState({selected:null});vi.mocked(api.geoNew).mockResolvedValue({session:structuredClone(session)});vi.mocked(api.geoHealth).mockResolvedValue({enabled:true,provider:{provider:'disabled',configured:false,model:null,live_verified:false,fallback:'deterministic'},deterministic:'grammar',authentication:'local only'});vi.mocked(api.geoTools).mockResolvedValue({tools:[]});vi.mocked(api.geoHistory).mockResolvedValue({items:[],total:0,limit:25,offset:0});vi.mocked(api.geoChat).mockResolvedValue({session:{...session,results:[result],messages:[{id:'a',role:'assistant',text:'search completed',created_at:'now'}]},results:[result],mode:'deterministic'})})
+describe('GeoAI Copilot workspace',()=>{
+ it('labels missing provider and waits for an explicit command',async()=>{render(<GeoAICopilot onLog={()=>{}}/>);expect(await screen.findByText(/No LLM credentials configured/)).toBeInTheDocument();expect(api.geoChat).not.toHaveBeenCalled();expect(screen.getByRole('button',{name:'Run GIS question'})).toBeDisabled()})
+ it('sends Malay command, synchronizes selection and exports actual result',async()=>{render(<GeoAICopilot onLog={()=>{}}/>);await screen.findByText(/No LLM credentials configured/);await userEvent.type(screen.getByLabelText('GIS question'),'Cari gudang Shah Alam 10 km');await userEvent.click(screen.getByRole('button',{name:'Run GIS question'}));expect(await screen.findByText('search completed')).toBeInTheDocument();expect(api.geoChat).toHaveBeenCalledWith(expect.objectContaining({message:'Cari gudang Shah Alam 10 km',mode:'deterministic'}),expect.any(AbortSignal));await userEvent.click(screen.getByRole('button',{name:'Select map result'}));expect(screen.getByRole('heading',{name:'Selected map feature'})).toBeInTheDocument();await userEvent.click(screen.getByRole('button',{name:'Use as input'}));expect(screen.getByText('Selected imported IDs: 1/20')).toBeInTheDocument();await userEvent.click(screen.getByRole('button',{name:'Download GeoJSON'}));expect(api.geoDownload).toHaveBeenCalledWith(result);await userEvent.click(screen.getByRole('button',{name:'Download CSV'}));expect(api.downloadGeoCSV).toHaveBeenCalledWith(result)})
+ it('requires explicit preview confirmation before save',async()=>{const pending={token:'a'.repeat(64),call:{tool:'save_session',arguments:{}},preview:{effect:'Persist user text'},expires_at:9999999999};vi.mocked(api.geoSave).mockResolvedValue({session:{...session,pending}});vi.mocked(api.geoConfirm).mockResolvedValue({session});render(<GeoAICopilot onLog={()=>{}}/>);await screen.findByText(/No LLM credentials configured/);await userEvent.click(screen.getByRole('button',{name:'Preview save conversation'}));expect(await screen.findByRole('region',{name:'Confirm GeoAI operation'})).toBeInTheDocument();expect(api.geoConfirm).not.toHaveBeenCalled();await userEvent.click(screen.getByRole('button',{name:'Confirm this operation'}));await waitFor(()=>expect(api.geoConfirm).toHaveBeenCalledWith(session.id,pending.token))})
+ it('shows API failure without invented tool output',async()=>{vi.mocked(api.geoChat).mockRejectedValue(new Error('Provider unavailable'));render(<GeoAICopilot onLog={()=>{}}/>);await screen.findByText(/No LLM credentials configured/);await userEvent.type(screen.getByLabelText('GIS question'),'warehouse Shah Alam 5 km');await userEvent.click(screen.getByRole('button',{name:'Run GIS question'}));expect(await screen.findByRole('alert')).toHaveTextContent('Provider unavailable');expect(screen.queryByLabelText('GIS tool results')).not.toBeInTheDocument()})
+ it('loads saved history only when requested',async()=>{render(<GeoAICopilot onLog={()=>{}}/>);await screen.findByText(/No LLM credentials configured/);await userEvent.click(screen.getByRole('button',{name:'Saved conversations'}));expect(await screen.findByText('No saved conversations on this page.')).toBeInTheDocument();expect(api.geoHistory).toHaveBeenCalledWith(0)})
+})
+
+
+it('show-only context hides previous result layers while preserving history',async()=>{
+ const filtered={...result,id:'filtered',tool:'filter_results'}
+ vi.mocked(api.geoChat).mockResolvedValue({session:{...session,results:[result,filtered],context:{only_map_result_id:'filtered'}},results:[filtered]})
+ render(<GeoAICopilot onLog={()=>{}}/>);await screen.findByText(/No LLM credentials configured/)
+ await userEvent.type(screen.getByLabelText('GIS question'),'Show only those three on the map.')
+ await userEvent.click(screen.getByRole('button',{name:'Run GIS question'}))
+ const checks=await screen.findAllByRole('checkbox')
+ expect(checks[0]).not.toBeChecked();expect(checks[1]).toBeChecked()
+})

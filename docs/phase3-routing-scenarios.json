@@ -1,0 +1,868 @@
+{
+  "generated_at": "2026-10-24T03:58:10.731065+00:00",
+  "scenarios": [
+    {
+      "id": "tanjong-port",
+      "label": "AHTV / Tanjong Malim town → Port Klang town",
+      "status": "passed",
+      "distance_m": 99007.3,
+      "duration_s": 4758.0,
+      "vertices": 1111,
+      "alternatives_returned": 1,
+      "routes": [
+        {
+          "distance_m": 99007.3,
+          "duration_s": 4758.0,
+          "vertices": 1111
+        },
+        {
+          "distance_m": 99421.1,
+          "duration_s": 4931.8,
+          "vertices": 1379
+        }
+      ],
+      "waypoints": [
+        {
+          "coordinates": [
+            101.5234848,
+            3.6900079
+          ],
+          "label": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.523589,
+            3.689975
+          ],
+          "snap_distance_m": 12.11615207,
+          "road_name": "Persiaran Dato' Junus Wahid",
+          "index": 0
+        },
+        {
+          "coordinates": [
+            101.3966735,
+            3.0027625
+          ],
+          "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.396858,
+            3.002401
+          ],
+          "snap_distance_m": 44.95225673,
+          "road_name": "Lebuh Beringin",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "f0ccd935-d6ac-5a27-a998-52afcbbcd54e",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:18.904134+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee."
+      ],
+      "request": {
+        "points": [
+          {
+            "coordinates": [
+              101.5234848,
+              3.6900079
+            ],
+            "label": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.3966735,
+              3.0027625
+            ],
+            "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\tanjong-port.geojson"
+    },
+    {
+      "id": "rawang-shah",
+      "label": "Rawang → Shah Alam",
+      "status": "passed",
+      "distance_m": 39066.0,
+      "duration_s": 2019.0,
+      "vertices": 637,
+      "alternatives_returned": 0,
+      "routes": [
+        {
+          "distance_m": 39066.0,
+          "duration_s": 2019.0,
+          "vertices": 637
+        }
+      ],
+      "waypoints": [
+        {
+          "coordinates": [
+            101.5773144,
+            3.3197692
+          ],
+          "label": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.577201,
+            3.31973
+          ],
+          "snap_distance_m": 13.27791778,
+          "road_name": "Bulatan Rawang",
+          "index": 0
+        },
+        {
+          "coordinates": [
+            101.5185278,
+            3.0739429
+          ],
+          "label": "Shah Alam, Petaling, Selangor, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.518575,
+            3.073953
+          ],
+          "snap_distance_m": 5.340270096,
+          "road_name": "Persiaran Sultan",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "45cae8dd-3525-54ea-8fdd-c25a89978e1b",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:21.045714+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee.",
+        "The provider returned one route only; no alternatives were invented."
+      ],
+      "request": {
+        "points": [
+          {
+            "coordinates": [
+              101.5773144,
+              3.3197692
+            ],
+            "label": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.5185278,
+              3.0739429
+            ],
+            "label": "Shah Alam, Petaling, Selangor, Malaysia"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\rawang-shah.geojson"
+    },
+    {
+      "id": "shah-klia",
+      "label": "Shah Alam → KLIA Terminal 1 main building",
+      "status": "passed",
+      "distance_m": 49266.8,
+      "duration_s": 2720.0,
+      "vertices": 511,
+      "alternatives_returned": 0,
+      "routes": [
+        {
+          "distance_m": 49266.8,
+          "duration_s": 2720.0,
+          "vertices": 511
+        }
+      ],
+      "waypoints": [
+        {
+          "coordinates": [
+            101.5185278,
+            3.0739429
+          ],
+          "label": "Shah Alam, Petaling, Selangor, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.518575,
+            3.073953
+          ],
+          "snap_distance_m": 5.340270096,
+          "road_name": "Persiaran Sultan",
+          "index": 0
+        },
+        {
+          "coordinates": [
+            101.7055234,
+            2.7527291
+          ],
+          "label": "KLIA Terminal 1 (Main Building), 1, Jalan CTA 2, Sepang, Selangor, 64000, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.706066,
+            2.751879
+          ],
+          "snap_distance_m": 111.7114842,
+          "road_name": "",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "959022d3-4a81-55cc-a4f2-c91e32a6b31c",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:23.055457+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee.",
+        "The provider returned one route only; no alternatives were invented.",
+        "At least one reference snapped more than 100 m to a road. Inspect road access and the snapping distances."
+      ],
+      "request": {
+        "points": [
+          {
+            "coordinates": [
+              101.5185278,
+              3.0739429
+            ],
+            "label": "Shah Alam, Petaling, Selangor, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.7055234,
+              2.7527291
+            ],
+            "label": "KLIA Terminal 1 (Main Building), 1, Jalan CTA 2, Sepang, Selangor, 64000, Malaysia"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\shah-klia.geojson"
+    },
+    {
+      "id": "facility-warehouse",
+      "label": "Canpac → nearest mapped warehouse by geographic distance",
+      "status": "passed",
+      "distance_m": 865.4,
+      "duration_s": 105.1,
+      "vertices": 13,
+      "alternatives_returned": 0,
+      "routes": [
+        {
+          "distance_m": 865.4,
+          "duration_s": 105.1,
+          "vertices": 13
+        }
+      ],
+      "waypoints": [
+        {
+          "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784",
+          "label": "Canpac Sdn. Bhd.",
+          "coordinates": [
+            101.5597692,
+            3.3016408
+          ],
+          "source_id": "node/8004379471",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "industrial"
+          ],
+          "anchor_method": "source_point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access.",
+          "snapped_coordinates": [
+            101.559365,
+            3.301812
+          ],
+          "snap_distance_m": 48.71717529,
+          "road_name": "Persiaran Rawang 1",
+          "index": 0
+        },
+        {
+          "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "label": "Jun Hong Trading",
+          "coordinates": [
+            101.558173473,
+            3.2966023
+          ],
+          "source_id": "way/782984236",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "warehouse"
+          ],
+          "anchor_method": "ST_PointOnSurface representative point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access.",
+          "snapped_coordinates": [
+            101.558396,
+            3.296516
+          ],
+          "snap_distance_m": 26.44207315,
+          "road_name": "",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "e489b325-e652-5094-8dd0-c8d5e2bd1a34",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:28.640240+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee.",
+        "The provider returned one route only; no alternatives were invented."
+      ],
+      "request": {
+        "points": [
+          {
+            "feature_id": "335bcf23-dccb-5eb4-b14a-737040e1e784"
+          },
+          {
+            "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\facility-warehouse.geojson"
+    },
+    {
+      "id": "warehouse-port",
+      "label": "Jun Hong Trading warehouse → Port Klang town",
+      "status": "passed",
+      "distance_m": 54769.2,
+      "duration_s": 2962.9,
+      "vertices": 681,
+      "alternatives_returned": 1,
+      "routes": [
+        {
+          "distance_m": 54769.2,
+          "duration_s": 2962.9,
+          "vertices": 681
+        },
+        {
+          "distance_m": 56499.3,
+          "duration_s": 2983.5,
+          "vertices": 684
+        }
+      ],
+      "waypoints": [
+        {
+          "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "label": "Jun Hong Trading",
+          "coordinates": [
+            101.558173473,
+            3.2966023
+          ],
+          "source_id": "way/782984236",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "warehouse"
+          ],
+          "anchor_method": "ST_PointOnSurface representative point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access.",
+          "snapped_coordinates": [
+            101.558396,
+            3.296516
+          ],
+          "snap_distance_m": 26.44207315,
+          "road_name": "",
+          "index": 0
+        },
+        {
+          "coordinates": [
+            101.3966735,
+            3.0027625
+          ],
+          "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.396858,
+            3.002401
+          ],
+          "snap_distance_m": 44.95225673,
+          "road_name": "Lebuh Beringin",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "e8deec5c-af37-592b-b3a9-10042fc2bee5",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:32.129485+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee."
+      ],
+      "request": {
+        "points": [
+          {
+            "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0"
+          },
+          {
+            "coordinates": [
+              101.3966735,
+              3.0027625
+            ],
+            "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\warehouse-port.geojson"
+    },
+    {
+      "id": "multi-stop",
+      "label": "Tanjong Malim → Rawang → Shah Alam → Port Klang",
+      "status": "passed",
+      "distance_m": 110226.7,
+      "duration_s": 5554.3,
+      "vertices": 1559,
+      "alternatives_returned": 0,
+      "routes": [
+        {
+          "distance_m": 110226.7,
+          "duration_s": 5554.3,
+          "vertices": 1559
+        }
+      ],
+      "waypoints": [
+        {
+          "coordinates": [
+            101.5234848,
+            3.6900079
+          ],
+          "label": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.523589,
+            3.689975
+          ],
+          "snap_distance_m": 12.11615207,
+          "road_name": "Persiaran Dato' Junus Wahid",
+          "index": 0
+        },
+        {
+          "coordinates": [
+            101.5773144,
+            3.3197692
+          ],
+          "label": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.577201,
+            3.31973
+          ],
+          "snap_distance_m": 13.27791778,
+          "road_name": "Bulatan Rawang",
+          "index": 1
+        },
+        {
+          "coordinates": [
+            101.5185278,
+            3.0739429
+          ],
+          "label": "Shah Alam, Petaling, Selangor, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.518575,
+            3.073953
+          ],
+          "snap_distance_m": 5.340270096,
+          "road_name": "Persiaran Sultan",
+          "index": 2
+        },
+        {
+          "coordinates": [
+            101.3966735,
+            3.0027625
+          ],
+          "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+          "source": "User-selected coordinate / place reference",
+          "anchor_method": "user_reference",
+          "snapped_coordinates": [
+            101.396858,
+            3.002401
+          ],
+          "snap_distance_m": 44.95225673,
+          "road_name": "Lebuh Beringin",
+          "index": 3
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "085a56ed-e8cc-5c6b-99e7-681ea3b65024",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:35.446187+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee.",
+        "Alternatives disabled for multi-stop request; stop order is preserved.",
+        "The provider returned one route only; no alternatives were invented."
+      ],
+      "request": {
+        "points": [
+          {
+            "coordinates": [
+              101.5234848,
+              3.6900079
+            ],
+            "label": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.5773144,
+              3.3197692
+            ],
+            "label": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.5185278,
+              3.0739429
+            ],
+            "label": "Shah Alam, Petaling, Selangor, Malaysia"
+          },
+          {
+            "coordinates": [
+              101.3966735,
+              3.0027625
+            ],
+            "label": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\multi-stop.geojson"
+    },
+    {
+      "id": "warehouse-port-feature",
+      "label": "Warehouse → imported OSM port feature",
+      "status": "passed",
+      "distance_m": 56089.5,
+      "duration_s": 3180.7,
+      "vertices": 709,
+      "alternatives_returned": 1,
+      "routes": [
+        {
+          "distance_m": 56089.5,
+          "duration_s": 3180.7,
+          "vertices": 709
+        },
+        {
+          "distance_m": 57819.6,
+          "duration_s": 3201.3,
+          "vertices": 712
+        }
+      ],
+      "waypoints": [
+        {
+          "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "label": "Jun Hong Trading",
+          "coordinates": [
+            101.558173473,
+            3.2966023
+          ],
+          "source_id": "way/782984236",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "warehouse"
+          ],
+          "anchor_method": "ST_PointOnSurface representative point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access.",
+          "snapped_coordinates": [
+            101.558396,
+            3.296516
+          ],
+          "snap_distance_m": 26.44207315,
+          "road_name": "",
+          "index": 0
+        },
+        {
+          "feature_id": "0f31e89c-aa3c-5cd2-9a10-793ba25297fc",
+          "label": "Pelabuhan Selatan",
+          "coordinates": [
+            101.395458257,
+            2.99365565
+          ],
+          "source_id": "relation/17815126",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "industrial",
+            "industrial_park",
+            "port"
+          ],
+          "anchor_method": "ST_PointOnSurface representative point",
+          "warning": "Representative map reference, not a verified driveway, gate or legal vehicle access.",
+          "snapped_coordinates": [
+            101.395759,
+            2.993677
+          ],
+          "snap_distance_m": 33.54278528,
+          "road_name": "",
+          "index": 1
+        }
+      ],
+      "checks": {
+        "valid_linestring": true,
+        "detailed_network_geometry": true,
+        "positive_provider_metrics": true,
+        "leg_count": true,
+        "geometry_length_consistent": true,
+        "snap_within_limit": true,
+        "car_profile_honest": true,
+        "saved_to_postgis": true
+      },
+      "saved_id": "28e6e422-e6c2-5333-a5b5-97768b6612b1",
+      "provider": "OSRM-compatible · FOSSGIS public demo",
+      "retrieved_at": "2026-10-24T03:58:40.739868+00:00",
+      "cached": false,
+      "warnings": [
+        "Standard car routing, not verified heavy-vehicle routing.",
+        "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+        "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+        "Snapped road positions are not verified facility gates or legal vehicle access.",
+        "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+        "Public demo service: light local use only; no SLA or production capacity guarantee."
+      ],
+      "request": {
+        "points": [
+          {
+            "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0"
+          },
+          {
+            "feature_id": "0f31e89c-aa3c-5cd2-9a10-793ba25297fc"
+          }
+        ],
+        "profile": "car",
+        "alternatives": true,
+        "max_snap_m": 1000
+      },
+      "export": "data\\exports\\routes\\warehouse-port-feature.geojson"
+    }
+  ],
+  "note": "Car-profile road estimates, not verified truck routes. Geocoder references are not facility gates.",
+  "geographic_references": {
+    "tanjong": {
+      "name": "Tanjong Malim, Kampung Lambak, Muallim, Perak, 35900, Malaysia",
+      "center": [
+        101.5234848,
+        3.6900079
+      ],
+      "bbox": [
+        101.5039115,
+        3.678127,
+        101.5386742,
+        3.7052463
+      ],
+      "source_id": "way/657558677",
+      "type": "quarter"
+    },
+    "rawang": {
+      "name": "Rawang, Majlis Perbandaran Selayang, Gombak, Selangor, 48000, Malaysia",
+      "center": [
+        101.5773144,
+        3.3197692
+      ],
+      "bbox": [
+        101.5373144,
+        3.2797692,
+        101.6173144,
+        3.3597692
+      ],
+      "source_id": "node/254074012",
+      "type": "town"
+    },
+    "shah": {
+      "name": "Shah Alam, Petaling, Selangor, Malaysia",
+      "center": [
+        101.5185278,
+        3.0739429
+      ],
+      "bbox": [
+        101.4277331,
+        2.9496181,
+        101.5913878,
+        3.2297212
+      ],
+      "source_id": "relation/8347577",
+      "type": "administrative"
+    },
+    "port": {
+      "name": "Pelabuhan Klang, Bandaraya Klang, Klang, Selangor, 42009, Malaysia",
+      "center": [
+        101.3966735,
+        3.0027625
+      ],
+      "bbox": [
+        101.3566735,
+        2.9627625,
+        101.4366735,
+        3.0427625
+      ],
+      "source_id": "node/254072863",
+      "type": "town"
+    },
+    "klia": {
+      "name": "KLIA Terminal 1 (Main Building), 1, Jalan CTA 2, Sepang, Selangor, 64000, Malaysia",
+      "center": [
+        101.7055234,
+        2.7527291
+      ],
+      "bbox": [
+        101.7019752,
+        2.7500745,
+        101.7089408,
+        2.7554227
+      ],
+      "source_id": "relation/6848621",
+      "type": "terminal"
+    }
+  },
+  "nearest_warehouse": {
+    "origin": "Canpac Sdn. Bhd.",
+    "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+    "label": "Jun Hong Trading",
+    "coordinates": [
+      101.558173473,
+      3.2966023
+    ],
+    "source_id": "way/782984236",
+    "source": "OpenStreetMap contributors",
+    "categories": [
+      "warehouse"
+    ],
+    "anchor_method": "ST_PointOnSurface representative point",
+    "warning": "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+    "geographic_distance_m": 537.62531439,
+    "method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+  },
+  "cache_verified": true,
+  "save_idempotency_verified": true,
+  "feature_count_unchanged": true,
+  "synthetic_features": 0,
+  "saved_routes_verified": true,
+  "provider_info": {
+    "provider": "OSRM-compatible · FOSSGIS public demo",
+    "configured": true,
+    "profile": "car",
+    "heavy_vehicle_verified": false,
+    "alternatives_supported": true,
+    "max_points": 8,
+    "max_snap_m": 2000,
+    "cache_hours": 24,
+    "upstream_requests_per_minute": 12,
+    "last_success_at": "2026-10-24T03:58:40.738866+00:00",
+    "last_failure": null,
+    "cooldown_seconds": 0,
+    "limitations": [
+      "Standard car routing, not verified heavy-vehicle routing.",
+      "No truck height, width, weight, axle, hazardous-goods or access restriction guarantees.",
+      "Travel times are provider estimates; no live traffic, loading, breaks or customs time.",
+      "Snapped road positions are not verified facility gates or legal vehicle access.",
+      "Alternatives are offered only when the provider returns them; multi-stop alternatives are disabled.",
+      "Public demo service: light local use only; no SLA or production capacity guarantee."
+    ],
+    "policy_url": "https://routing.openstreetmap.de/about.html",
+    "attribution": "Routing: OSRM / FOSSGIS public demo · © OpenStreetMap contributors (ODbL)",
+    "fix_map_url": "https://www.openstreetmap.org/fixthemap"
+  }
+}

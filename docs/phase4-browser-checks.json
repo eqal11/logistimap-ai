@@ -1,0 +1,75 @@
+{
+  "verified_at": "2026-10-24T08:28:33.221Z",
+  "url": "http://127.0.0.1:4173/#saved-analyses",
+  "buffer": {
+    "warehouse": "Syarikat Farmaseutikal Pharmaniaga Logistics Sdn Bhd",
+    "distance_m": 5000,
+    "matched_industrial_objects": 70,
+    "result_geometries": 71,
+    "saved_id": "29004ec0-abbb-51a2-b7ac-ee1fe75221c3",
+    "reloaded_after_refresh": true
+  },
+  "exports": {
+    "geojson_downloaded_and_read": true,
+    "csv_downloaded_and_read": true,
+    "csv_has_attribution_and_execution_metadata": true
+  },
+  "route_history": {
+    "phase3_routes_opened": 2,
+    "numeric_and_map_comparison": true,
+    "delete_confirmation_opened": true,
+    "deletion_cancelled": true,
+    "original_routes_not_deleted": true
+  },
+  "network": {
+    "origin": "Canpac Sdn. Bhd.",
+    "destination": "Port Klang town reference",
+    "road_distance_m": 54478.8,
+    "duration_s": 2905.3,
+    "score": 55.34,
+    "saved_id": "e528fd26-fc86-5c0c-ad6b-04d19b12e42d",
+    "isochrone_marked_unavailable": true
+  },
+  "clusters": {
+    "input_objects": 85,
+    "eps_m": 1000,
+    "min_points": 3,
+    "clusters": 6,
+    "noise": 2,
+    "output_geometries": 91
+  },
+  "grid": {
+    "input_objects": 85,
+    "cell_m": 1000,
+    "occupied_cells": 30,
+    "output_geometries": 115
+  },
+  "heatmap_rendered": true,
+  "result_layer_visibility_toggled": true,
+  "result_map_feature_selected": true,
+  "saved_records_visible_after_refresh": 7,
+  "final_build_console_warnings_or_errors": [],
+  "screenshots": [
+    "phase4-buffer.png",
+    "phase4-clusters.png",
+    "phase4-grid.png",
+    "phase4-heatmap.png",
+    "phase4-network.png",
+    "phase4-regions.png"
+  ],
+  "region_comparison": {
+    "regions": 6,
+    "mapped_objects": [
+      7,
+      24,
+      270,
+      67,
+      46,
+      87
+    ],
+    "exported": true,
+    "saved_id": "7f09ad7c-4734-58d6-b8fa-5912a0e73ccf",
+    "reloaded_after_refresh": true,
+    "airport_and_logistics_hub_columns_verified": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_scenario_id": "fd824f24-eb2d-4fe8-9ef4-e6482a66d1b5",
+  "new_clone_id": "9722f4db-9ac6-43ff-9b8c-55e0a33d0eb8",
+  "snapshot_stops_equal": true,
+  "confirmation_required": true,
+  "archive_restore_roundtrip": true,
+  "source_unchanged": true
+}

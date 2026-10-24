@@ -1,0 +1,29 @@
+# Deployment preparation only. No service has been created.
+services:
+  - type: web
+    name: logistimap-ai-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.lock.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --no-access-log
+    healthCheckPath: /ready
+    autoDeployTrigger: off
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      - key: DISCOVERY_ENABLED
+        value: false
+      - key: ANALYTICS_ENABLED
+        value: false
+      - key: OPTIMIZATION_ENABLED
+        value: false
+      - key: ROUTING_ENABLED
+        value: false
+      - key: DATA_MODE
+        value: postgis
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_SSL_MODE
+        value: require
+      - key: CORS_ORIGINS
+        sync: false

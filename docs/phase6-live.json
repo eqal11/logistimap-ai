@@ -1,0 +1,307 @@
+{
+  "started_at": "2026-10-24T12:40:54.187782+00:00",
+  "assumptions": "User-chosen hypothetical priorities, not verified development land or investment advice",
+  "gis": {
+    "status": "passed",
+    "saved_id": "cfa722a1-649a-4f7d-a409-447e0779e9f1",
+    "candidates": 12,
+    "weights": {
+      "parcel_area_m2": 0.16666666666666666,
+      "road_distance_m": 0.16666666666666666,
+      "industrial_count": 0.16666666666666666,
+      "warehouse_distance_m": 0.16666666666666666,
+      "industrial_density_km2": 0.16666666666666666,
+      "industrial_overlap_pct": 0.16666666666666666
+    },
+    "ahp": null,
+    "top_three": [
+      {
+        "name": "Shah Alam \u00b7 UMW Toyotsu (Toyota)",
+        "rank": 1,
+        "score": 82.73973102207641,
+        "normalized": {
+          "parcel_area_m2": 0.03349228954052422,
+          "road_distance_m": 0.9349697589319769,
+          "industrial_count": 1.0,
+          "warehouse_distance_m": 0.9959218128520838,
+          "industrial_density_km2": 1.0,
+          "industrial_overlap_pct": 1.0
+        },
+        "candidate_id": "shah-alam-2",
+        "contributions": {
+          "parcel_area_m2": 0.5582048256754035,
+          "road_distance_m": 15.582829315532948,
+          "industrial_count": 16.666666666666664,
+          "warehouse_distance_m": 16.59869688086806,
+          "industrial_density_km2": 16.666666666666664,
+          "industrial_overlap_pct": 16.666666666666664
+        }
+      },
+      {
+        "name": "Port Klang \u00b7 Pelabuhan Selatan",
+        "rank": 2,
+        "score": 76.68041535570933,
+        "normalized": {
+          "parcel_area_m2": 1.0,
+          "road_distance_m": 0.3697091959897411,
+          "industrial_count": 0.6351351351351351,
+          "warehouse_distance_m": 0.9609673753994841,
+          "industrial_density_km2": 0.6350132148182002,
+          "industrial_overlap_pct": 1.0
+        },
+        "candidate_id": "port-klang-2",
+        "contributions": {
+          "parcel_area_m2": 16.666666666666664,
+          "road_distance_m": 6.161819933162352,
+          "industrial_count": 10.585585585585584,
+          "warehouse_distance_m": 16.016122923324733,
+          "industrial_density_km2": 10.583553580303334,
+          "industrial_overlap_pct": 16.666666666666664
+        }
+      },
+      {
+        "name": "Port Klang \u00b7 Unnamed OSM industrial_park (way/1465120894)",
+        "rank": 3,
+        "score": 73.78623581287417,
+        "normalized": {
+          "parcel_area_m2": 0.24989114074639507,
+          "road_distance_m": 0.9975927422137196,
+          "industrial_count": 0.6351351351351351,
+          "warehouse_distance_m": 0.9095456743295877,
+          "industrial_density_km2": 0.6350094563476127,
+          "industrial_overlap_pct": 1.0
+        },
+        "candidate_id": "port-klang-1",
+        "contributions": {
+          "parcel_area_m2": 4.164852345773251,
+          "road_distance_m": 16.626545703561995,
+          "industrial_count": 10.585585585585584,
+          "warehouse_distance_m": 15.159094572159795,
+          "industrial_density_km2": 10.583490939126879,
+          "industrial_overlap_pct": 16.666666666666664
+        }
+      }
+    ],
+    "sensitivity_runs": 12,
+    "routing": null
+  },
+  "road-wlc": {
+    "status": "passed",
+    "saved_id": "af941dc3-18af-476d-9c03-63ff65513576",
+    "candidates": 12,
+    "weights": {
+      "port_time_s": 0.25,
+      "airport_time_s": 0.15,
+      "road_distance_m": 0.2,
+      "industrial_count": 0.25,
+      "warehouse_distance_m": 0.15
+    },
+    "ahp": null,
+    "top_three": [
+      {
+        "name": "Shah Alam \u00b7 Unnamed OSM industrial (way/911253375)",
+        "rank": 1,
+        "score": 94.00539162711648,
+        "normalized": {
+          "port_time_s": 0.8163274277926761,
+          "airport_time_s": 0.9743382649877014,
+          "road_distance_m": 0.9818793598945512,
+          "industrial_count": 0.9864864864864865,
+          "warehouse_distance_m": 0.9788255064953911
+        },
+        "candidate_id": "shah-alam-1",
+        "contributions": {
+          "port_time_s": 20.4081856948169,
+          "airport_time_s": 14.61507397481552,
+          "road_distance_m": 19.637587197891026,
+          "industrial_count": 24.66216216216216,
+          "warehouse_distance_m": 14.682382597430866
+        }
+      },
+      {
+        "name": "Shah Alam \u00b7 UMW Toyotsu (Toyota)",
+        "rank": 2,
+        "score": 93.91781968095611,
+        "normalized": {
+          "port_time_s": 0.811183892381413,
+          "airport_time_s": 1.0,
+          "road_distance_m": 0.9349697589319769,
+          "industrial_count": 1.0,
+          "warehouse_distance_m": 0.9959218128520838
+        },
+        "candidate_id": "shah-alam-2",
+        "contributions": {
+          "port_time_s": 20.279597309535326,
+          "airport_time_s": 15.0,
+          "road_distance_m": 18.699395178639538,
+          "industrial_count": 25.0,
+          "warehouse_distance_m": 14.938827192781257
+        }
+      },
+      {
+        "name": "Port Klang \u00b7 Unnamed OSM industrial_park (way/1465120894)",
+        "rank": 3,
+        "score": 84.37411219566773,
+        "normalized": {
+          "port_time_s": 1.0,
+          "airport_time_s": 0.6600462572047432,
+          "road_distance_m": 0.9975927422137196,
+          "industrial_count": 0.6351351351351351,
+          "warehouse_distance_m": 0.9095456743295877
+        },
+        "candidate_id": "port-klang-1",
+        "contributions": {
+          "port_time_s": 25.0,
+          "airport_time_s": 9.900693858071149,
+          "road_distance_m": 19.951854844274393,
+          "industrial_count": 15.878378378378377,
+          "warehouse_distance_m": 13.643185114943815
+        }
+      }
+    ],
+    "sensitivity_runs": 10,
+    "routing": {
+      "id": "142350fe3831a1ef0ac9b578488803b2395640a9e8c04322ca65a5b1810cde0f",
+      "nodes": 14,
+      "pairs": 196,
+      "cached": false,
+      "upstream_requests": 1,
+      "retrieved_at": "2026-10-24T12:41:46.479041+00:00",
+      "unreachable_pairs": 0
+    }
+  },
+  "road-ahp": {
+    "status": "passed",
+    "saved_id": "4ac80684-5378-45b5-9e75-f08194c93b30",
+    "candidates": 12,
+    "weights": {
+      "port_time_s": 0.25000000000000006,
+      "airport_time_s": 0.15,
+      "road_distance_m": 0.2,
+      "industrial_count": 0.25000000000000006,
+      "warehouse_distance_m": 0.15
+    },
+    "ahp": {
+      "ci": 0.0,
+      "cr": 0.0,
+      "ri": 1.12,
+      "method": "Principal right eigenvector; Saaty RI table for n<=8",
+      "weights": [
+        0.2,
+        0.15,
+        0.25000000000000006,
+        0.25000000000000006,
+        0.15
+      ],
+      "threshold": 0.1,
+      "consistent": true,
+      "lambda_max": 5.0
+    },
+    "top_three": [
+      {
+        "name": "Shah Alam \u00b7 Unnamed OSM industrial (way/911253375)",
+        "rank": 1,
+        "score": 94.00539162711648,
+        "normalized": {
+          "port_time_s": 0.8163274277926761,
+          "airport_time_s": 0.9743382649877014,
+          "road_distance_m": 0.9818793598945512,
+          "industrial_count": 0.9864864864864865,
+          "warehouse_distance_m": 0.9788255064953911
+        },
+        "candidate_id": "shah-alam-1",
+        "contributions": {
+          "port_time_s": 20.408185694816904,
+          "airport_time_s": 14.61507397481552,
+          "road_distance_m": 19.637587197891026,
+          "industrial_count": 24.66216216216217,
+          "warehouse_distance_m": 14.682382597430866
+        }
+      },
+      {
+        "name": "Shah Alam \u00b7 UMW Toyotsu (Toyota)",
+        "rank": 2,
+        "score": 93.91781968095613,
+        "normalized": {
+          "port_time_s": 0.811183892381413,
+          "airport_time_s": 1.0,
+          "road_distance_m": 0.9349697589319769,
+          "industrial_count": 1.0,
+          "warehouse_distance_m": 0.9959218128520838
+        },
+        "candidate_id": "shah-alam-2",
+        "contributions": {
+          "port_time_s": 20.27959730953533,
+          "airport_time_s": 15.0,
+          "road_distance_m": 18.699395178639538,
+          "industrial_count": 25.000000000000007,
+          "warehouse_distance_m": 14.938827192781257
+        }
+      },
+      {
+        "name": "Port Klang \u00b7 Unnamed OSM industrial_park (way/1465120894)",
+        "rank": 3,
+        "score": 84.37411219566773,
+        "normalized": {
+          "port_time_s": 1.0,
+          "airport_time_s": 0.6600462572047432,
+          "road_distance_m": 0.9975927422137196,
+          "industrial_count": 0.6351351351351351,
+          "warehouse_distance_m": 0.9095456743295877
+        },
+        "candidate_id": "port-klang-1",
+        "contributions": {
+          "port_time_s": 25.000000000000007,
+          "airport_time_s": 9.900693858071149,
+          "road_distance_m": 19.951854844274393,
+          "industrial_count": 15.87837837837838,
+          "warehouse_distance_m": 13.643185114943815
+        }
+      }
+    ],
+    "sensitivity_runs": 10,
+    "routing": {
+      "id": "142350fe3831a1ef0ac9b578488803b2395640a9e8c04322ca65a5b1810cde0f",
+      "nodes": 14,
+      "pairs": 196,
+      "cached": true,
+      "upstream_requests": 1,
+      "retrieved_at": "2026-10-24T12:41:46.479041+00:00",
+      "unreachable_pairs": 0
+    }
+  },
+  "repeatability_and_wlc_ahp_parity": "passed",
+  "areas": [
+    {
+      "name": "AHTV / Tanjong Malim",
+      "candidate_count": 2,
+      "reference_only": true
+    },
+    {
+      "name": "Rawang",
+      "candidate_count": 2,
+      "reference_only": true
+    },
+    {
+      "name": "Shah Alam",
+      "candidate_count": 2,
+      "reference_only": true
+    },
+    {
+      "name": "Bukit Raja",
+      "candidate_count": 2,
+      "reference_only": true
+    },
+    {
+      "name": "Klang",
+      "candidate_count": 2,
+      "reference_only": true
+    },
+    {
+      "name": "Port Klang",
+      "candidate_count": 2,
+      "reference_only": true
+    }
+  ],
+  "status": "passed"
+}

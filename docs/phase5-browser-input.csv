@@ -1,0 +1,3 @@
+id,name,longitude,latitude,demand,service_s,source_id
+browser-stop-1,Unnamed OSM industrial (way/911253375),101.5159103,3.0634516,2,120,way/911253375
+browser-stop-2,Unnamed OSM industrial (way/911253379),101.525537052,3.06212015,2,120,way/911253379

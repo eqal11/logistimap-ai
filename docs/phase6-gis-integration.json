@@ -1,0 +1,112 @@
+{
+  "buffer": {
+    "status": "passed",
+    "features": 1,
+    "statistics": {
+      "input_a": 1,
+      "input_b": 0,
+      "category_counts_a": {
+        "industrial": 1,
+        "industrial_park": 1,
+        "warehouse": 1
+      },
+      "matched_count": 0,
+      "matched_category_counts": {},
+      "output_features": 1,
+      "summed_output_area_km2": 80.69373993390329
+    }
+  },
+  "intersection": {
+    "status": "passed",
+    "features": 1,
+    "statistics": {
+      "input_a": 1,
+      "input_b": 1,
+      "category_counts_a": {
+        "industrial": 1,
+        "industrial_park": 1,
+        "warehouse": 1
+      },
+      "output_features": 1,
+      "summed_output_area_km2": 0.011729864172399044
+    }
+  },
+  "spatial_join": {
+    "status": "passed",
+    "features": 2,
+    "statistics": {
+      "input_a": 78,
+      "input_b": 1,
+      "category_counts_a": {
+        "industrial": 78,
+        "industrial_park": 37,
+        "warehouse": 11
+      },
+      "join_pairs": 2,
+      "matched_input_count": 2,
+      "output_features": 2,
+      "summed_output_area_km2": 0.02346516837034142
+    }
+  },
+  "nearest": {
+    "status": "passed",
+    "features": 1,
+    "statistics": {
+      "input_a": 1,
+      "input_b": 1,
+      "category_counts_a": {
+        "industrial": 1
+      },
+      "join_pairs": 1,
+      "matched_input_count": 1,
+      "output_features": 1,
+      "summed_output_area_km2": 0
+    }
+  },
+  "clusters": {
+    "status": "passed",
+    "features": 83,
+    "statistics": {
+      "input_a": 78,
+      "input_b": 0,
+      "category_counts_a": {
+        "industrial": 78,
+        "industrial_park": 37,
+        "warehouse": 11
+      },
+      "category_counts": {
+        "industrial": 78,
+        "industrial_park": 37,
+        "warehouse": 11
+      },
+      "clusters": 5,
+      "noise": 2,
+      "clustered": 76,
+      "output_features": 83,
+      "summed_output_area_km2": 8.932798703658113
+    }
+  },
+  "grid": {
+    "status": "passed",
+    "features": 103,
+    "statistics": {
+      "input_a": 78,
+      "input_b": 0,
+      "category_counts_a": {
+        "industrial": 78,
+        "industrial_park": 37,
+        "warehouse": 11
+      },
+      "category_counts": {
+        "industrial": 78,
+        "industrial_park": 37,
+        "warehouse": 11
+      },
+      "occupied_cells": 25,
+      "mapped_objects": 78,
+      "grid_m": 1000.0,
+      "output_features": 103,
+      "summed_output_area_km2": 24.999998581202014
+    }
+  }
+}

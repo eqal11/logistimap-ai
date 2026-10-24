@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-10-24T06:54:55.527Z",
+  "url": "http://127.0.0.1:4173/#routing",
+  "place_search": true,
+  "map_click_sets_origin": true,
+  "imported_feature_anchor": true,
+  "geographic_nearest_warehouse": true,
+  "facility_to_warehouse_km_display": 0.87,
+  "multi_stop": {
+    "waypoints": 4,
+    "legs": 3,
+    "distance_km_display": 110.23,
+    "duration_display": "1 h 33 min",
+    "saved_id": "085a56ed-e8cc-5c6b-99e7-681ea3b65024"
+  },
+  "alternatives": {
+    "count": 2,
+    "selected_index": 1,
+    "distance_m": 99421.1,
+    "duration_s": 4931.8,
+    "vertices": 1379,
+    "saved_id": "ff019e6f-1029-5f97-a598-4b97d996b4a1"
+  },
+  "selected_export_download_verified": true,
+  "all_alternatives_download_verified": true,
+  "basemap_switch_preserves_route": true,
+  "map_pick_scroll_visible": true,
+  "final_build_console_warnings_or_errors": [],
+  "screenshots": [
+    "phase3-preview.png",
+    "phase3-route-comparison.png",
+    "phase3-multistop-map.png",
+    "phase3-multistop-summary.png"
+  ]
+}

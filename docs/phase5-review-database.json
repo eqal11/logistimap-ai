@@ -1,0 +1,217 @@
+{
+  "verified_at": "2026-10-24T10:58:41.382049+00:00",
+  "migration_applied": false,
+  "database": {
+    "connected": true,
+    "ssl": true,
+    "postgis_version": "3.3.7",
+    "postgis_schema": "extensions",
+    "spatial_function_checks": 4,
+    "migration": "0002_logistics",
+    "database_verified": true,
+    "table_count": 20,
+    "geometry_columns": [
+      {
+        "table": "logistics_depots",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "logistics_stops",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "POINT"
+      },
+      {
+        "table": "vehicle_route_assignments",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTILINESTRING"
+      },
+      {
+        "table": "spatial_features",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "study_areas",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "MULTIPOLYGON"
+      },
+      {
+        "table": "analysis_results",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "GEOMETRY"
+      },
+      {
+        "table": "routing_references",
+        "column": "geometry",
+        "srid": 4326,
+        "type": "LINESTRING"
+      }
+    ],
+    "spatial_indexes": 7,
+    "rls_tables": 20,
+    "category_count": 9
+  },
+  "integrity": {
+    "spatial_features": {
+      "before": 5234,
+      "now": 5234,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "routing_references": {
+      "before": 8,
+      "now": 8,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "analysis_jobs": {
+      "before": 14,
+      "now": 14,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "analysis_results": {
+      "before": 14,
+      "now": 14,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "optimization_scenarios": {
+      "before": 10,
+      "now": 27,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "logistics_depots": {
+      "before": 10,
+      "now": 28,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "logistics_vehicles": {
+      "before": 23,
+      "now": 67,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "logistics_stops": {
+      "before": 78,
+      "now": 241,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "logistics_demands": {
+      "before": 78,
+      "now": 241,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "optimization_jobs": {
+      "before": 9,
+      "now": 25,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "optimization_solutions": {
+      "before": 9,
+      "now": 25,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "vehicle_route_assignments": {
+      "before": 20,
+      "now": 57,
+      "missing_old": 0,
+      "changed_old": 0
+    },
+    "logistics_comparisons": {
+      "before": 2,
+      "now": 3,
+      "missing_old": 0,
+      "changed_old": 0
+    }
+  },
+  "geometry_validity": {
+    "invalid": 0,
+    "wrong_srid": 0
+  },
+  "osm_validity": {
+    "features": 5234,
+    "invalid": 0,
+    "synthetic": 0
+  },
+  "category_counts": {
+    "airport": 1,
+    "warehouse": 36,
+    "road": 4505,
+    "port": 3,
+    "industrial_park": 345,
+    "logistics_hub": 2,
+    "rail": 214,
+    "industrial": 194
+  },
+  "logistics_constraints": {
+    "logistics_depots": {
+      "foreign_keys": 1
+    },
+    "logistics_stops": {
+      "foreign_keys": 1
+    },
+    "logistics_vehicles": {
+      "foreign_keys": 3
+    },
+    "logistics_demands": {
+      "foreign_keys": 2
+    },
+    "optimization_jobs": {
+      "foreign_keys": 1
+    },
+    "optimization_solutions": {
+      "foreign_keys": 2
+    },
+    "vehicle_route_assignments": {
+      "foreign_keys": 2
+    },
+    "logistics_comparisons": {
+      "foreign_keys": 0
+    }
+  },
+  "api": {
+    "health": "ok",
+    "ready": "ready",
+    "multi_category_search": {
+      "total": 219,
+      "returned": 25,
+      "category_counts": {
+        "industrial": 193,
+        "warehouse": 36,
+        "port": 3
+      }
+    },
+    "routes": {
+      "saved_count": 8,
+      "reloaded_features": 1,
+      "geometry_valid": true
+    },
+    "analyses": {
+      "saved_count": 7,
+      "reloaded_features": 6,
+      "geometry_valid": true
+    },
+    "buffer": {
+      "geometry_valid": true,
+      "feature_count": 1
+    },
+    "isochrone": "unsupported (501); no fake polygon",
+    "malformed_geojson": 422
+  },
+  "preview_http_status": 200,
+  "status": "passed"
+}

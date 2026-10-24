@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "actual frontend functions headless, not browser download",
+  "unique_feature_ids": 52,
+  "road_routes": 8,
+  "road_vertices": 1192,
+  "geometry_unchanged": true,
+  "csv_rows": 3,
+  "hidden_b_features": 33,
+  "hidden_b_routes": 5,
+  "attribution_preserved": true
+}

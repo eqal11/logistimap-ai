@@ -1,0 +1,426 @@
+{
+  "session": {
+    "id": "e55e66d0-1a67-4c5f-a5d0-8ea11f53a1f3",
+    "created_at": "2026-10-24T13:36:45.518184+00:00",
+    "messages": [
+      {
+        "id": "dbb71363-abdd-4c8e-b6c0-0d8251eef586",
+        "role": "user",
+        "text": "Calculate the nearest warehouse to this facility.",
+        "created_at": "2026-10-24T13:36:45.518184+00:00"
+      },
+      {
+        "id": "3bceaa87-9a97-4c2d-853b-016ff3725519",
+        "role": "assistant",
+        "text": "nearest_facility completed · 1 displayed geometries. {\"nearest_geography_distance_m\": 537.62531439}",
+        "created_at": "2026-10-24T13:36:48.846927+00:00",
+        "mode": "deterministic",
+        "result_ids": [
+          "8b1aa847-c40f-4120-803f-1ef0417eab44"
+        ],
+        "partial": false
+      }
+    ],
+    "results": [
+      {
+        "id": "8b1aa847-c40f-4120-803f-1ef0417eab44",
+        "tool": "nearest_facility",
+        "status": "completed",
+        "data": {
+          "features": [
+            {
+              "type": "Feature",
+              "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      101.5580768,
+                      3.2960707
+                    ],
+                    [
+                      101.5578633,
+                      3.2961624
+                    ],
+                    [
+                      101.5579088,
+                      3.2962681
+                    ],
+                    [
+                      101.5578372,
+                      3.2962989
+                    ],
+                    [
+                      101.5581629,
+                      3.2970547
+                    ],
+                    [
+                      101.5585097,
+                      3.2969057
+                    ],
+                    [
+                      101.5581817,
+                      3.2961443
+                    ],
+                    [
+                      101.55812,
+                      3.2961708
+                    ],
+                    [
+                      101.5580768,
+                      3.2960707
+                    ]
+                  ]
+                ]
+              },
+              "properties": {
+                "name": "Jun Hong Trading",
+                "source": "OpenStreetMap contributors",
+                "source_id": "way/782984236",
+                "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+                "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+                "imported_at": "2026-10-24T03:16:24.251672+00:00",
+                "categories": [
+                  "warehouse"
+                ],
+                "boundary_status": "unverified"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+              "label": "Jun Hong Trading",
+              "coordinates": [
+                101.558173473,
+                3.2966023
+              ],
+              "source_id": "way/782984236",
+              "source": "OpenStreetMap contributors",
+              "categories": [
+                "warehouse"
+              ],
+              "anchor_method": "ST_PointOnSurface representative point",
+              "warning": "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+              "geographic_distance_m": 537.62531439,
+              "method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+            }
+          ],
+          "statistics": {
+            "nearest_geography_distance_m": 537.62531439
+          },
+          "warnings": [
+            "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance."
+          ],
+          "measurement_method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5580768,
+                    3.2960707
+                  ],
+                  [
+                    101.5578633,
+                    3.2961624
+                  ],
+                  [
+                    101.5579088,
+                    3.2962681
+                  ],
+                  [
+                    101.5578372,
+                    3.2962989
+                  ],
+                  [
+                    101.5581629,
+                    3.2970547
+                  ],
+                  [
+                    101.5585097,
+                    3.2969057
+                  ],
+                  [
+                    101.5581817,
+                    3.2961443
+                  ],
+                  [
+                    101.55812,
+                    3.2961708
+                  ],
+                  [
+                    101.5580768,
+                    3.2960707
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Jun Hong Trading",
+              "source": "OpenStreetMap contributors",
+              "source_id": "way/782984236",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "categories": [
+                "warehouse"
+              ],
+              "boundary_status": "unverified"
+            }
+          }
+        ],
+        "rows": [
+          {
+            "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "label": "Jun Hong Trading",
+            "coordinates": [
+              101.558173473,
+              3.2966023
+            ],
+            "source_id": "way/782984236",
+            "source": "OpenStreetMap contributors",
+            "categories": [
+              "warehouse"
+            ],
+            "anchor_method": "ST_PointOnSurface representative point",
+            "warning": "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+            "geographic_distance_m": 537.62531439,
+            "method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+          }
+        ],
+        "summary": {
+          "nearest_geography_distance_m": 537.62531439
+        },
+        "warnings": [
+          "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+          "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+        ],
+        "attribution": "Â© OpenStreetMap contributors Â· ODbL 1.0; supplied scenario assumptions unverified",
+        "crs": "EPSG:4326",
+        "executed_at": "2026-10-24T13:36:48.846927+00:00",
+        "measurement_method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+      }
+    ],
+    "context": {
+      "selected_feature_ids": [
+        "335bcf23-dccb-5eb4-b14a-737040e1e784"
+      ],
+      "last_feature_ids": [
+        "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0"
+      ],
+      "last_result_id": "8b1aa847-c40f-4120-803f-1ef0417eab44"
+    },
+    "pending": null
+  },
+  "results": [
+    {
+      "id": "8b1aa847-c40f-4120-803f-1ef0417eab44",
+      "tool": "nearest_facility",
+      "status": "completed",
+      "data": {
+        "features": [
+          {
+            "type": "Feature",
+            "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    101.5580768,
+                    3.2960707
+                  ],
+                  [
+                    101.5578633,
+                    3.2961624
+                  ],
+                  [
+                    101.5579088,
+                    3.2962681
+                  ],
+                  [
+                    101.5578372,
+                    3.2962989
+                  ],
+                  [
+                    101.5581629,
+                    3.2970547
+                  ],
+                  [
+                    101.5585097,
+                    3.2969057
+                  ],
+                  [
+                    101.5581817,
+                    3.2961443
+                  ],
+                  [
+                    101.55812,
+                    3.2961708
+                  ],
+                  [
+                    101.5580768,
+                    3.2960707
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "name": "Jun Hong Trading",
+              "source": "OpenStreetMap contributors",
+              "source_id": "way/782984236",
+              "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+              "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+              "imported_at": "2026-10-24T03:16:24.251672+00:00",
+              "categories": [
+                "warehouse"
+              ],
+              "boundary_status": "unverified"
+            }
+          }
+        ],
+        "rows": [
+          {
+            "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+            "label": "Jun Hong Trading",
+            "coordinates": [
+              101.558173473,
+              3.2966023
+            ],
+            "source_id": "way/782984236",
+            "source": "OpenStreetMap contributors",
+            "categories": [
+              "warehouse"
+            ],
+            "anchor_method": "ST_PointOnSurface representative point",
+            "warning": "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+            "geographic_distance_m": 537.62531439,
+            "method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+          }
+        ],
+        "statistics": {
+          "nearest_geography_distance_m": 537.62531439
+        },
+        "warnings": [
+          "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance."
+        ],
+        "measurement_method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  101.5580768,
+                  3.2960707
+                ],
+                [
+                  101.5578633,
+                  3.2961624
+                ],
+                [
+                  101.5579088,
+                  3.2962681
+                ],
+                [
+                  101.5578372,
+                  3.2962989
+                ],
+                [
+                  101.5581629,
+                  3.2970547
+                ],
+                [
+                  101.5585097,
+                  3.2969057
+                ],
+                [
+                  101.5581817,
+                  3.2961443
+                ],
+                [
+                  101.55812,
+                  3.2961708
+                ],
+                [
+                  101.5580768,
+                  3.2960707
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "name": "Jun Hong Trading",
+            "source": "OpenStreetMap contributors",
+            "source_id": "way/782984236",
+            "license": "ODbL 1.0 · https://www.openstreetmap.org/copyright",
+            "dataset_id": "b5ab4461-7997-5eae-8ec4-0999a02485c2",
+            "imported_at": "2026-10-24T03:16:24.251672+00:00",
+            "categories": [
+              "warehouse"
+            ],
+            "boundary_status": "unverified"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "feature_id": "91aff2dc-20f3-58c8-ae1a-6b4f6b2462e0",
+          "label": "Jun Hong Trading",
+          "coordinates": [
+            101.558173473,
+            3.2966023
+          ],
+          "source_id": "way/782984236",
+          "source": "OpenStreetMap contributors",
+          "categories": [
+            "warehouse"
+          ],
+          "anchor_method": "ST_PointOnSurface representative point",
+          "warning": "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+          "geographic_distance_m": 537.62531439,
+          "method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+        }
+      ],
+      "summary": {
+        "nearest_geography_distance_m": 537.62531439
+      },
+      "warnings": [
+        "Overlapping mapped footprints can have zero geographic distance. This does not identify the closest warehouse by driving distance.",
+        "Results cover imported OSM only; no completeness/land availability guarantee. EPSG:4326; car routing is not truck verified."
+      ],
+      "attribution": "Â© OpenStreetMap contributors Â· ODbL 1.0; supplied scenario assumptions unverified",
+      "crs": "EPSG:4326",
+      "executed_at": "2026-10-24T13:36:48.846927+00:00",
+      "measurement_method": "Nearest different mapped warehouse by geodesic geometry distance, not road distance."
+    }
+  ],
+  "text": "nearest_facility completed · 1 displayed geometries. {\"nearest_geography_distance_m\": 537.62531439}",
+  "language": "en",
+  "mode": "deterministic",
+  "partial": false,
+  "provider": {
+    "provider": "disabled",
+    "configured": false,
+    "live_verified": false,
+    "fallback": "deterministic command grammar; not LLM intelligence",
+    "model": null,
+    "limits": {
+      "requests_per_turn": 1,
+      "max_completion_tokens": 1200,
+      "tool_calls": 6,
+      "timeout_s": 25
+    }
+  }
+}

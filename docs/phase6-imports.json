@@ -1,0 +1,10 @@
+{
+  "hypothetical-reference-points.csv": {
+    "status": "passed",
+    "candidates": 2
+  },
+  "hypothetical-reference-polygon.geojson": {
+    "status": "passed",
+    "candidates": 1
+  }
+}
