@@ -17,6 +17,8 @@ services:
         value: false
       - key: OPTIMIZATION_ENABLED
         value: false
+      - key: GEOAI_ENABLED
+        value: false
       - key: ROUTING_ENABLED
         value: false
       - key: DATA_MODE
